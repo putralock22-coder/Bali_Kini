@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article class="artikel-single section">
+  <div class="artikel-header">
+    <div class="artikel-meta">
+      {{ with .Params.categories }}
+        {{ range . }}<span class="sec-tag">{{ . }}</span>{{ end }}
+      {{ end }}
+      <span class="artikel-date">{{ .Date.Format "2 January 2006" }}</span>
+    </div>
+    <h1 class="artikel-title">{{ .Title }}</h1>
+    {{ with .Params.description }}<p class="artikel-desc">{{ . }}</p>{{ end }}
+  </div>
+  <div class="artikel-body">
+    {{ .Content }}
+  </div>
+  <div class="artikel-back">
+    <a href="/artikel/" class="gbtn">← Semua Artikel</a>
+    <a href="/" class="gbtn primary">🏠 Dashboard</a>
+  </div>
+</article>
+{{ end }}

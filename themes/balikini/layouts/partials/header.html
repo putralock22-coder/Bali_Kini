@@ -1,0 +1,18 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo">🌊 Bali Kini</a>
+    <nav class="main-nav">
+      <a href="/">Dashboard</a>
+      <a href="/artikel/">Artikel</a>
+      <a href="/#pariwisata">Pariwisata</a>
+      <a href="/#ekonomi">Ekonomi</a>
+      <a href="/#cuaca">Cuaca</a>
+      <a href="/#event">Event</a>
+    </nav>
+    <div class="header-date" id="headerDate"></div>
+  </div>
+</header>
+<script>
+  document.getElementById('headerDate').textContent =
+    new Date().toLocaleDateString('id-ID',{weekday:'short',day:'numeric',month:'short',year:'numeric'});
+</script>

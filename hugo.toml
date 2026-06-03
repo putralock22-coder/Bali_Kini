@@ -1,0 +1,18 @@
+baseURL = "https://balikini.id/"
+locale = "id"
+title = "Bali Kini"
+theme = "balikini"
+
+[params]
+  description = "Portal berita & data harian Pulau Dewata — pariwisata, ekonomi, cuaca, budaya."
+  author = "Bali Kini"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[permalinks]
+  posts = "/artikel/:slug/"
+
+[markup.goldmark.renderer]
+  unsafe = true

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <canvas id="glc"></canvas>
+  <div class="vignette"></div>
+  <div class="page">
+    {{ partial "header.html" . }}
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+    {{ partial "footer.html" . }}
+  </div>
+  <script src="/js/gl.js"></script>
+</body>
+</html>
