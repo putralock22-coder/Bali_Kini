@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tags on Bali Kini</title>
-		<link>http://localhost:1313/tags/</link>
+		<link>https://balikini.id/tags/</link>
 		<description>Recent content in Tags on Bali Kini</description>
 		<generator>Hugo</generator>
 		<language>id</language>
@@ -12,33 +12,33 @@
 		
 			<lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://balikini.id/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Galungan</title>
-				<link>http://localhost:1313/tags/galungan/</link>
+				<link>https://balikini.id/tags/galungan/</link>
 				<pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/galungan/</guid>
+				<guid>https://balikini.id/tags/galungan/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Hari Raya</title>
-				<link>http://localhost:1313/tags/hari-raya/</link>
+				<link>https://balikini.id/tags/hari-raya/</link>
 				<pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/hari-raya/</guid>
+				<guid>https://balikini.id/tags/hari-raya/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Penjor</title>
-				<link>http://localhost:1313/tags/penjor/</link>
+				<link>https://balikini.id/tags/penjor/</link>
 				<pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/penjor/</guid>
+				<guid>https://balikini.id/tags/penjor/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Tradisi Bali</title>
-				<link>http://localhost:1313/tags/tradisi-bali/</link>
+				<link>https://balikini.id/tags/tradisi-bali/</link>
 				<pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/tags/tradisi-bali/</guid>
+				<guid>https://balikini.id/tags/tradisi-bali/</guid>
 				<description></description>
 			</item>
 	</channel>

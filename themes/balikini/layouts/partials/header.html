@@ -10,6 +10,11 @@
       <a href="/#event">Event</a>
       <a href="/gubernur/" style="color:var(--gold);">🏛 Gubernur</a>
     </nav>
+    <div class="lang-switcher">
+      {{ range site.Languages }}
+      <a href="{{ .Lang | relLangURL }}" class="lang-btn {{ if eq .Lang $.Site.Language.Lang }}active{{ end }}">{{ .Params.languageName | default .Lang }}</a>
+      {{ end }}
+    </div>
     <div class="header-date" id="headerDate"></div>
   </div>
 </header>
