@@ -4,6 +4,8 @@ date: 2026-06-03
 description: "Hari Raya Galungan jatuh pada 17 Juni 2026. Ini panduan lengkap — tradisi, lokasi terbaik menyaksikan penjor, dan tips berkunjung ke Bali saat Galungan."
 categories: ["Budaya", "Wisata"]
 tags: ["galungan", "hari raya", "tradisi bali", "penjor"]
+image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1200&q=80"
+image_credit: "Foto oleh Artem Beliaikin via Unsplash"
 ---
 
 Hari Raya Galungan 2026 jatuh pada **17 Juni 2026**, diikuti Hari Raya Kuningan pada **27 Juni 2026**. Bagi warga Bali, ini adalah momen paling sakral dalam kalender Hindu Bali — dan bagi wisatawan, ini adalah waktu terbaik untuk menyaksikan Bali dalam wajah paling autentiknya.

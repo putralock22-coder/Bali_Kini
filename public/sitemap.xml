@@ -3,37 +3,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://balikini.id/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-06-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://balikini.id/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2026-06-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://balikini.id/categories/budaya/</loc>
+    <loc>http://localhost:1313/categories/budaya/</loc>
     <lastmod>2026-06-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://balikini.id/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-06-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://balikini.id/tags/galungan/</loc>
+    <loc>http://localhost:1313/tags/galungan/</loc>
     <lastmod>2026-06-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://balikini.id/artikel/galungan-2026-panduan-lengkap-untuk-wisatawan-dan-warga-bali/</loc>
+    <loc>http://localhost:1313/artikel/galungan-2026-panduan-lengkap-untuk-wisatawan-dan-warga-bali/</loc>
     <lastmod>2026-06-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://balikini.id/tags/hari-raya/</loc>
+    <loc>http://localhost:1313/tags/hari-raya/</loc>
     <lastmod>2026-06-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://balikini.id/tags/penjor/</loc>
+    <loc>http://localhost:1313/tags/penjor/</loc>
     <lastmod>2026-06-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://balikini.id/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-06-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://balikini.id/tags/tradisi-bali/</loc>
+    <loc>http://localhost:1313/tags/tradisi-bali/</loc>
     <lastmod>2026-06-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://balikini.id/categories/wisata/</loc>
+    <loc>http://localhost:1313/categories/wisata/</loc>
     <lastmod>2026-06-03T00:00:00+00:00</lastmod>
   </url>
 </urlset>

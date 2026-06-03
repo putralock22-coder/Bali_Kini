@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Budaya | Bali Kini</title>
@@ -26,6 +26,7 @@
       <a href="/#ekonomi">Ekonomi</a>
       <a href="/#cuaca">Cuaca</a>
       <a href="/#event">Event</a>
+      <a href="/#presiden" style="color:var(--gold);">🏛 Presiden</a>
     </nav>
     <div class="header-date" id="headerDate"></div>
   </div>
@@ -46,7 +47,7 @@
   </div>
   <div class="artikel-grid">
     
-    <a href="https://balikini.id/artikel/galungan-2026-panduan-lengkap-untuk-wisatawan-dan-warga-bali/" class="artikel-card">
+    <a href="http://localhost:1313/artikel/galungan-2026-panduan-lengkap-untuk-wisatawan-dan-warga-bali/" class="artikel-card">
       <div class="artikel-card-meta">
         <span class="sec-tag" style="font-size:10px;">Budaya</span><span class="sec-tag" style="font-size:10px;">Wisata</span>
         <span class="artikel-date">3 Jun 2026</span>
@@ -74,5 +75,20 @@
 
   </div>
   <script src="/js/gl.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="/js/modal.js"></script>
+  <script src="/js/countdown.js"></script>
+  
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+  <script>
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(async function(OneSignal) {
+      await OneSignal.init({
+        appId: "200c87cf-6426-42ca-904d-cf6f6ffa0d74",
+        notifyButton: { enable: false },
+        promptOptions: { slidedown: { enabled: false } }
+      });
+    });
+  </script>
 </body>
 </html>

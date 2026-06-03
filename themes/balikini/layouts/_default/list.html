@@ -9,13 +9,20 @@
   <div class="artikel-grid">
     {{ range .Pages }}
     <a href="{{ .Permalink }}" class="artikel-card">
-      <div class="artikel-card-meta">
-        {{ with .Params.categories }}{{ range . }}<span class="sec-tag" style="font-size:10px;">{{ . }}</span>{{ end }}{{ end }}
-        <span class="artikel-date">{{ .Date.Format "2 Jan 2006" }}</span>
+      {{ with .Params.image }}
+      <div class="artikel-card-img">
+        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy"/>
       </div>
-      <h3 class="artikel-card-title">{{ .Title }}</h3>
-      <p class="artikel-card-desc">{{ .Summary | truncate 120 }}</p>
-      <span class="artikel-read">Baca selengkapnya →</span>
+      {{ end }}
+      <div class="artikel-card-content">
+        <div class="artikel-card-meta">
+          {{ with .Params.categories }}{{ range . }}<span class="sec-tag" style="font-size:10px;">{{ . }}</span>{{ end }}{{ end }}
+          <span class="artikel-date">{{ .Date.Format "2 Jan 2006" }}</span>
+        </div>
+        <h3 class="artikel-card-title">{{ .Title }}</h3>
+        <p class="artikel-card-desc">{{ .Summary | truncate 120 }}</p>
+        <span class="artikel-read">Baca selengkapnya →</span>
+      </div>
     </a>
     {{ else }}
     <p style="color:var(--text-2);">Belum ada artikel. Agent akan menulis artikel pertama besok pagi.</p>
