@@ -12,7 +12,7 @@ theme = "balikini"
   tag = "tags"
 
 [permalinks]
-  posts = "/artikel/:slug/"
+  artikel = "/artikel/:slug/"
 
 [markup.goldmark.renderer]
   unsafe = true
