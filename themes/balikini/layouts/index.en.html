@@ -129,7 +129,7 @@
     <p class="sec-desc">Written daily — analysis, travel guides, and stories about Bali.</p>
   </div>
   <div class="artikel-grid">
-    {{ range first 3 (where .Site.RegularPages "Section" "artikel") }}
+    {{ range first 3 (sort (where .Site.RegularPages "Section" "artikel") "Date" "desc") }}
     <a href="{{ .Permalink }}" class="artikel-card">
       {{ with .Params.image }}<div class="artikel-card-img"><img src="{{ . }}" alt="{{ $.Title }}" loading="lazy"/></div>{{ end }}
       <div class="artikel-card-content">
