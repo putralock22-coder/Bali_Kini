@@ -4,8 +4,8 @@ date: 2026-06-03
 description: "Mengenal sistem irigasi Subak Bali yang diakui UNESCO sebagai Warisan Budaya Dunia — bukan sekadar saluran air, tapi filosofi hidup Tri Hita Karana yang telah bertahan lebih dari seribu tahun."
 categories: ["Budaya"]
 tags: ["subak", "budaya bali", "tri hita karana", "UNESCO", "sawah bali", "filosofi bali", "warisan dunia"]
-image: "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=1200&q=80"
-image_credit: "Foto oleh Unsplash via Unsplash"
+image: "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image_credit: "Foto: Pexels — Sawah Tegallalang, sistem Subak Bali"
 ---
 
 Di suatu pagi di pedalaman Tabanan, seorang petani tua berjalan menyusuri pematang sawah. Ia bukan hanya memeriksa tanaman padinya — ia sedang menjalankan kewajiban kepada komunitasnya, kepada alam, dan kepada Tuhan. Sistem yang mengatur hidupnya sudah ada sejak lebih dari seribu tahun lalu. Namanya **Subak**.

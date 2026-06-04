@@ -4,8 +4,8 @@ date: 2026-06-03
 description: "Ringkasan berita dan peristiwa penting di Bali hari ini, 3 Juni 2026 — dari peringatan gelombang tinggi BMKG, prakiraan cuaca, hingga rangkaian hari suci Hindu bulan ini."
 categories: ["Berita"]
 tags: ["berita bali", "rekap harian", "BMKG", "cuaca bali", "kalender bali", "juni 2026"]
-image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1200&q=80"
-image_credit: "Foto oleh Unsplash via Unsplash"
+image: "https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image_credit: "Foto: Pexels — Tanah Lot, ikon Bali"
 ---
 
 Selasa, 3 Juni 2026. Sebelum hari berakhir, inilah ringkasan berita dan informasi penting yang terjadi di Bali hari ini — mulai dari kondisi alam, peringatan keselamatan, hingga jadwal hari suci yang perlu kamu tahu.
