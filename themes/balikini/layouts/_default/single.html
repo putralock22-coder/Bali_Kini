@@ -26,6 +26,7 @@
   <div class="artikel-back">
     <a href="{{ "/artikel/" | relLangURL }}" class="gbtn">← {{ if eq .Site.Language.Lang "en" }}All Articles{{ else if eq .Site.Language.Lang "zh" }}所有文章{{ else }}Semua Artikel{{ end }}</a>
     <a href="{{ "/" | relLangURL }}" class="gbtn primary">🏠 Dashboard</a>
+    <button class="share-btn" id="artikelShare" aria-label="Bagikan artikel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> {{ if eq .Site.Language.Lang "en" }}Share{{ else if eq .Site.Language.Lang "zh" }}分享{{ else }}Bagikan{{ end }}</button>
   </div>
 </article>
 {{ end }}

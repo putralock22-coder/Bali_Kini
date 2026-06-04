@@ -41,6 +41,27 @@ body{background:var(--bg);color:var(--text);font-family:'Plus Jakarta Sans',sans
 .lang-btn.active{border-color:rgba(34,197,94,0.3);color:var(--green);background:rgba(34,197,94,0.08);}
 @media(max-width:640px){.lang-switcher{display:none;}}
 
+/* NAV ACTIVE SECTION */
+.main-nav a.nav-active{color:var(--green);background:rgba(34,197,94,0.08);border-radius:20px;}
+
+/* HAMBURGER BUTTON */
+.menu-btn{display:none;flex-direction:column;gap:5px;background:none;border:1px solid var(--border);border-radius:8px;padding:8px 10px;cursor:pointer;margin-left:8px;transition:border-color 0.2s;}
+.menu-btn:hover{border-color:var(--border-hover);}
+.menu-bar{display:block;width:18px;height:2px;background:var(--text-2);border-radius:2px;transition:all 0.25s;}
+.menu-btn.open .menu-bar:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.menu-btn.open .menu-bar:nth-child(2){opacity:0;transform:scaleX(0);}
+.menu-btn.open .menu-bar:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+@media(max-width:640px){.menu-btn{display:flex;}}
+
+/* MOBILE MENU DRAWER */
+.mobile-menu{display:none;position:absolute;top:100%;left:0;right:0;background:rgba(7,12,9,0.98);backdrop-filter:blur(24px);border-bottom:1px solid var(--border);z-index:99;padding:16px 20px 20px;}
+.mobile-menu.open{display:block;animation:fadeDown 0.2s ease;}
+@keyframes fadeDown{from{opacity:0;transform:translateY(-8px);}to{opacity:1;transform:translateY(0);}}
+.mobile-nav{display:flex;flex-direction:column;gap:4px;margin-bottom:16px;}
+.mob-link{display:block;padding:11px 14px;font-size:13px;font-weight:600;color:var(--text-2);text-decoration:none;border-radius:10px;transition:all 0.15s;letter-spacing:0.2px;}
+.mob-link:hover,.mob-link:active{background:var(--card);color:var(--text);}
+.mobile-lang{display:flex;gap:8px;padding-top:12px;border-top:1px solid var(--border);flex-wrap:wrap;}
+
 /* HERO */
 .hero{min-height:80vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:80px 24px 60px;}
 .hero-badge{display:inline-flex;align-items:center;gap:8px;background:var(--green-dim);border:1px solid rgba(34,197,94,0.25);border-radius:100px;padding:6px 16px;font-size:11px;color:var(--green);font-weight:700;letter-spacing:1px;text-transform:uppercase;margin-bottom:24px;animation:fadeUp 0.7s ease both;}
@@ -102,10 +123,17 @@ body{background:var(--bg);color:var(--text);font-family:'Plus Jakarta Sans',sans
 
 /* BAR */
 .bar-row{display:flex;align-items:center;gap:10px;margin-bottom:9px;}
-.bar-lbl{font-size:11px;color:var(--text-2);width:140px;flex-shrink:0;}
-.bar-track{flex:1;background:rgba(255,255,255,0.04);border-radius:4px;height:18px;border:1px solid var(--border);overflow:hidden;}
+.bar-lbl{font-size:11px;color:var(--text-2);width:140px;flex-shrink:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.bar-track{flex:1;background:rgba(255,255,255,0.04);border-radius:4px;height:18px;border:1px solid var(--border);overflow:hidden;min-width:40px;}
 .bar-fill{height:100%;border-radius:3px;display:flex;align-items:center;padding-left:7px;font-size:9px;font-weight:700;color:rgba(0,0,0,0.6);transition:width 1.4s cubic-bezier(0.4,0,0.2,1);}
 .bar-num{font-size:11px;font-weight:600;color:var(--text);width:50px;text-align:right;flex-shrink:0;}
+@media(max-width:480px){.bar-lbl{width:96px;font-size:10px;}.bar-num{width:40px;font-size:10px;}}
+
+/* SHARE BUTTON */
+.share-btn{display:inline-flex;align-items:center;gap:5px;background:none;border:1px solid var(--border);border-radius:20px;padding:5px 12px;font-size:10px;font-weight:700;color:var(--text-3);cursor:pointer;transition:all 0.2s;letter-spacing:0.3px;margin-top:8px;}
+.share-btn:hover{border-color:var(--border-hover);color:var(--text);background:var(--card);}
+.share-btn svg{width:12px;height:12px;flex-shrink:0;}
+.share-toast{position:fixed;bottom:80px;right:20px;z-index:600;background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.3);color:var(--green);padding:10px 16px;border-radius:12px;font-size:12px;font-weight:600;animation:fadeDown 0.3s ease;pointer-events:none;}
 
 /* TABLE */
 .data-table{width:100%;border-collapse:collapse;font-size:12px;}

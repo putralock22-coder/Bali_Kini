@@ -1,36 +1,36 @@
 <header class="site-header">
   <div class="header-inner">
     <a href="{{ "/" | relLangURL }}" class="logo">🌊 Bali Kini</a>
-    <nav class="main-nav">
+    <nav class="main-nav" id="mainNav">
       {{ $home := "/" | relLangURL }}
       {{ $artikel := "/artikel/" | relLangURL }}
       {{ if eq .Site.Language.Lang "en" }}
         <a href="{{ $home }}">Dashboard</a>
         <a href="{{ $artikel }}">Articles</a>
-        <a href="{{ $home }}#tourism">Tourism</a>
-        <a href="{{ $home }}#economy">Economy</a>
-        <a href="{{ $home }}#weather">Weather</a>
-        <a href="{{ $home }}#events">Events</a>
-        <a href="{{ $home }}governor/" style="color:var(--gold);">🏛 Governor</a>
+        <a href="{{ $home }}#tourism" data-section="tourism">Tourism</a>
+        <a href="{{ $home }}#economy" data-section="economy">Economy</a>
+        <a href="{{ $home }}#weather" data-section="weather">Weather</a>
+        <a href="{{ $home }}#events" data-section="events">Events</a>
+        <a href="/gubernur/" style="color:var(--gold);">🏛 Governor</a>
       {{ else if eq .Site.Language.Lang "zh" }}
         <a href="{{ $home }}">仪表盘</a>
         <a href="{{ $artikel }}">文章</a>
-        <a href="{{ $home }}#pariwisata">旅游</a>
-        <a href="{{ $home }}#ekonomi">经济</a>
-        <a href="{{ $home }}#cuaca">天气</a>
-        <a href="{{ $home }}#event">活动</a>
+        <a href="{{ $home }}#pariwisata" data-section="pariwisata">旅游</a>
+        <a href="{{ $home }}#ekonomi" data-section="ekonomi">经济</a>
+        <a href="{{ $home }}#cuaca" data-section="cuaca">天气</a>
+        <a href="{{ $home }}#event" data-section="event">活动</a>
         <a href="/gubernur/" style="color:var(--gold);">🏛 省长</a>
       {{ else }}
         <a href="/">Dashboard</a>
         <a href="/artikel/">Artikel</a>
-        <a href="/#pariwisata">Pariwisata</a>
-        <a href="/#ekonomi">Ekonomi</a>
-        <a href="/#cuaca">Cuaca</a>
-        <a href="/#event">Event</a>
+        <a href="/#pariwisata" data-section="pariwisata">Pariwisata</a>
+        <a href="/#ekonomi" data-section="ekonomi">Ekonomi</a>
+        <a href="/#cuaca" data-section="cuaca">Cuaca</a>
+        <a href="/#event" data-section="event">Event</a>
         <a href="/gubernur/" style="color:var(--gold);">🏛 Gubernur</a>
       {{ end }}
     </nav>
-    <div class="lang-switcher">
+    <div class="lang-switcher" id="langSwitcher">
       {{ range site.Languages }}
         {{ $lang := .Lang }}
         {{ $langName := .Params.languageName | default .Lang }}
@@ -45,6 +45,55 @@
       {{ end }}
     </div>
     <div class="header-date" id="headerDate"></div>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false">
+      <span class="menu-bar"></span>
+      <span class="menu-bar"></span>
+      <span class="menu-bar"></span>
+    </button>
+  </div>
+  <!-- Mobile drawer -->
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav class="mobile-nav">
+      {{ if eq .Site.Language.Lang "en" }}
+        <a href="{{ "/" | relLangURL }}" class="mob-link">🏠 Dashboard</a>
+        <a href="{{ "/artikel/" | relLangURL }}" class="mob-link">📰 Articles</a>
+        <a href="{{ "/" | relLangURL }}#tourism" class="mob-link">✈ Tourism</a>
+        <a href="{{ "/" | relLangURL }}#economy" class="mob-link">💰 Economy</a>
+        <a href="{{ "/" | relLangURL }}#weather" class="mob-link">🌤 Weather</a>
+        <a href="{{ "/" | relLangURL }}#events" class="mob-link">🎭 Events</a>
+        <a href="/gubernur/" class="mob-link" style="color:var(--gold);">🏛 Governor</a>
+      {{ else if eq .Site.Language.Lang "zh" }}
+        <a href="{{ "/" | relLangURL }}" class="mob-link">🏠 仪表盘</a>
+        <a href="{{ "/artikel/" | relLangURL }}" class="mob-link">📰 文章</a>
+        <a href="{{ "/" | relLangURL }}#pariwisata" class="mob-link">✈ 旅游</a>
+        <a href="{{ "/" | relLangURL }}#ekonomi" class="mob-link">💰 经济</a>
+        <a href="{{ "/" | relLangURL }}#cuaca" class="mob-link">🌤 天气</a>
+        <a href="{{ "/" | relLangURL }}#event" class="mob-link">🎭 活动</a>
+        <a href="/gubernur/" class="mob-link" style="color:var(--gold);">🏛 省长</a>
+      {{ else }}
+        <a href="/" class="mob-link">🏠 Dashboard</a>
+        <a href="/artikel/" class="mob-link">📰 Artikel</a>
+        <a href="/#pariwisata" class="mob-link">✈ Pariwisata</a>
+        <a href="/#ekonomi" class="mob-link">💰 Ekonomi</a>
+        <a href="/#cuaca" class="mob-link">🌤 Cuaca</a>
+        <a href="/#event" class="mob-link">🎭 Event</a>
+        <a href="/gubernur/" class="mob-link" style="color:var(--gold);">🏛 Gubernur</a>
+      {{ end }}
+    </nav>
+    <div class="mobile-lang">
+      {{ range site.Languages }}
+        {{ $lang := .Lang }}
+        {{ $langName := .Params.languageName | default .Lang }}
+        {{ $isActive := eq $lang $.Site.Language.Lang }}
+        {{ $href := $lang | relLangURL }}
+        {{ if not $isActive }}
+          {{ range $.Translations }}
+            {{ if eq .Language.Lang $lang }}{{ $href = .RelPermalink }}{{ end }}
+          {{ end }}
+        {{ end }}
+        <a href="{{ $href }}" class="lang-btn {{ if $isActive }}active{{ end }}">{{ $langName }}</a>
+      {{ end }}
+    </div>
   </div>
 </header>
 <script>
