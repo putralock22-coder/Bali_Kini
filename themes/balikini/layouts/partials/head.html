@@ -65,6 +65,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="{{ "css/main.css" | relURL }}"/>
 
+<!-- JSON-LD Structured Data -->
+{{ if .IsHome }}
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Bali Kini","url":"https://balikini.id/","description":"{{ .Site.Params.description }}","potentialAction":{"@type":"SearchAction","target":"https://balikini.id/artikel/?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+{{ else if eq .Section "artikel" }}
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":{{ .Title | jsonify }},"description":{{ $desc | jsonify }},"url":"{{ .Permalink }}","datePublished":"{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}","dateModified":"{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}","author":{"@type":"Organization","name":"Redaksi Bali Kini","url":"https://balikini.id/"},"publisher":{"@type":"Organization","name":"Bali Kini","url":"https://balikini.id/","logo":{"@type":"ImageObject","url":"https://balikini.id/images/og-default.jpg"}},"image":{{ with .Params.image }}{{ . | jsonify }}{{ else }}"https://balikini.id/images/og-default.jpg"{{ end }},"inLanguage":"{{ .Site.Language.Lang }}"}</script>
+{{ end }}
+
 <!-- Google AdSense -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2212112214709508" crossorigin="anonymous"></script>
 

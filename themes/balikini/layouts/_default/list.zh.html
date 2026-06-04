@@ -1,0 +1,42 @@
+{{ define "main" }}
+<div class="section">
+  <div class="section-header">
+    <div class="sec-tag">📰 文章</div>
+    <h2 class="sec-title">所有 <em>文章</em></h2>
+    <div class="divider"></div>
+    <p class="sec-desc">每日巴厘岛新闻、旅游攻略与深度分析——中文版。</p>
+  </div>
+
+  {{ if .Pages }}
+  <div class="artikel-grid">
+    {{ range .Pages.ByDate.Reverse }}
+    <a href="{{ .Permalink }}" class="artikel-card">
+      {{ with .Params.image }}
+      <div class="artikel-card-img">
+        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy"/>
+      </div>
+      {{ end }}
+      <div class="artikel-card-content">
+        <div class="artikel-card-meta">
+          {{ with .Params.categories }}{{ range . }}<span class="sec-tag" style="font-size:10px;">{{ . }}</span>{{ end }}{{ end }}
+          <span class="artikel-date">{{ .Date.Format "2006年1月2日" }}</span>
+        </div>
+        <h3 class="artikel-card-title">{{ .Title }}</h3>
+        <p class="artikel-card-desc">{{ .Summary | truncate 120 }}</p>
+        <span class="artikel-read">阅读全文 →</span>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+  {{ else }}
+  <div class="alert alert-gold" style="margin-bottom:28px;">
+    <div class="alert-title" style="color:var(--gold);">🌐 中文文章即将发布</div>
+    <div class="alert-body">我们正在积极发布中文文章。请稍后再来——我们的自动系统每3小时发布新内容。</div>
+  </div>
+  <div style="text-align:center;margin-top:32px;">
+    <a href="/zh/" class="gbtn primary">🏠 返回首页</a>
+    <a href="/artikel/" class="gbtn" style="margin-left:8px;">🇮🇩 印尼语版本</a>
+  </div>
+  {{ end }}
+</div>
+{{ end }}
