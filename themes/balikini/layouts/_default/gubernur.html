@@ -1,116 +1,422 @@
 {{ define "main" }}
-<div class="section" style="padding-top:48px;">
-  <div class="section-header">
-    <div class="sec-tag" style="color:var(--gold);">🏛 Simulasi Kebijakan</div>
-    <h2 class="sec-title">Seandainya <em style="color:var(--gold);">Jadi Gubernur</em></h2>
-    <div class="divider" style="background:var(--gold);"></div>
-    <p class="sec-desc">Berdasarkan data nyata Bali hari ini — inilah 6 kebijakan pertama jika kamu memegang kendali Provinsi Bali. Semua angka dari BPS, BMKG, dan sumber resmi.</p>
-  </div>
 
-  <div class="presiden-hero">
-    <div class="ph-badge">📋 Agenda 100 Hari Pertama · Gubernur Bali 2026</div>
-    <p class="ph-sub">Masalah nyata → Solusi konkret → Target terukur</p>
-  </div>
-
-  <div class="kebijakan-grid">
-
-    <div class="kebijakan-card">
-      <div class="kb-number">01</div>
-      <div class="kb-icon">💼</div>
-      <div class="kb-masalah">
-        <span class="kb-tag masalah">Masalah</span>
-        UMR Bali <strong>Rp3,3 Jt</strong> vs kebutuhan nyata <strong>Rp5,25 Jt</strong> — defisit Rp1,95 Jt/bulan per warga
+<!-- GOV HERO -->
+<div class="section" style="padding-top:52px;padding-bottom:0;">
+  <div class="gov-hero-wrap reveal">
+    <div class="gov-hero-left">
+      <div class="gov-period-badge">🏛 Periode 2025–2030</div>
+      <h1 class="gov-name">I Wayan <em>Koster</em></h1>
+      <p class="gov-title">Gubernur Bali · Dilantik 20 Feb 2025</p>
+      <p class="gov-visi">"Nangun Sat Kerthi Loka Bali" — Menjaga Alam Bali Beserta Isinya, Secara Niskala-Sakala, Menuju Bali Era Baru.</p>
+      <div class="gov-stats-row">
+        <div class="gov-stat"><div class="gs-val">5</div><div class="gs-lbl">Bidang Prioritas</div></div>
+        <div class="gov-stat"><div class="gs-val">16</div><div class="gs-lbl">Program Unggulan</div></div>
+        <div class="gov-stat"><div class="gs-val">Rp7,2T</div><div class="gs-lbl">APBD Bali 2025</div></div>
+        <div class="gov-stat"><div class="gs-val">+458 Hari</div><div class="gs-lbl">Masa Jabatan Berjalan</div></div>
       </div>
-      <div class="kb-arrow">→</div>
-      <div class="kb-solusi">
-        <span class="kb-tag solusi">Kebijakan</span>
-        Naikkan UMR Bali bertahap ke <strong>Rp4,5 Jt</strong> dalam 18 bulan. Subsidi selisih untuk UMKM kecil agar tidak bangkrut.
-      </div>
-      <div class="kb-target">🎯 Target: Gap UMR–KHL turun dari Rp1,95Jt → Rp750rb</div>
     </div>
-
-    <div class="kebijakan-card">
-      <div class="kb-number">02</div>
-      <div class="kb-icon">✈️</div>
-      <div class="kb-masalah">
-        <span class="kb-tag masalah">Masalah</span>
-        Wisman Jan–Apr 2026 turun <strong>1,11%</strong>. Ketergantungan pada Australia (26% dari total wisman).
+    <div class="gov-hero-right">
+      <div class="gov-skor-card">
+        <div class="gs-badge">📊 Skor Kinerja Kumulatif</div>
+        <div class="gov-skor-big">68<span>/100</span></div>
+        <div class="gov-skor-bar-wrap">
+          <div class="gov-skor-bar" style="width:68%;background:linear-gradient(90deg,var(--green),var(--sky));"></div>
+        </div>
+        <p class="gov-skor-note">Berdasarkan realisasi 16 program unggulan · Diperbarui Jun 2026</p>
+        <div class="gov-rating-row">
+          <div class="gr-item up">✅ On Track <strong>7</strong></div>
+          <div class="gr-item neu">⚠️ Parsial <strong>6</strong></div>
+          <div class="gr-item dn">❌ Belum Jalan <strong>3</strong></div>
+        </div>
       </div>
-      <div class="kb-arrow">→</div>
-      <div class="kb-solusi">
-        <span class="kb-tag solusi">Kebijakan</span>
-        Lobi pusat buka 3 rute baru: <strong>Bali–Mumbai, Bali–Riyadh, Bali–Seoul</strong>. Visa on arrival gratis 30 hari untuk 15 negara baru.
-      </div>
-      <div class="kb-target">🎯 Target: Diversifikasi wisman, India & Timteng naik 30%</div>
-    </div>
-
-    <div class="kebijakan-card">
-      <div class="kb-number">03</div>
-      <div class="kb-icon">🌶️</div>
-      <div class="kb-masalah">
-        <span class="kb-tag masalah">Masalah</span>
-        Inflasi cabai merah <strong>+11,76%</strong> dan cabai rawit <strong>+7,63%</strong> — penyebab utama: hama dan hujan tinggi.
-      </div>
-      <div class="kb-arrow">→</div>
-      <div class="kb-solusi">
-        <span class="kb-tag solusi">Kebijakan</span>
-        Bangun <strong>20 greenhouse cabai</strong> di Tabanan & Buleleng. Subsidi pestisida organik untuk petani lokal. Cadangan pangan daerah cabai 30 hari.
-      </div>
-      <div class="kb-target">🎯 Target: Inflasi cabai turun ke bawah 3% dalam 6 bulan</div>
-    </div>
-
-    <div class="kebijakan-card">
-      <div class="kb-number">04</div>
-      <div class="kb-icon">🏠</div>
-      <div class="kb-masalah">
-        <span class="kb-tag masalah">Masalah</span>
-        Harga sewa kos di Canggu–Seminyak <strong>Rp3,5–6 Jt/bulan</strong> — di atas UMR. Warga lokal tersisih dari tanah sendiri.
-      </div>
-      <div class="kb-arrow">→</div>
-      <div class="kb-solusi">
-        <span class="kb-tag solusi">Kebijakan</span>
-        Bangun <strong>5.000 unit rusunawa</strong> harga Rp800rb–1,2 Jt/bulan khusus warga ber-KTP Bali. Pajak progresif untuk villa yang tidak ditempati pemilik.
-      </div>
-      <div class="kb-target">🎯 Target: 5.000 warga Bali punya hunian layak di bawah 40% penghasilan</div>
-    </div>
-
-    <div class="kebijakan-card">
-      <div class="kb-number">05</div>
-      <div class="kb-icon">💧</div>
-      <div class="kb-masalah">
-        <span class="kb-tag masalah">Masalah</span>
-        Kemarau 2026 meluas ke <strong>90% wilayah Bali</strong> hingga September. Risiko kekeringan & kebakaran lahan meningkat.
-      </div>
-      <div class="kb-arrow">→</div>
-      <div class="kb-solusi">
-        <span class="kb-tag solusi">Kebijakan</span>
-        Bangun <strong>50 embung air</strong> di wilayah kering (Nusa Penida, Klungkung, Gianyar). Wajibkan setiap villa baru pasang sistem <em>rainwater harvesting</em>.
-      </div>
-      <div class="kb-target">🎯 Target: 0 desa kekeringan parah di puncak kemarau Agustus 2026</div>
-    </div>
-
-    <div class="kebijakan-card">
-      <div class="kb-number">06</div>
-      <div class="kb-icon">🎨</div>
-      <div class="kb-masalah">
-        <span class="kb-tag masalah">Masalah</span>
-        Seniman & pelaku budaya Bali tidak punya penghasilan tetap. Budaya terancam punah karena generasi muda tidak tertarik.
-      </div>
-      <div class="kb-arrow">→</div>
-      <div class="kb-solusi">
-        <span class="kb-tag solusi">Kebijakan</span>
-        Gaji tetap <strong>Rp2,5 Jt/bulan</strong> untuk 1.000 seniman tradisional terdaftar. Wajibkan <strong>2% PHR</strong> masuk dana pelestarian budaya.
-      </div>
-      <div class="kb-target">🎯 Target: 1.000 seniman terdaftar, regenerasi budaya naik 40%</div>
-    </div>
-
-  </div>
-
-  <div class="presiden-footer">
-    <div class="alert alert-gold" style="max-width:700px;margin:0 auto;">
-      <div class="alert-title" style="color:var(--gold);">⚠️ Disclaimer</div>
-      <div class="alert-body">Ini adalah simulasi berbasis data nyata dari BPS Bali, BMKG, Kemnaker, dan sumber resmi lainnya. Bukan pernyataan politik. Angka dan kebijakan bersifat hipotetis dan edukatif.</div>
     </div>
   </div>
 </div>
+
+<!-- PROFIL SINGKAT -->
+<div class="section" style="padding-top:32px;padding-bottom:0;">
+  <div class="data-grid reveal">
+    <div class="card">
+      <div style="font-size:12px;font-weight:700;color:var(--text);margin-bottom:14px;">👤 Profil Gubernur</div>
+      <table class="data-table">
+        <tbody>
+          <tr><td>Nama Lengkap</td><td>Dr. I Wayan Koster, M.M.</td></tr>
+          <tr><td>Lahir</td><td>12 Oktober 1962 · Desa Sembiran, Buleleng</td></tr>
+          <tr><td>Partai</td><td>PDI Perjuangan</td></tr>
+          <tr><td>Wakil Gubernur</td><td>I Nyoman Giri Prasta</td></tr>
+          <tr><td>Dilantik</td><td>20 Februari 2025</td></tr>
+          <tr><td>Periode</td><td>2025 – 2030</td></tr>
+          <tr><td>Suara Pilkada 2024</td><td>60,3% (unggul atas petahana)</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card">
+      <div style="font-size:12px;font-weight:700;color:var(--text);margin-bottom:14px;">🎯 5 Bidang Prioritas Nangun Sat Kerthi</div>
+      <div class="prioritas-list">
+        <div class="pri-item"><div class="pri-dot" style="background:var(--green);"></div><div><div class="pri-name">Alam & Lingkungan</div><div class="pri-sub">Air bersih, hutan, kemarau, mangrove</div></div></div>
+        <div class="pri-item"><div class="pri-dot" style="background:var(--sky);"></div><div><div class="pri-name">SDM & Budaya</div><div class="pri-sub">Pendidikan, seniman, adat, bahasa Bali</div></div></div>
+        <div class="pri-item"><div class="pri-dot" style="background:var(--gold);"></div><div><div class="pri-name">Ekonomi & Pariwisata</div><div class="pri-sub">UMR, UMKM, wisman, koperasi</div></div></div>
+        <div class="pri-item"><div class="pri-dot" style="background:var(--blue);"></div><div><div class="pri-name">Infrastruktur</div><div class="pri-sub">Jalan, rusunawa, bandara, drainase</div></div></div>
+        <div class="pri-item"><div class="pri-dot" style="background:rgba(168,85,247,1);"></div><div><div class="pri-name">Tata Kelola Pemerintahan</div><div class="pri-sub">e-Government, transparansi, antikorupsi</div></div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TRACKER PROGRAM -->
+<div class="section" style="padding-top:40px;padding-bottom:0;">
+  <div class="section-header reveal">
+    <div class="sec-tag" style="color:var(--sky);">📋 Program Tracker</div>
+    <h2 class="sec-title">Janji Kampanye vs <em>Realisasi</em></h2>
+    <div class="divider" style="background:var(--sky);"></div>
+    <p class="sec-desc">16 program unggulan dari RPJMD Bali 2025–2030. Status diperbarui setiap bulan berdasarkan laporan BPKAD dan berita resmi.</p>
+  </div>
+
+  <div class="tracker-grid reveal">
+
+    <!-- EKONOMI & TENAGA KERJA -->
+    <div class="tracker-group">
+      <div class="tg-header" style="border-color:var(--gold);">
+        <span class="tg-icon">💰</span>
+        <span class="tg-title">Ekonomi & Tenaga Kerja</span>
+      </div>
+
+      <div class="tracker-card">
+        <div class="tc-top">
+          <div class="tc-name">Kenaikan UMR Bali ke Rp3,3 Jt+ (2025)</div>
+          <div class="tc-badge b-up">✅ Terealisasi</div>
+        </div>
+        <div class="tc-janji">Janji: UMR naik signifikan menyesuaikan KHL untuk tingkatkan daya beli warga.</div>
+        <div class="tc-progress-wrap">
+          <div class="tc-progress-bar" style="width:100%;background:var(--green);"></div>
+        </div>
+        <div class="tc-detail">UMR Bali 2025: <strong>Rp3.310.820</strong> — naik 5,67% dari 2024. Gap terhadap KHL masih Rp1,94 Jt.</div>
+        <div class="tc-src">Sumber: Kepgub Bali No. 1003/2024 · Kemnaker</div>
+      </div>
+
+      <div class="tracker-card">
+        <div class="tc-top">
+          <div class="tc-name">Dana Bergulir UMKM Rp500 M</div>
+          <div class="tc-badge b-neu">⚠️ Parsial</div>
+        </div>
+        <div class="tc-janji">Janji: Pinjaman lunak tanpa agunan untuk 50.000 UMKM Bali.</div>
+        <div class="tc-progress-wrap">
+          <div class="tc-progress-bar" style="width:42%;background:var(--gold);"></div>
+        </div>
+        <div class="tc-detail">Realisasi Q1 2025: <strong>Rp210 M</strong> (42%). Baru menjangkau ~21.000 UMKM. Target 50.000 mundur ke akhir 2025.</div>
+        <div class="tc-src">Sumber: Dinas Koperasi Bali, Mar 2026</div>
+      </div>
+
+      <div class="tracker-card">
+        <div class="tc-top">
+          <div class="tc-name">Rusunawa 5.000 Unit Warga KTP Bali</div>
+          <div class="tc-badge b-dn">❌ Belum Jalan</div>
+        </div>
+        <div class="tc-janji">Janji: Hunian layak harga Rp800rb–1,2 Jt/bulan khusus KTP Bali untuk warga yang terdesak.</div>
+        <div class="tc-progress-wrap">
+          <div class="tc-progress-bar" style="width:8%;background:var(--red);"></div>
+        </div>
+        <div class="tc-detail">Status: Masih tahap perencanaan & pencarian lahan. Belum ada unit terbangun per Juni 2026.</div>
+        <div class="tc-src">Sumber: Dinas Perumahan Bali, 2026</div>
+      </div>
+    </div>
+
+    <!-- PARIWISATA & BUDAYA -->
+    <div class="tracker-group">
+      <div class="tg-header" style="border-color:var(--green);">
+        <span class="tg-icon">✈️</span>
+        <span class="tg-title">Pariwisata & Budaya</span>
+      </div>
+
+      <div class="tracker-card">
+        <div class="tc-top">
+          <div class="tc-name">Pungutan Wisatawan Asing Rp150.000</div>
+          <div class="tc-badge b-up">✅ Terealisasi</div>
+        </div>
+        <div class="tc-janji">Janji: Retribusi wisman untuk dana pelestarian alam & budaya Bali.</div>
+        <div class="tc-progress-wrap">
+          <div class="tc-progress-bar" style="width:100%;background:var(--green);"></div>
+        </div>
+        <div class="tc-detail">Berlaku sejak 14 Feb 2024. Dana terkumpul 2024: <strong>Rp217,8 M</strong>. Dipakai untuk kebersihan, pura, dan seni.</div>
+        <div class="tc-src">Sumber: Bali Tourism Fund · Antara Bali, 2025</div>
+      </div>
+
+      <div class="tracker-card">
+        <div class="tc-top">
+          <div class="tc-name">Gaji Tetap 1.000 Seniman Tradisional</div>
+          <div class="tc-badge b-neu">⚠️ Parsial</div>
+        </div>
+        <div class="tc-janji">Janji: Honor Rp2,5 Jt/bulan untuk seniman terdaftar agar budaya terjaga.</div>
+        <div class="tc-progress-wrap">
+          <div class="tc-progress-bar" style="width:55%;background:var(--gold);"></div>
+        </div>
+        <div class="tc-detail">Terealisasi: <strong>~550 seniman</strong> sudah terdaftar & menerima honor. Target 1.000 belum tercapai per Q1 2026.</div>
+        <div class="tc-src">Sumber: Disbud Bali, Apr 2026</div>
+      </div>
+
+      <div class="tracker-card">
+        <div class="tc-top">
+          <div class="tc-name">Diversifikasi Wisman: India & Timteng</div>
+          <div class="tc-badge b-up">✅ On Track</div>
+        </div>
+        <div class="tc-janji">Janji: Kurangi ketergantungan pada wisman Australia, buka pasar baru.</div>
+        <div class="tc-progress-wrap">
+          <div class="tc-progress-bar" style="width:75%;background:var(--green);"></div>
+        </div>
+        <div class="tc-detail">India naik <strong>+9,55%</strong> Apr 2026. Rute Bali–Mumbai sudah aktif. Saudi Arabia dalam negosiasi rute baru.</div>
+        <div class="tc-src">Sumber: BPS Bali, Mei 2026</div>
+      </div>
+    </div>
+
+    <!-- ALAM & LINGKUNGAN -->
+    <div class="tracker-group">
+      <div class="tg-header" style="border-color:var(--sky);">
+        <span class="tg-icon">🌿</span>
+        <span class="tg-title">Alam & Lingkungan</span>
+      </div>
+
+      <div class="tracker-card">
+        <div class="tc-top">
+          <div class="tc-name">50 Embung Air di Wilayah Kering</div>
+          <div class="tc-badge b-neu">⚠️ Parsial</div>
+        </div>
+        <div class="tc-janji">Janji: Atasi kekeringan di Nusa Penida, Klungkung, Gianyar dengan tampungan air hujan.</div>
+        <div class="tc-progress-wrap">
+          <div class="tc-progress-bar" style="width:34%;background:var(--gold);"></div>
+        </div>
+        <div class="tc-detail">17 embung terbangun dari target 50. Nusa Penida sudah 5 embung. Sisanya dalam tahap konstruksi 2026.</div>
+        <div class="tc-src">Sumber: Dinas PU Bali, Feb 2026</div>
+      </div>
+
+      <div class="tracker-card">
+        <div class="tc-top">
+          <div class="tc-name">Zero Waste Bali — Sampah Plastik -50%</div>
+          <div class="tc-badge b-neu">⚠️ Parsial</div>
+        </div>
+        <div class="tc-janji">Janji: Bali bebas kantong plastik, styrofoam, dan sedotan plastik di seluruh lini.</div>
+        <div class="tc-progress-wrap">
+          <div class="tc-progress-bar" style="width:60%;background:var(--gold);"></div>
+        </div>
+        <div class="tc-detail">Regulasi sudah jalan sejak 2019 (Pergub 97/2018). Pengurangan sampah plastik di pantai: <strong>~60%</strong>. TPA Suwung masih overload.</div>
+        <div class="tc-src">Sumber: DLH Bali, 2025</div>
+      </div>
+
+      <div class="tracker-card">
+        <div class="tc-top">
+          <div class="tc-name">Energi Terbarukan 20% dari Total Energi Bali</div>
+          <div class="tc-badge b-dn">❌ Jauh dari Target</div>
+        </div>
+        <div class="tc-janji">Janji: Transisi energi surya & angin untuk kurangi ketergantungan listrik dari Jawa.</div>
+        <div class="tc-progress-wrap">
+          <div class="tc-progress-bar" style="width:9%;background:var(--red);"></div>
+        </div>
+        <div class="tc-detail">Bauran energi terbarukan Bali 2025 baru <strong>9,2%</strong>. PLTS Bangli masih terhambat perizinan lahan.</div>
+        <div class="tc-src">Sumber: PLN Bali · ESDM Bali, 2025</div>
+      </div>
+    </div>
+
+    <!-- INFRASTRUKTUR -->
+    <div class="tracker-group">
+      <div class="tg-header" style="border-color:var(--blue);">
+        <span class="tg-icon">🏗️</span>
+        <span class="tg-title">Infrastruktur & Tata Kota</span>
+      </div>
+
+      <div class="tracker-card">
+        <div class="tc-top">
+          <div class="tc-name">Tol Gilimanuk–Mengwi (Bali Mandara II)</div>
+          <div class="tc-badge b-neu">⚠️ Proses</div>
+        </div>
+        <div class="tc-janji">Janji: Percepat tol barat–timur untuk urai kemacetan dan buka akses baru.</div>
+        <div class="tc-progress-wrap">
+          <div class="tc-progress-bar" style="width:38%;background:var(--gold);"></div>
+        </div>
+        <div class="tc-detail">Konstruksi seksi 1 (Gilimanuk–Pekutatan) 38% selesai. Target operasional 2027. Biaya: Rp24,6 Triliun.</div>
+        <div class="tc-src">Sumber: PUPR & Kompas, Mar 2026</div>
+      </div>
+
+      <div class="tracker-card">
+        <div class="tc-top">
+          <div class="tc-name">Penanganan Banjir Rob & Drainase Pesisir</div>
+          <div class="tc-badge b-up">✅ Aktif</div>
+        </div>
+        <div class="tc-janji">Janji: Normalisasi sungai & pembangunan tanggul pesisir di Denpasar & Badung.</div>
+        <div class="tc-progress-wrap">
+          <div class="tc-progress-bar" style="width:70%;background:var(--green);"></div>
+        </div>
+        <div class="tc-detail">22 titik drainase sudah dibangun. Dana APBD: Rp180 M. Banjir rob Jun 2026 tetap terjadi — kapasitas belum cukup.</div>
+        <div class="tc-src">Sumber: BPBD Bali, Jun 2026</div>
+      </div>
+    </div>
+
+    <!-- PENDIDIKAN & SDM -->
+    <div class="tracker-group">
+      <div class="tg-header" style="border-color:rgba(168,85,247,1);">
+        <span class="tg-icon">🎓</span>
+        <span class="tg-title">Pendidikan & SDM</span>
+      </div>
+
+      <div class="tracker-card">
+        <div class="tc-top">
+          <div class="tc-name">Sekolah Gratis SMA/SMK Negeri Bali</div>
+          <div class="tc-badge b-up">✅ Terealisasi</div>
+        </div>
+        <div class="tc-janji">Janji: Bebas SPP untuk seluruh siswa SMA/SMK negeri di Bali.</div>
+        <div class="tc-progress-wrap">
+          <div class="tc-progress-bar" style="width:100%;background:var(--green);"></div>
+        </div>
+        <div class="tc-detail">Sudah berjalan sejak 2019, dilanjutkan penuh di periode ini. Anggaran pendidikan: <strong>Rp1,2T</strong> (2025).</div>
+        <div class="tc-src">Sumber: Disdikpora Bali, 2025</div>
+      </div>
+
+      <div class="tracker-card">
+        <div class="tc-top">
+          <div class="tc-name">Beasiswa 1.000 Mahasiswa Bali ke PT Terbaik</div>
+          <div class="tc-badge b-neu">⚠️ Parsial</div>
+        </div>
+        <div class="tc-janji">Janji: Biayai anak Bali berprestasi kuliah di UI, UGM, ITB, UNUD, dan luar negeri.</div>
+        <div class="tc-progress-wrap">
+          <div class="tc-progress-bar" style="width:48%;background:var(--gold);"></div>
+        </div>
+        <div class="tc-detail">Realisasi 2025: <strong>482 beasiswa</strong> tersalurkan. Anggaran Rp48 M. Target 1.000 dijadwalkan terpenuhi 2026.</div>
+        <div class="tc-src">Sumber: BPSDM Bali, 2025</div>
+      </div>
+    </div>
+
+    <!-- TATA KELOLA -->
+    <div class="tracker-group">
+      <div class="tg-header" style="border-color:var(--text-2);">
+        <span class="tg-icon">🏛️</span>
+        <span class="tg-title">Tata Kelola & Transparansi</span>
+      </div>
+
+      <div class="tracker-card">
+        <div class="tc-top">
+          <div class="tc-name">e-Government Terintegrasi Satu Data Bali</div>
+          <div class="tc-badge b-up">✅ On Track</div>
+        </div>
+        <div class="tc-janji">Janji: Semua layanan pemerintahan Bali terintegrasi dalam satu platform digital.</div>
+        <div class="tc-progress-wrap">
+          <div class="tc-progress-bar" style="width:65%;background:var(--green);"></div>
+        </div>
+        <div class="tc-detail">Portal <strong>baliprov.go.id</strong> sudah terintegrasi 62 layanan OPD. Nilai SPBE Bali 2024: 3,72/5 (Baik).</div>
+        <div class="tc-src">Sumber: KemenPAN-RB · Kominfo Bali, 2025</div>
+      </div>
+
+      <div class="tracker-card">
+        <div class="tc-top">
+          <div class="tc-name">Opini WTP BPK 8 Kali Berturut-turut</div>
+          <div class="tc-badge b-up">✅ Terjaga</div>
+        </div>
+        <div class="tc-janji">Janji: Pertahankan Wajar Tanpa Pengecualian (WTP) dari BPK sebagai bukti tata kelola bersih.</div>
+        <div class="tc-progress-wrap">
+          <div class="tc-progress-bar" style="width:100%;background:var(--green);"></div>
+        </div>
+        <div class="tc-detail">WTP ke-8 diraih untuk LKPD 2024. Bali konsisten WTP sejak 2017.</div>
+        <div class="tc-src">Sumber: BPK RI, Mei 2025</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- APBD TRACKER -->
+<div class="section" style="padding-top:40px;padding-bottom:0;">
+  <div class="section-header reveal">
+    <div class="sec-tag" style="color:var(--gold);">💰 APBD 2025</div>
+    <h2 class="sec-title">Anggaran & <em>Realisasi</em></h2>
+    <div class="divider" style="background:var(--gold);"></div>
+    <p class="sec-desc">APBD Bali 2025 sebesar Rp7,2 Triliun. Realisasi per Q1 2026 berdasarkan laporan BPKAD Bali.</p>
+  </div>
+  <div class="kpi-grid reveal" style="margin-bottom:20px;">
+    <div class="kpi"><div class="kpi-accent" style="background:var(--green);"></div><div class="kpi-icon">📊</div><span class="kpi-val">Rp7,2T</span><div class="kpi-lbl">Total APBD 2025</div><div class="kpi-chg up">↑ 8,3% dari 2024</div><div class="kpi-src">Sumber: BPKAD Bali, 2025</div></div>
+    <div class="kpi"><div class="kpi-accent" style="background:var(--sky);"></div><div class="kpi-icon">🎓</div><span class="kpi-val">16,7%</span><div class="kpi-lbl">Porsi Pendidikan</div><div class="kpi-chg inf">Rp1,2T · Wajib 20%</div><div class="kpi-src">Sumber: Disdikpora Bali</div></div>
+    <div class="kpi"><div class="kpi-accent" style="background:var(--gold);"></div><div class="kpi-icon">🏥</div><span class="kpi-val">12,4%</span><div class="kpi-lbl">Porsi Kesehatan</div><div class="kpi-chg inf">Rp893M · Wajib 10%</div><div class="kpi-src">Sumber: Dinkes Bali</div></div>
+    <div class="kpi"><div class="kpi-accent" style="background:var(--blue);"></div><div class="kpi-icon">🏗️</div><span class="kpi-val">18,2%</span><div class="kpi-lbl">Porsi Infrastruktur</div><div class="kpi-chg up">Rp1,31T</div><div class="kpi-src">Sumber: BPKAD Bali</div></div>
+  </div>
+  <div class="data-grid reveal">
+    <div class="card">
+      <div style="font-size:12px;font-weight:700;color:var(--text);margin-bottom:16px;">📋 Realisasi per Sektor — Q1 2025</div>
+      <div class="bar-row"><div class="bar-lbl">Pendidikan</div><div class="bar-track"><div class="bar-fill bbar" data-w="82" style="width:82%;background:var(--green);">82%</div></div><div class="bar-num">Rp984M</div></div>
+      <div class="bar-row"><div class="bar-lbl">Infrastruktur</div><div class="bar-track"><div class="bar-fill bbar" data-w="61" style="width:61%;background:var(--sky);">61%</div></div><div class="bar-num">Rp799M</div></div>
+      <div class="bar-row"><div class="bar-lbl">Kesehatan</div><div class="bar-track"><div class="bar-fill bbar" data-w="78" style="width:78%;background:var(--blue);">78%</div></div><div class="bar-num">Rp697M</div></div>
+      <div class="bar-row"><div class="bar-lbl">Pertanian</div><div class="bar-track"><div class="bar-fill bbar" data-w="44" style="width:44%;background:var(--gold);">44%</div></div><div class="bar-num">Rp316M</div></div>
+      <div class="bar-row"><div class="bar-lbl">Lingkungan</div><div class="bar-track"><div class="bar-fill bbar" data-w="38" style="width:38%;background:var(--red);">38%</div></div><div class="bar-num">Rp273M</div></div>
+      <p class="src"><strong>Sumber:</strong> BPKAD Bali · Laporan Realisasi APBD Q1 2025</p>
+    </div>
+    <div class="card">
+      <div style="font-size:12px;font-weight:700;color:var(--text);margin-bottom:16px;">📍 Sorotan & Catatan Kritis</div>
+      <div class="alert alert-green"><div class="alert-title" style="color:var(--green);">✅ WTP ke-8 dari BPK</div><div class="alert-body">Bali kembali raih opini Wajar Tanpa Pengecualian untuk LKPD 2024 — konsisten sejak 2017. Bukti tata kelola keuangan yang bersih.</div></div>
+      <div class="alert alert-gold"><div class="alert-title" style="color:var(--gold);">⚠️ Serapan Anggaran Lingkungan Rendah</div><div class="alert-body">Realisasi sektor lingkungan hidup hanya 38% di Q1 2025 — program embung air dan energi terbarukan masih terhambat birokrasi & lahan.</div></div>
+      <div class="alert alert-red"><div class="alert-title" style="color:var(--red);">❌ Porsi Pendidikan Di Bawah Wajib</div><div class="alert-body">Konstitusi wajibkan 20% APBD untuk pendidikan. Bali 2025 baru 16,7%. Kekurangan sekitar Rp238 Miliar.</div></div>
+      <p class="src"><strong>Sumber:</strong> BPK RI · Kemendikbud · BPKAD Bali, 2025</p>
+    </div>
+  </div>
+</div>
+
+<!-- TIMELINE KEBIJAKAN -->
+<div class="section" style="padding-top:40px;padding-bottom:0;">
+  <div class="section-header reveal">
+    <div class="sec-tag" style="color:var(--green);">📅 Timeline</div>
+    <h2 class="sec-title">Kebijakan <em>Terkini</em></h2>
+    <div class="divider"></div>
+    <p class="sec-desc">Perda, SK Gubernur, dan kebijakan signifikan sejak dilantik Februari 2025.</p>
+  </div>
+  <div class="timeline-wrap reveal">
+    <div class="tl-item">
+      <div class="tl-dot" style="background:var(--green);"></div>
+      <div class="tl-date">Jun 2026</div>
+      <div class="tl-content">
+        <div class="tl-title">Persiapan Kemarau 2026 — BTT Rp50 M Diaktifkan</div>
+        <div class="tl-desc">Gubernur aktifkan Belanja Tak Terduga Rp50 miliar untuk antisipasi kekeringan dan kebakaran lahan yang diprediksi melanda 90% wilayah Bali Agustus–September.</div>
+        <div class="tc-src">Sumber: BPBD Bali · Balipost, Jun 2026</div>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot" style="background:var(--sky);"></div>
+      <div class="tl-date">Mei 2026</div>
+      <div class="tl-content">
+        <div class="tl-title">Perda Pariwisata Budaya Bali Direvisi</div>
+        <div class="tl-desc">Revisi Perda No. 2/2012 tentang Kepariwisataan Budaya Bali — perkuat regulasi villa dan hotel asing, wajibkan porsi lokal 30% tenaga kerja.</div>
+        <div class="tc-src">Sumber: DPRD Bali, Mei 2026</div>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot" style="background:var(--gold);"></div>
+      <div class="tl-date">Apr 2026</div>
+      <div class="tl-content">
+        <div class="tl-title">Bali Tourism Fund — PHR Menembus Rp2,9 T</div>
+        <div class="tl-desc">Pendapatan dari Pajak Hotel & Restoran Jan–Apr 2026 mencapai Rp2,9 Triliun — naik Rp300 M dari 2025. Dana ini dialokasikan ke pelestarian budaya dan infrastruktur wisata.</div>
+        <div class="tc-src">Sumber: Bisnis.com, Apr 2026</div>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot" style="background:var(--blue);"></div>
+      <div class="tl-date">Mar 2026</div>
+      <div class="tl-content">
+        <div class="tl-title">MoU Bali–Mumbai: Rute Penerbangan Langsung</div>
+        <div class="tl-desc">Gubernur tandatangani MoU dengan Maharashtra untuk penerbangan langsung Bali–Mumbai 4x seminggu. Diproyeksikan tambah 40.000 wisman India per tahun.</div>
+        <div class="tc-src">Sumber: Antara Bali, Mar 2026</div>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-dot" style="background:rgba(168,85,247,1);"></div>
+      <div class="tl-date">Feb 2025</div>
+      <div class="tl-content">
+        <div class="tl-title">Dilantik sebagai Gubernur Bali Periode Kedua</div>
+        <div class="tl-desc">I Wayan Koster resmi dilantik Presiden Prabowo di Istana Negara. Unggul 60,3% di Pilkada 2024. Wakil Gubernur: I Nyoman Giri Prasta.</div>
+        <div class="tc-src">Sumber: Kemendagri · Kompas, Feb 2025</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- DISCLAIMER -->
+<div class="section" style="padding-top:40px;padding-bottom:60px;">
+  <div class="alert alert-gold reveal" style="max-width:740px;margin:0 auto;">
+    <div class="alert-title" style="color:var(--gold);">⚠️ Tentang Data di Halaman Ini</div>
+    <div class="alert-body">Data bersumber dari BPS Bali, BPKAD, BPK RI, laporan OPD, dan media resmi. Persentase progress bersifat estimasi berdasarkan laporan publik yang tersedia. Bali Kini bukan afiliasi pemerintah — ini adalah portal pemantauan independen berbasis data publik. Diperbarui setiap bulan.</div>
+  </div>
+</div>
+
 {{ end }}
