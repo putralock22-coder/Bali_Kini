@@ -1,6 +1,6 @@
 ---
 title: "Balinale 2026: 94 Film dari 38 Negara Meriahkan Sanur"
-date: 2026-06-04
+date: 2026-06-04T03:00:00+00:00
 description: "Festival Film Internasional Bali (Balinale) edisi ke-19 berlangsung 1-7 Juni 2026 di Sanur, menampilkan 94 film dari 38 negara dengan status Oscar-qualifying pertama di Indonesia."
 categories: ["Budaya"]
 tags: ["balinale", "festival film", "bali", "sinema", "oscar", "budaya"]

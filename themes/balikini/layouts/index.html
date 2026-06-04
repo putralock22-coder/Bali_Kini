@@ -198,7 +198,7 @@
     <p class="sec-desc">Ditulis otomatis setiap hari — analisis, panduan, dan cerita seputar Bali.</p>
   </div>
   <div class="artikel-grid">
-    {{ range first 3 (where .Site.RegularPages "Section" "artikel") }}
+    {{ range first 3 (sort (where .Site.RegularPages "Section" "artikel") "Date" "desc") }}
     <a href="{{ .Permalink }}" class="artikel-card">
       <div class="artikel-card-meta">
         {{ with .Params.categories }}{{ range . }}<span class="sec-tag" style="font-size:10px;">{{ . }}</span>{{ end }}{{ end }}

@@ -7,7 +7,7 @@
     <p class="sec-desc">Ditulis otomatis setiap hari — berita, analisis, dan panduan seputar Bali.</p>
   </div>
   <div class="artikel-grid">
-    {{ range .Pages }}
+    {{ range .Pages.ByDate.Reverse }}
     <a href="{{ .Permalink }}" class="artikel-card">
       {{ with .Params.image }}
       <div class="artikel-card-img">
