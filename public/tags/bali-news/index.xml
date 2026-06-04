@@ -1,3 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bali News on Bali Kini</title><link>https://balikini.id/tags/bali-news/</link><description>Recent content in Bali News on Bali Kini</description><generator>Hugo</generator><language>id</language><lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://balikini.id/tags/bali-news/index.xml" rel="self" type="application/rss+xml"/><item><title>Bali News Recap: High Waves, Clear Skies &amp; Sacred Calendar — June 3, 2026</title><link>https://balikini.id/en/artikel/bali-news-recap-june-3-2026/</link><pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate><guid>https://balikini.id/en/artikel/bali-news-recap-june-3-2026/</guid><description>&lt;p&gt;Wednesday, June 3, 2026. Here is today&amp;rsquo;s summary of the key news, alerts, and information from around Bali — from natural conditions and safety warnings to the sacred calendar you need to know this month.&lt;/p&gt;
-&lt;h2 id="-high-wave-warning-june-14"&gt;⚠️ High Wave Warning: June 1–4&lt;/h2&gt;
-&lt;p&gt;BMKG (Indonesia&amp;rsquo;s Meteorology, Climatology and Geophysics Agency) has issued a warning for high waves of &lt;strong&gt;2.5–4 metres&lt;/strong&gt; in the Badung Strait and South Bali waters. Coastal flooding risk applies to areas along Jembrana, Tabanan, Badung, Denpasar, Gianyar, and Klungkung.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Bali News on Bali Kini</title>
+		<link>http://localhost:1314/tags/bali-news/</link>
+		<description>Recent content in Bali News on Bali Kini</description>
+		<generator>Hugo</generator>
+		<language>id</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1314/tags/bali-news/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Bali News Recap: High Waves, Clear Skies &amp; Sacred Calendar — June 3, 2026</title>
+				<link>http://localhost:1314/en/artikel/bali-news-recap-june-3-2026/</link>
+				<pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1314/en/artikel/bali-news-recap-june-3-2026/</guid>
+				<description>&lt;p&gt;Wednesday, June 3, 2026. Here is today&amp;rsquo;s summary of the key news, alerts, and information from around Bali — from natural conditions and safety warnings to the sacred calendar you need to know this month.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-high-wave-warning-june-14&#34;&gt;⚠️ High Wave Warning: June 1–4&lt;/h2&gt;&#xA;&lt;p&gt;BMKG (Indonesia&amp;rsquo;s Meteorology, Climatology and Geophysics Agency) has issued a warning for high waves of &lt;strong&gt;2.5–4 metres&lt;/strong&gt; in the Badung Strait and South Bali waters. Coastal flooding risk applies to areas along Jembrana, Tabanan, Badung, Denpasar, Gianyar, and Klungkung.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
