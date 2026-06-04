@@ -24,8 +24,8 @@
     {{ .Content }}
   </div>
   <div class="artikel-back">
-    <a href="/artikel/" class="gbtn">← Semua Artikel</a>
-    <a href="/" class="gbtn primary">🏠 Dashboard</a>
+    <a href="{{ "/artikel/" | relLangURL }}" class="gbtn">← {{ if eq .Site.Language.Lang "en" }}All Articles{{ else if eq .Site.Language.Lang "zh" }}所有文章{{ else }}Semua Artikel{{ end }}</a>
+    <a href="{{ "/" | relLangURL }}" class="gbtn primary">🏠 Dashboard</a>
   </div>
 </article>
 {{ end }}

@@ -12,7 +12,16 @@
     </nav>
     <div class="lang-switcher">
       {{ range site.Languages }}
-      <a href="{{ .Lang | relLangURL }}" class="lang-btn {{ if eq .Lang $.Site.Language.Lang }}active{{ end }}">{{ .Params.languageName | default .Lang }}</a>
+        {{ $lang := .Lang }}
+        {{ $langName := .Params.languageName | default .Lang }}
+        {{ $isActive := eq $lang $.Site.Language.Lang }}
+        {{ $href := $lang | relLangURL }}
+        {{ if not $isActive }}
+          {{ range $.Translations }}
+            {{ if eq .Language.Lang $lang }}{{ $href = .RelPermalink }}{{ end }}
+          {{ end }}
+        {{ end }}
+        <a href="{{ $href }}" class="lang-btn {{ if $isActive }}active{{ end }}">{{ $langName }}</a>
       {{ end }}
     </div>
     <div class="header-date" id="headerDate"></div>

@@ -1,0 +1,40 @@
+{{ define "main" }}
+<div class="section">
+  <div class="section-header">
+    <div class="sec-tag">📰 Articles</div>
+    <h2 class="sec-title">All <em>Articles</em></h2>
+    <div class="divider"></div>
+    <p class="sec-desc">Daily analysis, travel guides, and stories about Bali.</p>
+  </div>
+
+  <div class="alert alert-gold" style="margin-bottom:28px;">
+    <div class="alert-title" style="color:var(--gold);">🌐 Language Note</div>
+    <div class="alert-body">Most articles are written in Indonesian (Bahasa Indonesia). English translations are being added gradually. You can use your browser's built-in translation to read them.</div>
+  </div>
+
+  <div class="artikel-grid">
+    {{ $allArticles := where (index hugo.Sites 0).RegularPages "Section" "artikel" }}
+    {{ range $allArticles }}
+    <a href="{{ .Permalink }}" class="artikel-card">
+      {{ with .Params.image }}
+      <div class="artikel-card-img">
+        <img src="{{ . }}" alt="{{ $.Title }}" loading="lazy"/>
+      </div>
+      {{ end }}
+      <div class="artikel-card-content">
+        <div class="artikel-card-meta">
+          {{ with .Params.categories }}{{ range . }}<span class="sec-tag" style="font-size:10px;">{{ . }}</span>{{ end }}{{ end }}
+          <span class="artikel-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+          <span class="badge b-neu" style="font-size:8px;">🇮🇩 ID</span>
+        </div>
+        <h3 class="artikel-card-title">{{ .Title }}</h3>
+        <p class="artikel-card-desc">{{ .Summary | truncate 120 }}</p>
+        <span class="artikel-read">Read more →</span>
+      </div>
+    </a>
+    {{ else }}
+    <p style="color:var(--text-2);">No articles yet. Check back soon!</p>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
