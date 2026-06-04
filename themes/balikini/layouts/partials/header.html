@@ -1,14 +1,32 @@
 <header class="site-header">
   <div class="header-inner">
-    <a href="/" class="logo">🌊 Bali Kini</a>
+    <a href="{{ "/" | relLangURL }}" class="logo">🌊 Bali Kini</a>
     <nav class="main-nav">
-      <a href="/">Dashboard</a>
-      <a href="/artikel/">Artikel</a>
-      <a href="/#pariwisata">Pariwisata</a>
-      <a href="/#ekonomi">Ekonomi</a>
-      <a href="/#cuaca">Cuaca</a>
-      <a href="/#event">Event</a>
-      <a href="/gubernur/" style="color:var(--gold);">🏛 Gubernur</a>
+      {{ if eq .Site.Language.Lang "en" }}
+        <a href="{{ "/" | relLangURL }}">Dashboard</a>
+        <a href="{{ "/artikel/" | relLangURL }}">Articles</a>
+        <a href="/#tourism">Tourism</a>
+        <a href="/#economy">Economy</a>
+        <a href="/#weather">Weather</a>
+        <a href="/#events">Events</a>
+        <a href="/gubernur/" style="color:var(--gold);">🏛 Governor</a>
+      {{ else if eq .Site.Language.Lang "zh" }}
+        <a href="{{ "/" | relLangURL }}">仪表盘</a>
+        <a href="{{ "/artikel/" | relLangURL }}">文章</a>
+        <a href="/#pariwisata">旅游</a>
+        <a href="/#ekonomi">经济</a>
+        <a href="/#cuaca">天气</a>
+        <a href="/#event">活动</a>
+        <a href="/gubernur/" style="color:var(--gold);">🏛 省长</a>
+      {{ else }}
+        <a href="/">Dashboard</a>
+        <a href="/artikel/">Artikel</a>
+        <a href="/#pariwisata">Pariwisata</a>
+        <a href="/#ekonomi">Ekonomi</a>
+        <a href="/#cuaca">Cuaca</a>
+        <a href="/#event">Event</a>
+        <a href="/gubernur/" style="color:var(--gold);">🏛 Gubernur</a>
+      {{ end }}
     </nav>
     <div class="lang-switcher">
       {{ range site.Languages }}
@@ -28,6 +46,8 @@
   </div>
 </header>
 <script>
+  const lang = '{{ .Site.Language.Lang }}';
+  const locale = lang === 'en' ? 'en-GB' : lang === 'zh' ? 'zh-CN' : 'id-ID';
   document.getElementById('headerDate').textContent =
-    new Date().toLocaleDateString('id-ID',{weekday:'short',day:'numeric',month:'short',year:'numeric'});
+    new Date().toLocaleDateString(locale, {weekday:'short', day:'numeric', month:'short', year:'numeric'});
 </script>

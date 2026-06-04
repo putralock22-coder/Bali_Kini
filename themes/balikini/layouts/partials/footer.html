@@ -1,11 +1,26 @@
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-left">
-      <strong>🌊 Bali Kini</strong> — Data harian Pulau Dewata<br/>
-      Dikompilasi dari: BPS Bali · BMKG · Bank Indonesia · Dispar Bali · Antara · Balipost
+      <strong>🌊 Bali Kini</strong>
+      {{ if eq .Site.Language.Lang "en" }}
+        — Daily Bali Data & News Portal<br/>
+        Compiled from: BPS Bali · BMKG · Bank Indonesia · Dispar Bali · Antara · Balipost
+      {{ else if eq .Site.Language.Lang "zh" }}
+        — 巴厘岛每日数据与新闻<br/>
+        数据来源：BPS Bali · BMKG · 印尼央行 · Dispar Bali · Antara · Balipost
+      {{ else }}
+        — Data harian Pulau Dewata<br/>
+        Dikompilasi dari: BPS Bali · BMKG · Bank Indonesia · Dispar Bali · Antara · Balipost
+      {{ end }}
     </div>
     <div class="footer-right">
-      Diperbarui otomatis setiap hari 07:00 WITA · Powered by Claude AI
+      {{ if eq .Site.Language.Lang "en" }}
+        Auto-updated daily at 07:00 WITA · Powered by Claude AI
+      {{ else if eq .Site.Language.Lang "zh" }}
+        每日 07:00 WITA 自动更新 · 由 Claude AI 驱动
+      {{ else }}
+        Diperbarui otomatis setiap hari 07:00 WITA · Powered by Claude AI
+      {{ end }}
     </div>
   </div>
 </footer>

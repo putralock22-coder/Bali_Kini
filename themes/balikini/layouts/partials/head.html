@@ -1,13 +1,73 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>{{ if .IsHome }}{{ .Site.Title }} — Portal Data Harian Bali{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
-<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Summary }}{{ end }}"/>
-<meta property="og:title" content="{{ .Title }}"/>
-<meta property="og:type" content="website"/>
+
+{{ $isEN := eq .Site.Language.Lang "en" }}
+{{ $isZH := eq .Site.Language.Lang "zh" }}
+
+<!-- Title -->
+{{ if .IsHome }}
+  {{ if $isEN }}<title>Bali Kini — Daily Bali Data & News Portal</title>
+  {{ else if $isZH }}<title>Bali Kini — 巴厘岛每日新闻与数据</title>
+  {{ else }}<title>Bali Kini — Portal Data & Berita Harian Bali</title>
+  {{ end }}
+{{ else }}
+  <title>{{ .Title }} | Bali Kini</title>
+{{ end }}
+
+<!-- Meta Description -->
+{{ $desc := "" }}
+{{ if .IsHome }}
+  {{ $desc = .Site.Params.description }}
+{{ else if .Params.description }}
+  {{ $desc = .Params.description }}
+{{ else }}
+  {{ $desc = .Summary | plainify | truncate 160 }}
+{{ end }}
+<meta name="description" content="{{ $desc }}"/>
+
+<!-- Canonical & Hreflang -->
+<link rel="canonical" href="{{ .Permalink }}"/>
+{{ range .Translations }}
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}"/>
+{{ end }}
+<link rel="alternate" hreflang="{{ .Site.Language.Lang }}" href="{{ .Permalink }}"/>
+<link rel="alternate" hreflang="x-default" href="{{ .Site.BaseURL }}"/>
+
+<!-- Open Graph -->
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}"/>
+<meta property="og:description" content="{{ $desc }}"/>
+<meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}"/>
+<meta property="og:url" content="{{ .Permalink }}"/>
+<meta property="og:site_name" content="Bali Kini"/>
+<meta property="og:locale" content="{{ if $isEN }}en_US{{ else if $isZH }}zh_CN{{ else }}id_ID{{ end }}"/>
+{{ with .Params.image }}
+<meta property="og:image" content="{{ . }}"/>
+<meta property="og:image:width" content="1200"/>
+<meta property="og:image:height" content="630"/>
+{{ else }}
+<meta property="og:image" content="{{ .Site.BaseURL }}images/og-default.jpg"/>
+{{ end }}
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}"/>
+<meta name="twitter:description" content="{{ $desc }}"/>
+{{ with .Params.image }}<meta name="twitter:image" content="{{ . }}"/>{{ end }}
+
+<!-- Article meta -->
+{{ if not .IsHome }}
+<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}"/>
+{{ with .Params.categories }}{{ range . }}<meta property="article:section" content="{{ . }}"/>{{ end }}{{ end }}
+{{ end }}
+
+<!-- Fonts & CSS -->
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet"/>
 <link rel="stylesheet" href="{{ "css/main.css" | relURL }}"/>
+
+<!-- Google AdSense -->
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2212112214709508" crossorigin="anonymous"></script>
+
 <!-- Google Analytics GA4 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FELFCH9Z7W"></script>
 <script>
