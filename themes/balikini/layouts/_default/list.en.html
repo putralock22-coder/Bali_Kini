@@ -4,17 +4,12 @@
     <div class="sec-tag">📰 Articles</div>
     <h2 class="sec-title">All <em>Articles</em></h2>
     <div class="divider"></div>
-    <p class="sec-desc">Daily analysis, travel guides, and stories about Bali.</p>
+    <p class="sec-desc">Daily Bali news, travel guides, and analysis — in English.</p>
   </div>
 
-  <div class="alert alert-gold" style="margin-bottom:28px;">
-    <div class="alert-title" style="color:var(--gold);">🌐 Language Note</div>
-    <div class="alert-body">Most articles are written in Indonesian (Bahasa Indonesia). English translations are being added gradually. You can use your browser's built-in translation to read them.</div>
-  </div>
-
+  {{ if .Pages }}
   <div class="artikel-grid">
-    {{ $allArticles := where (index hugo.Sites 0).RegularPages "Section" "artikel" }}
-    {{ range $allArticles }}
+    {{ range .Pages }}
     <a href="{{ .Permalink }}" class="artikel-card">
       {{ with .Params.image }}
       <div class="artikel-card-img">
@@ -25,16 +20,23 @@
         <div class="artikel-card-meta">
           {{ with .Params.categories }}{{ range . }}<span class="sec-tag" style="font-size:10px;">{{ . }}</span>{{ end }}{{ end }}
           <span class="artikel-date">{{ .Date.Format "Jan 2, 2006" }}</span>
-          <span class="badge b-neu" style="font-size:8px;">🇮🇩 ID</span>
         </div>
         <h3 class="artikel-card-title">{{ .Title }}</h3>
         <p class="artikel-card-desc">{{ .Summary | truncate 120 }}</p>
         <span class="artikel-read">Read more →</span>
       </div>
     </a>
-    {{ else }}
-    <p style="color:var(--text-2);">No articles yet. Check back soon!</p>
     {{ end }}
   </div>
+  {{ else }}
+  <div class="alert alert-gold" style="margin-bottom:28px;">
+    <div class="alert-title" style="color:var(--gold);">🌐 English articles coming soon</div>
+    <div class="alert-body">We are actively publishing English articles. Check back in a few hours — our automated agent publishes new content every 3 hours including English summaries.</div>
+  </div>
+  <div style="text-align:center;margin-top:32px;">
+    <a href="/" class="gbtn primary">🏠 Back to Dashboard</a>
+    <a href="/artikel/" class="gbtn" style="margin-left:8px;">🇮🇩 Read in Indonesian</a>
+  </div>
+  {{ end }}
 </div>
 {{ end }}
