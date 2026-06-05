@@ -202,15 +202,18 @@
     <p class="sec-desc">Ditulis otomatis setiap hari — analisis, panduan, dan cerita seputar Bali.</p>
   </div>
   <div class="artikel-grid">
-    {{ range first 3 (sort (where .Site.RegularPages "Section" "artikel") "Date" "desc") }}
+    {{ range first 6 ((where .Site.RegularPages "Section" "artikel").ByDate.Reverse) }}
     <a href="{{ .Permalink }}" class="artikel-card">
-      <div class="artikel-card-meta">
-        {{ with .Params.categories }}{{ range . }}<span class="sec-tag" style="font-size:10px;">{{ . }}</span>{{ end }}{{ end }}
-        <span class="artikel-date">{{ .Date.Format "2 Jan 2006" }}</span>
+      {{ with .Params.image }}<div class="artikel-card-img"><img src="{{ . }}" alt="{{ $.Title }}" loading="lazy"/></div>{{ end }}
+      <div class="artikel-card-content">
+        <div class="artikel-card-meta">
+          {{ with .Params.categories }}{{ range . }}<span class="sec-tag" style="font-size:10px;">{{ . }}</span>{{ end }}{{ end }}
+          <span class="artikel-date">{{ .Date.Format "2 Jan 2006" }}</span>
+        </div>
+        <h3 class="artikel-card-title">{{ .Title }}</h3>
+        <p class="artikel-card-desc">{{ .Summary | truncate 120 }}</p>
+        <span class="artikel-read">Baca selengkapnya →</span>
       </div>
-      <h3 class="artikel-card-title">{{ .Title }}</h3>
-      <p class="artikel-card-desc">{{ .Summary | truncate 100 }}</p>
-      <span class="artikel-read">Baca selengkapnya →</span>
     </a>
     {{ end }}
   </div>

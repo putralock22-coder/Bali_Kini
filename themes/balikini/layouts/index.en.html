@@ -133,8 +133,7 @@
     <p class="sec-desc">Written daily — analysis, travel guides, and stories about Bali.</p>
   </div>
   <div class="artikel-grid">
-    {{ $enArtikel := where .Site.RegularPages "Section" "artikel" }}
-    {{ range first 3 (sort $enArtikel "Date" "desc") }}
+    {{ range first 6 ((where .Site.RegularPages "Section" "artikel").ByDate.Reverse) }}
     <a href="{{ .Permalink }}" class="artikel-card">
       {{ with .Params.image }}<div class="artikel-card-img"><img src="{{ . }}" alt="{{ $.Title }}" loading="lazy"/></div>{{ end }}
       <div class="artikel-card-content">
@@ -143,7 +142,7 @@
           <span class="artikel-date">{{ .Date.Format "Jan 2, 2006" }}</span>
         </div>
         <h3 class="artikel-card-title">{{ .Title }}</h3>
-        <p class="artikel-card-desc">{{ .Summary | truncate 100 }}</p>
+        <p class="artikel-card-desc">{{ .Summary | truncate 120 }}</p>
         <span class="artikel-read">Read more →</span>
       </div>
     </a>
