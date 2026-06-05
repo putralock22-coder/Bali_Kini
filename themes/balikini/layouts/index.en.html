@@ -34,6 +34,7 @@
     <h2 class="sec-title">Tourist <em>Arrivals</em></h2>
     <div class="divider"></div>
     <p class="sec-desc">Latest data from BPS Bali & Dispar. Updated monthly with BPS releases.</p>
+    <button class="share-btn" aria-label="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Share</button>
   </div>
   <div class="kpi-grid" style="margin-bottom:20px;">
     <div class="kpi" data-modal="wisman_jan_apr"><div class="kpi-accent" style="background:var(--green);"></div><div class="kpi-icon">🛬</div><span class="kpi-val">2.02M</span><div class="kpi-lbl">Foreign Visitors Jan–Apr 2026</div><div class="kpi-chg dn">↓ 1.11% vs 2025</div><div class="kpi-src">Source: BPS Bali, May 2026</div></div>
@@ -65,6 +66,7 @@
     <h2 class="sec-title">Bali's <em>Economy</em></h2>
     <div class="divider"></div>
     <p class="sec-desc">Data from BPS, Bank Indonesia, and DJP Bali. May 2026 inflation released June 2, 2026.</p>
+    <button class="share-btn" aria-label="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Share</button>
   </div>
   <div class="kpi-grid" style="margin-bottom:20px;">
     <div class="kpi" data-modal="pdrb"><div class="kpi-accent" style="background:var(--green);"></div><div class="kpi-icon">📈</div><span class="kpi-val">5.58%</span><div class="kpi-lbl">GDP Growth Q1 2026</div><div class="kpi-chg up">yoy · IDR 44.28 trillion</div><div class="kpi-src">Source: BPS Bali, May 2026</div></div>
@@ -81,6 +83,7 @@
     <h2 class="sec-title">Bali <em>Weather</em></h2>
     <div class="divider"></div>
     <p class="sec-desc">Data from BMKG Meteorological Station Denpasar. Wednesday, June 3, 2026.</p>
+    <button class="share-btn" aria-label="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Share</button>
   </div>
   <div class="weather-grid" style="margin-bottom:20px;">
     <div class="weather-box"><div class="w-city">Denpasar</div><div class="w-icon">🌤</div><div class="w-temp">24–31°C</div><div class="w-desc">Partly Cloudy</div><div class="w-humid">💧 58–74%</div></div>
@@ -111,6 +114,7 @@
     <h2 class="sec-title">Bali <em>Calendar</em></h2>
     <div class="divider"></div>
     <p class="sec-desc">Official events from Bali Calendar of Events 2026. 56 events throughout the year.</p>
+    <button class="share-btn" aria-label="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> Share</button>
   </div>
   <div class="kpi-grid" style="margin-bottom:20px;">
     <div class="kpi"><div class="kpi-accent" style="background:var(--gold);"></div><div class="kpi-icon">🙏</div><span class="kpi-val">Jun 17</span><div class="kpi-lbl">Galungan Day</div><div class="kpi-chg inf">Kuningan: June 27, 2026</div><div class="kpi-src">Source: Bali Hindu Calendar 2026</div></div>
@@ -129,7 +133,8 @@
     <p class="sec-desc">Written daily — analysis, travel guides, and stories about Bali.</p>
   </div>
   <div class="artikel-grid">
-    {{ range first 3 (sort (where .Site.RegularPages "Section" "artikel") "Date" "desc") }}
+    {{ $enArtikel := where .Site.RegularPages "Section" "artikel" }}
+    {{ range first 3 (sort $enArtikel "Date" "desc") }}
     <a href="{{ .Permalink }}" class="artikel-card">
       {{ with .Params.image }}<div class="artikel-card-img"><img src="{{ . }}" alt="{{ $.Title }}" loading="lazy"/></div>{{ end }}
       <div class="artikel-card-content">
@@ -142,10 +147,12 @@
         <span class="artikel-read">Read more →</span>
       </div>
     </a>
+    {{ else }}
+    <p style="color:var(--text-2);">No articles yet. Check back soon.</p>
     {{ end }}
   </div>
   <div style="text-align:center;margin-top:24px;">
-    <a href="/en/artikel/" class="gbtn primary">📰 All Articles →</a>
+    <a href="{{ "/artikel/" | relLangURL }}" class="gbtn primary">📰 All Articles →</a>
   </div>
 </div>
 

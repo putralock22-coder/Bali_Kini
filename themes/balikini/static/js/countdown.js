@@ -22,15 +22,29 @@ function buildCountdownSection(){
 
   if(!upcoming.length) return;
 
+  const lang = document.documentElement.lang || 'id';
+  const i18n = {
+    tag:  lang === 'en' ? 'Upcoming Events' : lang === 'zh' ? '即将到来' : 'Pengingat Event',
+    h2:   lang === 'en' ? 'Coming <em>Soon</em>' : lang === 'zh' ? '即将 <em>举行</em>' : 'Segera <em>Datang</em>',
+    desc: lang === 'en' ? 'Countdown to Bali\'s most important events & holy days this month.'
+         : lang === 'zh' ? '巴厘岛本月最重要活动与节日倒计时。'
+         : 'Hitung mundur event & hari raya Bali terpenting bulan ini.',
+    today: lang === 'en' ? '🎉 Today!' : lang === 'zh' ? '🎉 今天！' : '🎉 Hari ini!',
+    days:  lang === 'en' ? 'days'  : lang === 'zh' ? '天' : 'hari',
+    hours: lang === 'en' ? 'hrs'   : lang === 'zh' ? '时' : 'jam',
+    mins:  lang === 'en' ? 'min'   : lang === 'zh' ? '分' : 'menit',
+    secs:  lang === 'en' ? 'sec'   : lang === 'zh' ? '秒' : 'detik',
+  };
+
   const section = document.createElement('div');
   section.className = 'section reveal';
   section.id = 'countdown';
   section.innerHTML = `
     <div class="section-header">
-      <div class="sec-tag">⏳ Pengingat Event</div>
-      <h2 class="sec-title">Segera <em>Datang</em></h2>
+      <div class="sec-tag">⏳ ${i18n.tag}</div>
+      <h2 class="sec-title">${i18n.h2}</h2>
       <div class="divider"></div>
-      <p class="sec-desc">Hitung mundur event & hari raya Bali terpenting bulan ini.</p>
+      <p class="sec-desc">${i18n.desc}</p>
     </div>
     <div class="cd-grid" id="cd-grid"></div>
   `;
@@ -49,6 +63,15 @@ function buildCountdownSection(){
 function renderCards(events){
   const grid = document.getElementById('cd-grid');
   if(!grid) return;
+  const lang = document.documentElement.lang || 'id';
+  const locale = lang === 'en' ? 'en-GB' : lang === 'zh' ? 'zh-CN' : 'id-ID';
+  const lbl = {
+    today: lang === 'en' ? '🎉 Today!' : lang === 'zh' ? '🎉 今天！' : '🎉 Hari ini!',
+    d: lang === 'en' ? 'days' : lang === 'zh' ? '天' : 'hari',
+    h: lang === 'en' ? 'hrs'  : lang === 'zh' ? '时' : 'jam',
+    m: lang === 'en' ? 'min'  : lang === 'zh' ? '分' : 'menit',
+    s: lang === 'en' ? 'sec'  : lang === 'zh' ? '秒' : 'detik',
+  };
   grid.innerHTML = events.map(e => {
     const ms = Math.max(0, e.ms);
     const days  = Math.floor(ms / 86400000);
@@ -63,17 +86,17 @@ function renderCards(events){
           <span class="cd-name">${e.name}</span>
         </div>
         <div class="cd-body">
-          ${done ? `<div class="cd-today" style="color:${e.color};">🎉 Hari ini!</div>` : `
+          ${done ? `<div class="cd-today" style="color:${e.color};">${lbl.today}</div>` : `
           <div class="cd-units">
-            <div class="cd-unit"><div class="cd-num" style="color:${e.color};">${String(days).padStart(2,'0')}</div><div class="cd-lbl">hari</div></div>
+            <div class="cd-unit"><div class="cd-num" style="color:${e.color};">${String(days).padStart(2,'0')}</div><div class="cd-lbl">${lbl.d}</div></div>
             <div class="cd-sep">:</div>
-            <div class="cd-unit"><div class="cd-num" style="color:${e.color};">${String(hours).padStart(2,'0')}</div><div class="cd-lbl">jam</div></div>
+            <div class="cd-unit"><div class="cd-num" style="color:${e.color};">${String(hours).padStart(2,'0')}</div><div class="cd-lbl">${lbl.h}</div></div>
             <div class="cd-sep">:</div>
-            <div class="cd-unit"><div class="cd-num" style="color:${e.color};">${String(mins).padStart(2,'0')}</div><div class="cd-lbl">menit</div></div>
+            <div class="cd-unit"><div class="cd-num" style="color:${e.color};">${String(mins).padStart(2,'0')}</div><div class="cd-lbl">${lbl.m}</div></div>
             <div class="cd-sep">:</div>
-            <div class="cd-unit"><div class="cd-num" style="color:${e.color};">${String(secs).padStart(2,'0')}</div><div class="cd-lbl">detik</div></div>
+            <div class="cd-unit"><div class="cd-num" style="color:${e.color};">${String(secs).padStart(2,'0')}</div><div class="cd-lbl">${lbl.s}</div></div>
           </div>`}
-          <div class="cd-date">${new Date(e.date).toLocaleDateString('id-ID',{weekday:'long',day:'numeric',month:'long',year:'numeric'})}</div>
+          <div class="cd-date">${new Date(e.date).toLocaleDateString(locale,{weekday:'long',day:'numeric',month:'long',year:'numeric'})}</div>
         </div>
       </div>
     `;
