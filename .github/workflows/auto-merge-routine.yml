@@ -1,0 +1,75 @@
+name: Auto-merge Routine Branches
+
+on:
+  push:
+    branches:
+      - 'claude/**'
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Merge all claude/* branches into main
+        run: |
+          git config user.name "Bali Kini Bot"
+          git config user.email "putralock22@gmail.com"
+
+          # Get all remote claude/* branches
+          BRANCHES=$(git branch -r | grep 'origin/claude/' | sed 's|origin/||' | tr -d ' ')
+
+          if [ -z "$BRANCHES" ]; then
+            echo "No claude/* branches found"
+            exit 0
+          fi
+
+          echo "Found branches: $BRANCHES"
+          git checkout main
+          git pull origin main
+
+          MERGED=0
+          for BRANCH in $BRANCHES; do
+            echo "Processing: $BRANCH"
+
+            # Check if branch has commits not in main
+            AHEAD=$(git log origin/main..origin/$BRANCH --oneline -- 'content/artikel/*.md' 'content/en/artikel/*.md' 'content/zh/artikel/*.md' 2>/dev/null | wc -l)
+
+            if [ "$AHEAD" -eq "0" ]; then
+              echo "  → No new articles, skipping"
+              continue
+            fi
+
+            echo "  → $AHEAD new article files found"
+
+            # Checkout only content files from this branch
+            git checkout origin/$BRANCH -- content/artikel/ content/en/artikel/ content/zh/artikel/ 2>/dev/null || true
+
+            # Check if anything changed
+            if git diff --staged --quiet; then
+              echo "  → No changes after checkout"
+              continue
+            fi
+
+            # Commit the new articles
+            ARTICLE_COUNT=$(git diff --staged --name-only | wc -l)
+            git commit -m "[merge] Artikel dari $BRANCH ($ARTICLE_COUNT files)"
+            MERGED=$((MERGED + 1))
+            echo "  ✅ Merged $ARTICLE_COUNT files from $BRANCH"
+          done
+
+          if [ "$MERGED" -gt "0" ]; then
+            git push origin main
+            echo "✅ Pushed $MERGED branch merges to main"
+          else
+            echo "Nothing to merge"
+          fi
