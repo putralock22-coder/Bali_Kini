@@ -2,13 +2,18 @@
 title: "Pertamax Naik Jadi Rp16.250, Ini Dampaknya bagi Pariwisata dan UMKM Bali"
 date: 2026-06-10
 description: "Harga Pertamax resmi naik 32% menjadi Rp16.250 per liter mulai 10 Juni 2026. Pelaku wisata dan UMKM Bali mulai hitung ulang biaya operasional."
-categories: ["Ekonomi"]
-tags: ["BBM", "pertamax", "pariwisata bali", "UMKM bali", "harga BBM 2026", "ekonomi bali"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
-image_credit: "Foto: Pexels"
+categories:
+  - "Ekonomi"
+tags:
+  - "BBM"
+  - "pertamax"
+  - "pariwisata bali"
+  - "UMKM bali"
+  - "harga BBM 2026"
+  - "ekonomi bali"
+image: "https://awsimages.detik.net.id/community/media/visual/2025/08/05/ilustrasi-pengisian-bensin-di-spbu-pertamina-1754374010080_169.jpeg?w=700&q=90"
 ---
-
-Mulai Rabu, **10 Juni 2026**, harga bahan bakar minyak (BBM) non-subsidi jenis Pertamax resmi melonjak ke level tertingginya dalam beberapa tahun terakhir. PT Pertamina Patra Niaga menetapkan harga baru **Rp16.250 per liter** untuk wilayah Jawa, Bali, dan Nusa Tenggara — naik Rp3.950 atau sekitar **32,1 persen** dari harga sebelumnya Rp12.300 per liter.
+Mulai Rabu, **10 Juni 2026**, harga bahan bakar minyak (BBM) non-subsidi jenis Pertamax resmi melonjak ke level tertingginya dalam beberapa tahun terakhir. PT Pertamina Patra Niaga menetapkan harga baru **Rp16.250 per liter** untuk wilayah Jawa, Bali, dan Nusa Tenggara â naik Rp3.950 atau sekitar **32,1 persen** dari harga sebelumnya Rp12.300 per liter.
 
 Kenaikan ini langsung mendapat respons beragam dari masyarakat, terutama pelaku usaha pariwisata dan UMKM di Bali yang sangat mengandalkan mobilitas kendaraan bermotor dalam kegiatan sehari-hari.
 
@@ -18,13 +23,13 @@ Berikut rincian harga BBM Pertamina yang berlaku di Bali per 10 Juni 2026:
 
 | Jenis BBM | Harga Lama | Harga Baru | Kenaikan |
 |-----------|-----------|-----------|---------|
-| Pertalite (subsidi) | Rp10.000 | Rp10.000 | — |
-| Biosolar (subsidi) | Rp6.800 | Rp6.800 | — |
+| Pertalite (subsidi) | Rp10.000 | Rp10.000 | â |
+| Biosolar (subsidi) | Rp6.800 | Rp6.800 | â |
 | Pertamax | Rp12.300 | Rp16.250 | +Rp3.950 |
 | Pertamax Green 95 | Rp12.900 | Rp17.000 | +Rp4.100 |
-| Pertamax Turbo | — | Rp20.750 | — |
-| Dexlite | — | Rp23.000 | — |
-| Pertamina Dex | — | Rp24.800 | — |
+| Pertamax Turbo | â | Rp20.750 | â |
+| Dexlite | â | Rp23.000 | â |
+| Pertamina Dex | â | Rp24.800 | â |
 
 BBM bersubsidi yakni Pertalite dan Biosolar **tidak mengalami perubahan harga**. Pemerintah memastikan kedua produk tersebut tetap terjangkau untuk masyarakat berpenghasilan rendah.
 
@@ -54,9 +59,9 @@ Biaya distribusi yang meningkat berpotensi mendorong kenaikan harga produk UMKM.
 
 ## Risiko Inflasi Daerah
 
-Para ekonom memperingatkan bahwa kenaikan BBM non-subsidi yang signifikan — hampir sepertiga dari harga lama — berisiko memicu **kenaikan inflasi daerah**. Jika biaya transportasi dan distribusi meningkat, harga barang dan jasa ikut naik, sehingga tekanan pada kelas menengah semakin berat.
+Para ekonom memperingatkan bahwa kenaikan BBM non-subsidi yang signifikan â hampir sepertiga dari harga lama â berisiko memicu **kenaikan inflasi daerah**. Jika biaya transportasi dan distribusi meningkat, harga barang dan jasa ikut naik, sehingga tekanan pada kelas menengah semakin berat.
 
-Meski begitu, Kepala Eksekutif Lembaga Penjamin Simpanan (LPS) Purbaya Yudhi Sadewa menyatakan bahwa dampak kenaikan Pertamax terhadap perekonomian secara keseluruhan "**relatif minimal**" karena Pertamax bukan BBM yang dikonsumsi mayoritas masyarakat. Namun, bagi segmen pengguna Pertamax — umumnya kelas menengah ke atas dan pelaku usaha — dampaknya tetap terasa.
+Meski begitu, Kepala Eksekutif Lembaga Penjamin Simpanan (LPS) Purbaya Yudhi Sadewa menyatakan bahwa dampak kenaikan Pertamax terhadap perekonomian secara keseluruhan "**relatif minimal**" karena Pertamax bukan BBM yang dikonsumsi mayoritas masyarakat. Namun, bagi segmen pengguna Pertamax â umumnya kelas menengah ke atas dan pelaku usaha â dampaknya tetap terasa.
 
 ## Antisipasi yang Bisa Dilakukan
 
