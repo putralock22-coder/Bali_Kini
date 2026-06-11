@@ -1,3 +1,85 @@
+<div class="saweria-support-banner">
+  <div class="saweria-support-inner">
+    <div class="saweria-support-text">
+      <span class="saweria-support-emoji">☕</span>
+      <div>
+        {{ if eq .Site.Language.Lang "en" }}
+          <strong>Enjoying Bali Kini?</strong>
+          <p>Support us to keep delivering comprehensive, daily Bali news — free for everyone.</p>
+        {{ else if eq .Site.Language.Lang "zh" }}
+          <strong>喜欢 Bali Kini？</strong>
+          <p>支持我们，让我们能每天为所有人提供全面的巴厘岛新闻。</p>
+        {{ else }}
+          <strong>Suka konten Bali Kini?</strong>
+          <p>Dukunganmu membantu kami meliput lebih banyak berita Bali, lebih dalam, setiap hari — gratis untuk semua.</p>
+        {{ end }}
+      </div>
+    </div>
+    <a href="https://saweria.co/balikini" target="_blank" rel="noopener" class="saweria-support-btn">
+      {{ if eq .Site.Language.Lang "en" }}☕ Support Us{{ else if eq .Site.Language.Lang "zh" }}☕ 支持我们{{ else }}☕ Dukung Kami{{ end }}
+    </a>
+  </div>
+</div>
+<style>
+  .saweria-support-banner {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    border-top: 1px solid rgba(255,107,53,.25);
+    border-bottom: 1px solid rgba(255,107,53,.15);
+    padding: 24px 20px;
+  }
+  .saweria-support-inner {
+    max-width: 860px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .saweria-support-text {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex: 1;
+  }
+  .saweria-support-emoji {
+    font-size: 2rem;
+    flex-shrink: 0;
+  }
+  .saweria-support-text strong {
+    display: block;
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: 4px;
+  }
+  .saweria-support-text p {
+    color: rgba(255,255,255,.65);
+    font-size: .875rem;
+    margin: 0;
+    line-height: 1.5;
+  }
+  .saweria-support-btn {
+    background: linear-gradient(135deg, #ff6b35, #ff8c42);
+    color: #fff !important;
+    font-weight: 700;
+    font-size: .9rem;
+    padding: 12px 24px;
+    border-radius: 50px;
+    text-decoration: none !important;
+    white-space: nowrap;
+    box-shadow: 0 4px 16px rgba(255,107,53,.35);
+    transition: transform .2s, box-shadow .2s;
+    flex-shrink: 0;
+  }
+  .saweria-support-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 22px rgba(255,107,53,.5);
+  }
+  @media(max-width:600px) {
+    .saweria-support-inner { flex-direction: column; align-items: flex-start; }
+    .saweria-support-btn { width: 100%; text-align: center; }
+  }
+</style>
 <footer class="site-footer">
   <div class="footer-inner">
     <div class="footer-left">
