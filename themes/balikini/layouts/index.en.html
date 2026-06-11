@@ -133,7 +133,7 @@
     <p class="sec-desc">Written daily — analysis, travel guides, and stories about Bali.</p>
   </div>
   <div class="artikel-grid">
-    {{ range first 6 ((where .Site.RegularPages "Section" "artikel").ByDate.Reverse) }}
+    {{ $artikelSection := site.GetPage "artikel" }}{{ range first 6 (($artikelSection.Pages).ByDate.Reverse) }}
     <a href="{{ .Permalink }}" class="artikel-card">
       {{ with .Params.image }}<div class="artikel-card-img"><img src="{{ . }}" alt="{{ $.Title }}" loading="lazy"/></div>{{ end }}
       <div class="artikel-card-content">
