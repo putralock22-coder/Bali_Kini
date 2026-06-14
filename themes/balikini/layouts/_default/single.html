@@ -28,5 +28,67 @@
     <a href="{{ "/" | relLangURL }}" class="gbtn primary">🏠 Dashboard</a>
     <button class="share-btn" id="artikelShare" aria-label="Bagikan artikel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg> {{ if eq .Site.Language.Lang "en" }}Share{{ else if eq .Site.Language.Lang "zh" }}分享{{ else }}Bagikan{{ end }}</button>
   </div>
+
+  <!-- Talkyard Comments -->
+  <div class="talkyard-wrap">
+    <div class="talkyard-header">
+      <span class="talkyard-icon">💬</span>
+      <div>
+        {{ if eq .Site.Language.Lang "en" }}
+          <strong>Join the Discussion</strong>
+          <p>Share your thoughts — no login required.</p>
+        {{ else if eq .Site.Language.Lang "zh" }}
+          <strong>加入讨论</strong>
+          <p>分享您的想法 — 无需登录。</p>
+        {{ else }}
+          <strong>Ikut Diskusi</strong>
+          <p>Bagikan pendapatmu — tanpa perlu login.</p>
+        {{ end }}
+      </div>
+    </div>
+    <script>talkyardServerUrl='https://comments-for-balikini.talkyard.net';</script>
+    <script async defer src="https://c1.ty-cdn.net/-/talkyard-comments.min.js"></script>
+    <div class="talkyard-comments" data-discussion-id="{{ .File.Path }}" style="margin-top: 20px;">
+      <noscript>Aktifkan Javascript untuk melihat komentar.</noscript>
+    </div>
+  </div>
+
 </article>
+
+<style>
+  .talkyard-wrap {
+    max-width: 860px;
+    margin: 48px auto 0;
+    padding: 32px 28px;
+    background: rgba(255,255,255,.04);
+    border: 1px solid rgba(255,255,255,.09);
+    border-radius: 16px;
+  }
+  .talkyard-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,.08);
+  }
+  .talkyard-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+  }
+  .talkyard-header strong {
+    display: block;
+    color: #fff;
+    font-size: 1.05rem;
+    margin-bottom: 3px;
+  }
+  .talkyard-header p {
+    color: rgba(255,255,255,.5);
+    font-size: .85rem;
+    margin: 0;
+  }
+  @media(max-width:600px) {
+    .talkyard-wrap { padding: 20px 16px; }
+  }
+</style>
 {{ end }}
