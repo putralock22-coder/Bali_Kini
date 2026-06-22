@@ -1,0 +1,58 @@
+# Cloudflare Pages cache headers
+# Goal: hit rate 60%+ by giving CDN edge clear caching instructions
+
+# HTML pages — cache 1 hour browser, 1 day edge (revalidate)
+/*
+  Cache-Control: public, max-age=3600, s-maxage=86400
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# Article pages — cache lebih lama (konten jarang berubah setelah publish)
+/artikel/*
+  Cache-Control: public, max-age=7200, s-maxage=604800
+
+/en/article/*
+  Cache-Control: public, max-age=7200, s-maxage=604800
+
+/zh/wenzhang/*
+  Cache-Control: public, max-age=7200, s-maxage=604800
+
+# Static assets — cache 1 tahun (immutable, di-hash Hugo)
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+*.js
+  Cache-Control: public, max-age=31536000, immutable
+
+*.jpg
+  Cache-Control: public, max-age=31536000, immutable
+
+*.png
+  Cache-Control: public, max-age=31536000, immutable
+
+*.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+*.svg
+  Cache-Control: public, max-age=31536000, immutable
+
+# Fonts
+*.woff2
+  Cache-Control: public, max-age=31536000, immutable
+
+# Sitemap & feeds — refresh daily
+/sitemap.xml
+  Cache-Control: public, max-age=3600, s-maxage=86400
+
+/index.xml
+  Cache-Control: public, max-age=3600, s-maxage=86400
