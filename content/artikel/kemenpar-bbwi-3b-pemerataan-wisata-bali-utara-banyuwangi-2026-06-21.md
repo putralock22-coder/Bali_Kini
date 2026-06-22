@@ -4,10 +4,9 @@ date: 2026-06-21
 description: "Kemenpar gelar Forum BBWI 3B di Denpasar untuk ratakan manfaat pariwisata ke Bali Utara, Jembrana, dan Banyuwangi dengan potensi transaksi Rp3,67 miliar."
 categories: ["Pariwisata", "Ekonomi"]
 tags: ["BBWI 3B", "Kemenpar", "Pemerataan Wisata", "Bali Utara", "Banyuwangi", "DiIndonesiaAja"]
-image: "https://images.pexels.com/photos/1802183/pexels-photo-1802183.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/kemenpar-bbwi-3b-pemerataan-wisata-bali-utara-banyuwangi-2026-06-21.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 ## Kemenpar Gelar Forum Table Top BBWI untuk Poros 3B
 
 Kementerian Pariwisata Republik Indonesia menggelar **Forum Table Top Bangga Berwisata di Indonesia (BBWI) 3B** di Denpasar, Bali, pada Rabu 20 Juni 2026. Forum ini dirancang khusus untuk mempercepat pemerataan kunjungan wisatawan dari kawasan Bali Selatan yang selama ini mendominasi, ke tiga wilayah potensial yang dikenal sebagai poros **3B: Banyuwangi, Bali Barat, dan Bali Utara**.

@@ -4,10 +4,9 @@ date: 2026-06-20
 description: "KPK menggeledah Kantor Imigrasi Denpasar selama 7 jam terkait dugaan pemerasan izin tinggal WNA senilai Rp145,5 miliar yang melibatkan 8 tersangka."
 categories: ["Hukum"]
 tags: ["KPK", "imigrasi", "WNA", "korupsi", "Denpasar", "Silmy Karim"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/kpk-geledah-imigrasi-denpasar-kasus-wna-2026-06-20.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Komisi Pemberantasan Korupsi (KPK) menggeledah Kantor Imigrasi Kelas I Tempat Pemeriksaan Imigrasi (TPI) Denpasar, Bali, selama kurang lebih tujuh jam pada Jumat, 19 Juni 2026. Operasi tersebut merupakan bagian dari penyidikan kasus dugaan korupsi dan pemerasan dalam pengurusan dokumen keimigrasian bagi warga negara asing (WNA) yang total kerugiannya ditaksir mencapai Rp145,5 miliar.
 
 Para penyidik KPK meninggalkan kantor tersebut dengan membawa tiga koper berisi dokumen dan data penting sebagai barang bukti. Tidak hanya berhenti di satu lokasi, KPK juga memperluas jangkauan penggeledahan ke dua biro jasa visa di wilayah Bali, yakni PT Visa Empat Bali dan CV Visa Agung Bali Teratai Promanende.

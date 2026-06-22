@@ -4,10 +4,9 @@ date: 2026-06-21
 description: "PKB XLVIII 2026 Minggu 21 Juni hadirkan Rekasadana Topeng Panca dan Utsawa Gong Kebyar Anak-anak Duta Buleleng vs Jembrana di Taman Budaya Bali Denpasar."
 categories: ["Budaya"]
 tags: ["PKB 2026", "Pesta Kesenian Bali", "Gong Kebyar", "Topeng Panca", "budaya Bali"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-xlviii-21-juni-2026-topeng-panca-gong-kebyar-anak-buleleng-jembrana-2026-06-21.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Pesta Kesenian Bali (PKB) XLVIII Tahun 2026 terus memancarkan kejayaan seni tradisi Bali. Pada Minggu, 21 Juni 2026, rangkaian pementasan di Taman Budaya Bali, Art Center Denpasar, semakin meriah dengan dua suguhan seni budaya khas yang dinantikan banyak pecinta kesenian Bali: **Rekasadana Topeng Panca** dan **Utsawa Gong Kebyar Anak-anak** yang mempertemukan Duta Kabupaten Buleleng dan Duta Kabupaten Jembrana.
 
 ## PKB XLVIII 2026: Panggung Regenerasi Seniman Bali

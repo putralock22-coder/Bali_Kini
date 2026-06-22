@@ -4,10 +4,9 @@ date: 2026-06-21
 description: "Bupati Tabanan buka Festival Jatiluwih ke-7 pada 20 Juni 2026. Homestay 100% penuh, petani dan warung lokal meraup untung dari ribuan pengunjung dan pelari."
 categories: ["Ekonomi"]
 tags: ["Festival Jatiluwih", "Tabanan", "ekonomi lokal", "subak UNESCO", "desa wisata"]
-image: "https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/jatiluwih-festival-7-dibuka-bupati-tabanan-dampak-ekonomi-warga-2026-06-21.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Festival Jatiluwih ke-7 resmi dibuka di Desa Jatiluwih, Kecamatan Penebel, Kabupaten Tabanan, pada Jumat, 20 Juni 2026. Pembukaan dilakukan langsung oleh Bupati Tabanan, yang dalam sambutannya menekankan pentingnya festival ini sebagai penggerak roda ekonomi masyarakat lokal—bukan sekadar hiburan semata.
 
 "Ketika banyak orang datang ke Desa Jatiluwih, tentu berdampak pada perekonomian, berdampak pada pariwisata, sehingga kegiatan ini menjadi penggerak ekonomi rakyat," ungkap Bupati Tabanan.

@@ -4,10 +4,9 @@ date: 2026-06-20
 description: "Polda Bali gandeng komunitas dan Densus 88 Anti Teror gelar sosialisasi membangun benteng digital tangkal radikalisme media sosial di Pulau Dewata."
 categories: ["Hukum & Keamanan"]
 tags: ["Polda Bali", "radikalisme", "media sosial", "Densus 88", "keamanan", "literasi digital", "benteng digital"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/polda-bali-benteng-digital-radikalisme-media-sosial-2026-06-20.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Kepolisian Daerah Bali mengambil langkah serius dalam memerangi ancaman radikalisme yang kian merambah dunia digital. Pada Sabtu, 20 Juni 2026, Polda Bali menggelar kegiatan sosialisasi bertajuk *"Polri Bersama Komunitas, Tangkal Radikalisme dan Membangun Benteng Digital demi Terwujudnya Harkamtibmas di Pulau Bali"* — sebuah inisiatif yang mengajak seluruh lapisan masyarakat Bali untuk bersama-sama membentengi ruang digital dari ancaman ideologi ekstrem.
 
 ## Radikalisme Tidak Lagi Datang dari Depan Pintu

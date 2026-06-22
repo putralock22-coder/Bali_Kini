@@ -4,10 +4,9 @@ date: 2026-06-21
 description: "KPK geledah tiga lokasi di Bali termasuk Kantor Imigrasi Denpasar terkait pemerasan WNA dalam pengurusan KITAS dan KITAP senilai Rp145,5 miliar."
 categories: ["Hukum", "Kebijakan"]
 tags: ["KPK", "Imigrasi Denpasar", "Pemerasan WNA", "KITAS", "KITAP", "Korupsi Bali"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/kpk-geledah-imigrasi-denpasar-pemerasan-wna-kitas-2026-06-21.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 ## KPK Geledah Tiga Lokasi di Bali dalam Kasus Imigrasi
 
 Komisi Pemberantasan Korupsi (KPK) melakukan penggeledahan di tiga lokasi di Bali pada 17 hingga 19 Juni 2026 dalam rangka penyidikan kasus dugaan pemerasan terhadap warga negara asing (WNA). Ketiga lokasi yang menjadi sasaran penggeledahan adalah **Kantor Imigrasi Kelas I TPI Denpasar**, **PT Visa Empat Bali**, dan **CV Visa Agung Bali Teratai Promanende**.

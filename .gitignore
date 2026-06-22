@@ -2,3 +2,7 @@ public/
 .hugo_build.lock
 New folder/
 *.pdf
+.env
+.env.local
+__pycache__/
+*.pyc

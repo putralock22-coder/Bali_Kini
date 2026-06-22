@@ -4,10 +4,9 @@ date: 2026-06-21
 description: "Pemkab Klungkung usulkan penambahan trip kapal roro Padangbai–Nusa Penida dari 2 jadi 3 kali sehari untuk tekan disparitas harga pangan hingga 30 persen."
 categories: ["Ekonomi", "Infrastruktur"]
 tags: ["Nusa Penida", "kapal roro", "Klungkung", "Padangbai", "transportasi", "logistik"]
-image: "https://images.pexels.com/photos/1802183/pexels-photo-1802183.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/kapal-roro-nusa-penida-tambah-trip-regulasi-baru-2026-06-21.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 ## Nusa Penida Minta Tambahan Trip Kapal: Soal Harga Pangan yang Tak Setara
 
 Disparitas harga kebutuhan pokok antara Nusa Penida dan wilayah daratan Klungkung sudah lama menjadi persoalan yang belum terselesaikan. Harga sembako, material bangunan, bahkan kebutuhan sehari-hari bisa lebih mahal **10 hingga 30 persen** di Nusa Penida dibandingkan di pusat kota Klungkung.

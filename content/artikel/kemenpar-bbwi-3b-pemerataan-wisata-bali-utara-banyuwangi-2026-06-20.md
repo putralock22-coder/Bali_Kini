@@ -4,10 +4,9 @@ date: 2026-06-20
 description: "Kemenpar gelar Forum BBWI 3B untuk ratakan sebaran wisatawan ke Buleleng, Jembrana, dan Banyuwangi, targetkan 1,2 miliar perjalanan domestik 2026."
 categories: ["Pariwisata"]
 tags: ["pariwisata", "Bali Utara", "Banyuwangi", "BBWI", "Kemenpar", "wisata domestik"]
-image: "https://images.pexels.com/photos/1802183/pexels-photo-1802183.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/kemenpar-bbwi-3b-pemerataan-wisata-bali-utara-banyuwangi-2026-06-20.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Selama ini, ketika orang menyebut Bali, pikiran langsung tertuju ke Seminyak, Kuta, Ubud, atau Sanur. Kawasan selatan Bali memang mendominasi arus wisatawan, sementara Bali Utara, Bali Barat, dan tetangganya Banyuwangi masih sering terlupakan. Kementerian Pariwisata (Kemenpar) kini bergerak serius mengubah ketimpangan itu melalui Forum Table Top Bangga Berwisata di Indonesia (BBWI) dengan fokus pada kawasan strategis yang dikenal sebagai Destinasi 3B: **Buleleng, Bali Barat (Jembrana), dan Banyuwangi**.
 
 Forum ini digelar di Harris Hotel Sunset Road, Denpasar, Bali, sebagai ajang pertemuan antara pelaku usaha wisata dari kawasan 3B dengan agen perjalanan dan operator tur dari seluruh Indonesia. Agenda ini sengaja digelar menjelang libur sekolah Juni–Juli 2026 untuk memaksimalkan potensi pergerakan wisatawan domestik ke destinasi alternatif yang kaya potensi namun kurang terjangkau.

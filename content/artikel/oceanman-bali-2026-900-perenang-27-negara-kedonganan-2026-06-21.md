@@ -4,10 +4,9 @@ date: 2026-06-21
 description: "Oceanman Bali 2026 digelar 19-21 Juni di Pantai Kedonganan dengan 900 perenang dari 27 negara, terbesar dalam sejarah event ini di Indonesia."
 categories: ["Pariwisata"]
 tags: ["Oceanman", "sport tourism", "renang perairan terbuka", "Kedonganan", "Badung"]
-image: "https://images.pexels.com/photos/1802183/pexels-photo-1802183.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/oceanman-bali-2026-900-perenang-27-negara-kedonganan-2026-06-21.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Pantai Kedonganan, Badung, kembali menjadi panggung kompetisi renang perairan terbuka bertaraf internasional. Oceanman Bali Indonesia 2026 resmi bergulir pada 19 hingga 21 Juni 2026, menandai kembalinya ajang bergengsi ini setelah vakum selama dua tahun. Dengan mengusung tema **"Waves of Change"**, kompetisi ini mencatatkan rekor baru sebagai penyelenggaraan Oceanman terbesar di Indonesia sepanjang sejarahnya.
 
 ## Lebih dari 900 Perenang dari 27 Negara

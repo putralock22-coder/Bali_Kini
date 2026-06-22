@@ -4,10 +4,9 @@ date: 2026-06-20
 description: "Karangasem Festival 2026 berlangsung 19–22 Juni dengan parade 1.200 seniman dan artis nasional, merayakan HUT Kota Amlapura ke-386."
 categories: ["Budaya"]
 tags: ["Karangasem", "festival", "Amlapura", "seni budaya", "parade budaya", "Bali Timur"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/karangasem-festival-2026-hut-amlapura-386-2026-06-20.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Kabupaten Karangasem di ujung timur Bali sedang berpesta. Karangasem Festival 2026 resmi dibuka oleh Bupati Karangasem, I Gusti Putu Parwata — yang akrab disapa Gus Par — di Lapangan Tanah Aron pada Jumat, 19 Juni 2026. Festival empat hari yang berlangsung hingga 22 Juni ini menjadi perayaan akbar dalam rangka memperingati Hari Ulang Tahun Kota Amlapura yang ke-386.
 
 Tahun ini festival mengusung tema **"Tidak Mudah, Tapi Harus Bisa"** — sebuah pesan penuh semangat yang mencerminkan tekad pemerintah dan masyarakat Karangasem untuk terus membangun daerah meski menghadapi berbagai tantangan.
