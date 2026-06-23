@@ -4,10 +4,9 @@ date: 2026-06-22
 description: "Pemerintah beri diskon tiket pesawat PPN 100% dan kereta 30% untuk libur sekolah 2026. Berlaku 22 Juni hingga 5 Juli 2026, termasuk penyeberangan Bali."
 categories: ["Kebijakan"]
 tags: ["libur sekolah", "tiket pesawat", "diskon", "transportasi", "pariwisata Bali"]
-image: "https://images.pexels.com/photos/1310516/pexels-photo-1310516.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/diskon-tiket-pesawat-penyeberangan-libur-sekolah-2026-06-22.jpg"
 image_credit: "Foto: Pexels / Bandara"
 ---
-
 Jelang masa liburan sekolah yang dimulai akhir Juni 2026, pemerintah Indonesia resmi meluncurkan paket diskon tarif transportasi nasional yang mencakup penerbangan, kereta api, angkutan laut, hingga kapal penyeberangan. Kebijakan ini dirancang untuk meringankan beban masyarakat sekaligus mendongkrak pergerakan wisatawan domestik ke berbagai destinasi, termasuk Bali.
 
 ## Diskon PPN 100% untuk Tiket Pesawat Ekonomi

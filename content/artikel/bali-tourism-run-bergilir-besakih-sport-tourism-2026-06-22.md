@@ -4,10 +4,9 @@ date: 2026-06-22
 description: "Bali Tourism Run perdana di Jatiluwih sukses menarik 1.715 pelari. Sekda Bali dorong ajang lari alam ini bergilir ke berbagai destinasi wisata unggulan termasuk Besakih."
 categories: ["Pariwisata", "Olahraga"]
 tags: ["Bali Tourism Run", "Sport Tourism", "Besakih", "Jatiluwih", "Wisata Olahraga", "ASITA"]
-image: "https://images.pexels.com/photos/3601425/pexels-photo-3601425.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/bali-tourism-run-bergilir-besakih-sport-tourism-2026-06-22.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Keberhasilan **Bali Tourism Run 2026** yang perdana digelar di kawasan Desa Wisata Jatiluwih, Tabanan, pada 21 Juni 2026 memicu antusiasme besar dari pemerintah daerah. Ajang lari alam yang berhasil menarik **1.715 pelari** dari berbagai daerah di Indonesia maupun mancanegara itu kini resmi dirancang sebagai event bergilir — dengan kawasan suci **Besakih** sebagai destinasi berikutnya dalam daftar tuan rumah.
 
 ## Sukses Perdana yang Melampaui Ekspektasi

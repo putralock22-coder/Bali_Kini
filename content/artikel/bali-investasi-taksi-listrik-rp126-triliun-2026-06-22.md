@@ -4,10 +4,9 @@ date: 2026-06-22
 description: "Dishub Bali ungkap butuh investasi Rp1,26 triliun untuk transisi penuh ke taksi listrik. Target 3.155 unit EV pada skenario optimistis 2026–2028, moderat 2030."
 categories: ["Infrastruktur"]
 tags: ["taksi listrik", "kendaraan listrik", "EV", "transportasi hijau", "investasi Bali", "Dishub Bali"]
-image: "https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/bali-investasi-taksi-listrik-rp126-triliun-2026-06-22.jpg"
 image_credit: "Foto: Pexels / Bali"
 ---
-
 Pemerintah Provinsi Bali telah menetapkan target ambisius: seluruh armada taksi yang beroperasi di Bali wajib beralih ke **kendaraan bermotor listrik berbasis baterai (KBLBB)** seiring berjalannya waktu. Namun, kepala Dinas Perhubungan Provinsi Bali mengungkapkan besarnya tantangan di balik target hijau tersebut — dibutuhkan investasi senilai **Rp1,26 triliun** untuk mewujudkan transisi penuh.
 
 ## Dua Skenario Transisi: Optimistis vs Moderat

@@ -4,10 +4,9 @@ date: 2026-06-22
 description: "Hari ini 22 Juni 2026 umat Hindu Bali merayakan Pemacekan Agung, momen menancapkan dharma usai Galungan sebagai simbol kemenangan kebaikan."
 categories: ["Budaya"]
 tags: ["pemacekan agung", "Hindu Bali", "Kuningan", "rerainan", "budaya Bali", "kalender Bali", "Juni 2026"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pemacekan-agung-22-juni-2026-makna-ritual-hindu-bali-2026-06-22.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Hari ini, Senin 22 Juni 2026, umat Hindu di Bali merayakan **Pemacekan Agung** — salah satu hari suci yang jatuh setiap Soma (Senin) Kliwon wuku Kuningan dalam kalender Saka Bali. Perayaan ini menjadi bagian dari rangkaian panjang hari raya Galungan-Kuningan yang setiap enam bulan sekali menghiasi kehidupan spiritual masyarakat Pulau Dewata.
 
 ## Apa Itu Pemacekan Agung?

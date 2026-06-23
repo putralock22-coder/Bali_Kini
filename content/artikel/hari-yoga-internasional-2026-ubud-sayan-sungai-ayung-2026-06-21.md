@@ -4,10 +4,9 @@ date: 2026-06-21
 description: "Merayakan Hari Yoga Internasional ke-12, 72 siswa SDN Sayan diajak yoga di tengah Sungai Ayung, Ubud. Tema 2026: Yoga for Healthy Ageing."
 categories: ["Budaya", "Kesehatan"]
 tags: ["Hari Yoga Internasional", "Ubud", "Sungai Ayung", "Bambu Indah", "yoga", "Gianyar"]
-image: "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/hari-yoga-internasional-2026-ubud-sayan-sungai-ayung-2026-06-21.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 ## 72 Siswa SDN Sayan Rayakan Hari Yoga Internasional dengan Cara Unik
 
 Minggu pagi, 21 Juni 2026, suasana Desa Sayan, Kecamatan Ubud, Kabupaten Gianyar, Bali, menjadi semakin istimewa. Sebanyak 72 siswa dari SD Negeri 1 dan SD Negeri 2 Sayan diajak merayakan Hari Yoga Internasional ke-12 dengan cara yang sungguh unik: berlatih yoga di tengah aliran Sungai Ayung.

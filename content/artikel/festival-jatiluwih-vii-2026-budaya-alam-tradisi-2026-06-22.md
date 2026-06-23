@@ -4,10 +4,9 @@ date: 2026-06-22
 description: "Jatiluwih Festival VII 2026 resmi dibuka di Tabanan, menampilkan seni tradisional, Bali Tourism Run, dan 40 UMKM dengan potensi perputaran uang Rp2 miliar."
 categories: ["Pariwisata"]
 tags: ["Jatiluwih", "Festival Budaya", "UNESCO", "Tabanan", "Wisata Bali", "UMKM"]
-image: "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/festival-jatiluwih-vii-2026-budaya-alam-tradisi-2026-06-22.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Desa Wisata Jatiluwih, Kecamatan Penebel, Kabupaten Tabanan, kembali menjadi sorotan dunia setelah Festival Jatiluwih VII resmi dibuka pada Sabtu, 20 Juni 2026. Festival tahunan ini mengusung tema **"In Balance with Nature, Inspired by Tradition"** — sebuah pernyataan komitmen bahwa pengelolaan wisata di kawasan warisan dunia UNESCO ini harus senantiasa selaras dengan alam dan berakar pada tradisi leluhur.
 
 ## Kawasan Warisan Dunia yang Terus Bersinar

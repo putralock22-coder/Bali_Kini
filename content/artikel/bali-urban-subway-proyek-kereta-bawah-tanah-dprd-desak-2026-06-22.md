@@ -4,10 +4,9 @@ date: 2026-06-22
 description: "Proyek Bali Urban Subway senilai US$20 miliar sudah groundbreaking September 2024, tapi hingga 2026 belum ada aktivitas konstruksi. DPRD Bali desak kejelasan."
 categories: ["Infrastruktur"]
 tags: ["urban subway", "kereta bawah tanah", "infrastruktur Bali", "kemacetan", "DPRD Bali"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/bali-urban-subway-proyek-kereta-bawah-tanah-dprd-desak-2026-06-22.jpg"
 image_credit: "Foto: Pexels / Infrastruktur Kota"
 ---
-
 Megaproyek kereta bawah tanah Bali — yang dikenal sebagai **Bali Urban Subway** — menjadi sorotan tajam pada 2026. Meski seremoni *groundbreaking* sudah digelar September 2024 dengan penuh fanfare, hingga pertengahan 2026 belum ada satu pun alat berat bergerak di lokasi. DPRD Bali kini mendesak pemerintah dan investor untuk memberikan kejelasan.
 
 ## Latar Belakang: Urgensi Atasi Kemacetan

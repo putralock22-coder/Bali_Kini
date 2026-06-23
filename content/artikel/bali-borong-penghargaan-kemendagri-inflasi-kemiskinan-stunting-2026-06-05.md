@@ -4,10 +4,9 @@ date: 2026-06-05
 description: "Bali raih peringkat 1 nasional pengendalian inflasi dan penanggulangan kemiskinan-stunting dari Kemendagri. Kantongi insentif fiskal Rp6 miliar."
 categories: ["Ekonomi", "Pemerintahan"]
 tags: ["Kemendagri", "penghargaan", "inflasi", "kemiskinan", "stunting", "Koster", "Bali"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/bali-borong-penghargaan-kemendagri-inflasi-kemiskinan-stunting-2026-06-05.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 ## Bali Sabet Dua Penghargaan Tertinggi dari Kemendagri
 
 Pemerintah Provinsi Bali membawa pulang dua penghargaan bergengsi dari Malam Apresiasi Pemerintah Daerah Terbaik 2026 Regional Jawa-Bali yang digelar Kementerian Dalam Negeri (Kemendagri). Acara prestisius ini berlangsung pada **4 Juni 2026** di Marriott Hotel, Yogyakarta, dan dihadiri jajaran pejabat tinggi dari seluruh pemerintah daerah di kawasan Jawa-Bali.

@@ -4,10 +4,9 @@ date: 2026-06-22
 description: "Jadwal PKB Senin 22 Juni 2026 hadirkan Gamelan Inovatif Duta Badung bertema Hutan Sangeh dan Parade Palegongan Klasik dari Klungkung-Gianyar."
 categories: ["Budaya", "Seni"]
 tags: ["PKB 2026", "Pesta Kesenian Bali", "gamelan inovatif", "palegongan", "Taman Budaya"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-2026-gamelan-inovatif-badung-palegongan-klungkung-2026-06-22.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 ## PKB XLVIII 2026: Merayakan Jiwa yang Tersucikan
 
 Pesta Kesenian Bali (PKB) ke-48 atau PKB XLVIII terus bergulir meriah di Taman Budaya Bali (Art Centre), Denpasar. Memasuki pekan kedua pelaksanaan, Senin 22 Juni 2026 menjadi hari yang padat pergelaran seni dari berbagai kabupaten di Pulau Dewata.

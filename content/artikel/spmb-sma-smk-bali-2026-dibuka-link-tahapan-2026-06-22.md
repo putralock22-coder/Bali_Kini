@@ -4,10 +4,9 @@ date: 2026-06-22
 description: "Pendaftaran SPMB SMA/SMK Bali tahun ajaran 2026/2027 dibuka hari ini via bali.spmb.id dengan tiga jalur: prestasi, afirmasi, dan domisili."
 categories: ["Pendidikan", "Kebijakan"]
 tags: ["SPMB", "SMA", "SMK", "Bali", "pendidikan 2026", "Disdikpora Bali"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/spmb-sma-smk-bali-2026-dibuka-link-tahapan-2026-06-22.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 ## Pendaftaran Sekolah Menengah Dibuka Hari Ini
 
 Senin, 22 Juni 2026, Provinsi Bali resmi membuka **Sistem Penerimaan Murid Baru (SPMB)** untuk jenjang SMA dan SMK tahun ajaran 2026/2027. Pembukaan berlangsung serempak secara daring melalui portal resmi di **bali.spmb.id**, yang dapat diakses seluruh calon peserta didik baru dari seluruh penjuru Bali.

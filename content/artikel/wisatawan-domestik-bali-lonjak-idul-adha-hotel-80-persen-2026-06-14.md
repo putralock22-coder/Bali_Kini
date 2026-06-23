@@ -4,10 +4,9 @@ date: 2026-06-14
 description: "Libur panjang Idul Adha 2026 dorong lonjakan wisatawan domestik ke Bali hingga 15 persen, okupansi hotel capai 80 persen."
 categories: ["Pariwisata"]
 tags: ["Idul Adha 2026", "wisatawan domestik", "long weekend", "hotel Bali", "Dispar Bali"]
-image: "https://images.pexels.com/photos/1802183/pexels-photo-1802183.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/wisatawan-domestik-bali-lonjak-idul-adha-hotel-80-persen-2026-06-14.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 ## Bali Ramai di Libur Idul Adha
 
 Momen long weekend Idul Adha 2026 membawa angin segar bagi sektor pariwisata Bali. Dinas Pariwisata (Dispar) Provinsi Bali mengklaim kondisi pariwisata pulau dewata sangat ramai selama periode libur panjang tersebut, dengan lonjakan kunjungan wisatawan nusantara (wisnus) yang diperkirakan mencapai **10 hingga 15 persen** dibandingkan akhir pekan biasa.

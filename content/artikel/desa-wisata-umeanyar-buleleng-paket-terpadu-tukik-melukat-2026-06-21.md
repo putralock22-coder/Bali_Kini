@@ -4,10 +4,9 @@ date: 2026-06-21
 description: "Desa Wisata Umeanyar di Buleleng siapkan paket wisata terpadu libur sekolah: pelepasan tukik, melihat lumba-lumba, kebun anggur, kuliner, dan melukat."
 categories: ["Wisata"]
 tags: ["desa wisata", "Umeanyar", "Buleleng", "tukik", "lumba-lumba", "kebun anggur", "melukat", "wisata keluarga"]
-image: "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/desa-wisata-umeanyar-buleleng-paket-terpadu-tukik-melukat-2026-06-21.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Di balik hiruk-pikuk kawasan selatan Bali yang ramai, ada sebuah desa kecil di pesisir utara Pulau Dewata yang sedang bersiap menyambut babak baru dalam perjalanannya sebagai destinasi wisata alternatif. **Desa Wisata Umeanyar** di Kecamatan Seririt, Kabupaten Buleleng, memasuki musim libur sekolah Juni–Juli 2026 dengan penuh keyakinan — berbekal paket wisata terpadu yang menawarkan pengalaman autentik dan berbeda dari destinasi wisata massal.
 
 ## Desa yang Menyimpan Banyak Kejutan

@@ -4,10 +4,9 @@ date: 2026-06-21
 description: "Festival Jatiluwih VII 2026 masuk Karisma Event Nasional, gerakkan ekonomi lokal UMKM, petani, dan sport tourism di desa wisata UNESCO Bali."
 categories: ["Pariwisata"]
 tags: ["Festival Jatiluwih", "Tabanan", "KEN 2026", "Sport Tourism", "UNESCO Subak", "UMKM Bali"]
-image: "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/festival-jatiluwih-vii-2026-ken-sport-tourism-2026-06-21.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 ## Festival Jatiluwih VII Resmi Dibuka Bupati Tabanan
 
 Bupati Tabanan I Komang Gede Sanjaya secara resmi membuka Jatiluwih Festival VII 2026 pada Sabtu, 20 Juni 2026. Festival yang digelar selama dua hari hingga Minggu 21 Juni ini menegaskan posisi Desa Jatiluwih sebagai salah satu destinasi wisata paling bergengsi di Bali, sekaligus penggerak ekonomi masyarakat petani dan pelaku usaha lokal.

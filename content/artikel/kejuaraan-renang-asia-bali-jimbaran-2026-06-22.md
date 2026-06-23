@@ -4,10 +4,9 @@ date: 2026-06-22
 description: "Bali sukses menjadi tuan rumah 12th Asian Open Water Swimming Championship 2026 di Jimbaran Bay, diikuti 78 perenang dari 18 negara Asia."
 categories: ["Pariwisata", "Olahraga"]
 tags: ["Sport Tourism", "Renang", "Jimbaran", "Badung", "Wisata Olahraga", "Kejuaraan Asia"]
-image: "https://images.pexels.com/photos/1802183/pexels-photo-1802183.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/kejuaraan-renang-asia-bali-jimbaran-2026-06-22.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Perairan biru Jimbaran Bay, Bali, baru-baru ini menjadi panggung bergengsi bagi salah satu kompetisi renang paling prestisius di Asia. Pada 13–15 Juni 2026, Bali sukses menyelenggarakan **12th Asian Open Water Swimming Championship 2026**, kejuaraan renang perairan terbuka tingkat Asia yang berlangsung di kawasan InterContinental Bali Resort, Jimbaran, Kabupaten Badung.
 
 ## Ajang Bergengsi dengan 18 Negara Peserta

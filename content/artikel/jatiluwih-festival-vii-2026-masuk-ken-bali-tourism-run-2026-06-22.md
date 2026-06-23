@@ -4,10 +4,9 @@ date: 2026-06-22
 description: "Jatiluwih Festival VII 2026 pertama kali masuk KEN Kemenpar, hadirkan Bali Tourism Run di sawah terasering UNESCO dengan hampir 2.000 peserta."
 categories: ["Pariwisata"]
 tags: ["jatiluwih", "festival", "tabanan", "UNESCO", "bali tourism run", "KEN 2026", "subak"]
-image: "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/jatiluwih-festival-vii-2026-masuk-ken-bali-tourism-run-2026-06-22.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Desa Wisata Jatiluwih di Kabupaten Tabanan baru saja menjadi tuan rumah Jatiluwih Festival VII 2026 yang berlangsung selama dua hari, Sabtu–Minggu, 20–21 Juni 2026. Tahun ini menjadi tonggak bersejarah karena untuk pertama kalinya festival tersebut berhasil masuk dalam kalender **Kharisma Event Nusantara (KEN) 2026** dari Kementerian Pariwisata Republik Indonesia.
 
 ## Tema dan Semangat Berkelanjutan

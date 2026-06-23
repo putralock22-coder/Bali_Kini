@@ -4,10 +4,9 @@ date: 2026-06-22
 description: "Ratusan mahasiswa BEM se-Bali berunjuk rasa di DPRD Bali, sampaikan 16 tuntutan soal BBM, MBG, HAM, dan lingkungan hidup."
 categories: ["Politik", "Sosial"]
 tags: ["BEM", "DPRD Bali", "demo mahasiswa", "Bali Bergerak", "BBM", "MBG"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/aksi-bali-bergerak-bem-dprd-16-tuntutan-2026-06-22.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 ## Ratusan Mahasiswa Kepung DPRD Bali
 
 Senin, 22 Juni 2026, ratusan mahasiswa yang tergabung dalam Aliansi "Bali Bergerak" menggelar aksi unjuk rasa di depan Kantor DPRD Provinsi Bali, Denpasar. Aksi ini merupakan bagian dari gelombang demonstrasi nasional yang turut menyasar Jakarta dan Jawa Timur pada hari yang sama.

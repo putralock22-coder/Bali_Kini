@@ -4,10 +4,9 @@ date: 2026-06-22
 description: "Wamenpar Ni Luh tekankan HOREKA Bali harus aktif kelola sampah. Baru 22,6% usaha hotel-restoran-kafe yang olah sampah organik mandiri, ancam citra pariwisata."
 categories: ["Pariwisata"]
 tags: ["sampah", "hotel Bali", "restoran Bali", "Wamenpar", "pariwisata berkelanjutan", "HOREKA"]
-image: "https://images.pexels.com/photos/1802183/pexels-photo-1802183.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/wamenpar-horeka-sampah-reputasi-pariwisata-bali-2026-06-22.jpg"
 image_credit: "Foto: Pexels / Pantai Bali"
 ---
-
 Wakil Menteri Pariwisata Republik Indonesia, **Ni Luh Enik Ermawati**, menegaskan bahwa pengelolaan sampah yang baik bukan sekadar kewajiban lingkungan — melainkan fondasi utama dalam menjaga daya saing dan reputasi internasional Bali sebagai destinasi wisata kelas dunia.
 
 Pernyataan ini disampaikan dalam **Rapat Koordinasi Peningkatan Peran Serta Hotel, Restoran, dan Kafe (HOREKA) dalam Pengelolaan Sampah** di Hotel The Meru Sanur, pada Selasa, 9 Juni 2026. Rapat digelar atas sinergi Kementerian Lingkungan Hidup/Badan Pengendalian Lingkungan Hidup (KLH/BPLH) dan Kementerian Pariwisata.

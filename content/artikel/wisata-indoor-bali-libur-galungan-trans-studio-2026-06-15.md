@@ -4,10 +4,9 @@ date: 2026-06-15
 description: "Pelaku usaha Bali andalkan destinasi wisata indoor saat libur sekolah bersamaan Galungan. Trans Studio Theme Park Denpasar jadi pilihan utama keluarga."
 categories: ["Pariwisata"]
 tags: ["wisata indoor", "libur sekolah", "Galungan", "Trans Studio Bali", "pariwisata domestik", "Denpasar"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/wisata-indoor-bali-libur-galungan-trans-studio-2026-06-15.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 ## Libur Panjang Ganda: Sekolah dan Galungan Berbarengan
 
 Momen langka tengah dinantikan masyarakat Bali dan wisatawan domestik. Libur akhir semester sekolah tahun ini bertepatan dengan perayaan **Hari Raya Galungan** yang jatuh pada Rabu, 17 Juni 2026, menciptakan periode libur panjang yang mendorong geliat pariwisata dalam negeri di Pulau Dewata.

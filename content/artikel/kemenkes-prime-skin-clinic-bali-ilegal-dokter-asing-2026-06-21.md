@@ -4,10 +4,9 @@ date: 2026-06-21
 description: "Kemenkes menutup PRIME Skin Clinic di Bali karena tiga pelanggaran: tidak berizin, tidak terdaftar di Kemenkes, dan mempekerjakan dokter asing dari Rusia dan Armenia."
 categories: ["Kebijakan"]
 tags: ["klinik kecantikan", "Kemenkes", "WNA", "estetika medis", "Badung"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/kemenkes-prime-skin-clinic-bali-ilegal-dokter-asing-2026-06-21.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Pemerintah Indonesia menyegel sebuah klinik kecantikan estetika milik warga negara asing (WNA) yang beroperasi secara ilegal di Bali. Klinik bernama **PRIME Skin Clinic**—yang sebelumnya beroperasi dengan nama Elasto Beauty—terbukti melakukan tiga pelanggaran serius dan resmi ditutup oleh Kementerian Kesehatan (Kemenkes) Republik Indonesia pada pertengahan Juni 2026.
 
 ## Pengumuman Resmi Kemenkes
