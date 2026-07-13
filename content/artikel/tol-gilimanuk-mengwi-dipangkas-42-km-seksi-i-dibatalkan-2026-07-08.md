@@ -4,10 +4,9 @@ date: 2026-07-08
 description: "Proyek tol terpanjang di Bali dipangkas signifikan. Seksi I Gilimanuk-Pekutatan sepanjang 53,6 km resmi dibatalkan karena minim investor."
 categories: ["Infrastruktur"]
 tags: ["tol Bali", "Gilimanuk-Mengwi", "infrastruktur", "PSN", "jalan tol"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/tol-gilimanuk-mengwi-dipangkas-42-km-seksi-i-dibatalkan-2026-07-08.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Proyek jalan tol terpanjang di Bali, Gilimanuk–Mengwi, resmi mengalami perubahan besar. Pemerintah memutuskan memangkas panjang rute dari rencana semula sekitar 90 kilometer menjadi hanya sekitar 42 kilometer setelah Seksi I yang menghubungkan Gilimanuk dan Pekutatan dinyatakan tidak berlanjut.
 
 ## Seksi I Resmi Dibatalkan

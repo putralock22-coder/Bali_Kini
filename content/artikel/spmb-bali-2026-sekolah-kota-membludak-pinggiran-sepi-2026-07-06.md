@@ -4,10 +4,9 @@ date: 2026-07-06
 description: "Ketimpangan SPMB Bali 2026 tajam: sekolah favorit kota kewalahan peminat sementara SMAN 1 Marga di pinggiran tidak dapat satu pun pendaftar jalur domisili."
 categories: ["Pendidikan", "Sosial"]
 tags: ["SPMB Bali", "PPDB 2026", "pendidikan Bali", "ketimpangan sekolah", "Bali"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/spmb-bali-2026-sekolah-kota-membludak-pinggiran-sepi-2026-07-06.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Penerimaan peserta didik baru jenjang SMA di Bali tahun 2026 kembali memperlihatkan kesenjangan yang mengkhawatirkan. Data Sistem Penerimaan Murid Baru (SPMB) Tahap II jalur domisili kependudukan menunjukkan jurang lebar antara sekolah-sekolah favorit di pusat kota yang dibanjiri pendaftar dengan sekolah-sekolah di wilayah pinggiran yang justru sepi peminat — bahkan ada yang sama sekali tidak mendapat satu pun pendaftar.
 
 ## Fenomena Ekstrem: SMAN 1 Marga Nol Pendaftar

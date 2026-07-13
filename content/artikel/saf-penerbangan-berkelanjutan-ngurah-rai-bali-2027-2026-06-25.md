@@ -4,10 +4,9 @@ date: 2026-06-25
 description: "Indonesia akan terapkan Sustainable Aviation Fuel (SAF) mulai 2027, dengan Bandara I Gusti Ngurah Rai Bali dan Soekarno-Hatta sebagai pilot pertama."
 categories: ["Pariwisata", "Lingkungan"]
 tags: ["SAF", "Ngurah Rai", "penerbangan", "bahan bakar berkelanjutan", "AHY", "emisi karbon", "Bali"]
-image: "https://images.pexels.com/photos/1310516/pexels-photo-1310516.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/saf-penerbangan-berkelanjutan-ngurah-rai-bali-2027-2026-06-25.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 ## Indonesia Terapkan SAF Mulai 2027, Ngurah Rai Masuk Daftar Pertama
 
 Pemerintah Indonesia resmi mengumumkan rencana penerapan Sustainable Aviation Fuel (SAF) atau bahan bakar penerbangan berkelanjutan mulai tahun 2027. Langkah bersejarah bagi industri penerbangan nasional ini disampaikan oleh Menteri Koordinator Bidang Infrastruktur dan Pembangunan Kewilayahan, Agus Harimurti Yudhoyono (AHY), pada 25 Juni 2026.

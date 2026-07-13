@@ -4,10 +4,9 @@ date: 2026-07-01
 description: "BPS catat kunjungan wisman ke Indonesia Januari-Mei 2026 tumbuh 7,68% jadi 6,07 juta kunjungan, tertinggi sejak 2021. Bali tetap jadi pintu masuk utama."
 categories: ["Pariwisata"]
 tags: ["wisatawan mancanegara", "bps", "statistik", "pariwisata", "bali"]
-image: "https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/wisman-bali-januari-mei-2026-naik-768-persen-2026-07-01.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Sektor pariwisata Indonesia terus menunjukkan tanda-tanda pemulihan yang kuat. Badan Pusat Statistik (BPS) merilis data terbaru yang mencatat kunjungan wisatawan mancanegara (wisman) ke Indonesia selama periode **Januari hingga Mei 2026** mencapai **6,07 juta kunjungan** — tumbuh **7,68 persen** dibandingkan periode yang sama pada 2025 yang hanya mencapai 5,63 juta kunjungan.
 
 ## Capaian Tertinggi Sejak 2021

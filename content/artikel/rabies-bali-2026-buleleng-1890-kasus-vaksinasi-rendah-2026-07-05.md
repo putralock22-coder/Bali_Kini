@@ -4,10 +4,9 @@ date: 2026-07-05
 description: "Kabupaten Buleleng mencatat 1.890 kasus gigitan anjing hingga Juni 2026 namun cakupan vaksinasi rabies baru 23,91 persen dari target populasi anjing."
 categories: ["Kesehatan", "Lingkungan"]
 tags: ["rabies Bali", "Buleleng", "vaksinasi anjing", "kesehatan masyarakat", "Bali 2026"]
-image: "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/rabies-bali-2026-buleleng-1890-kasus-vaksinasi-rendah-2026-07-05.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Ancaman rabies di Bali masih belum sepenuhnya terkendali. Data terbaru dari Dinas Pertanian, Ketahanan Pangan, dan Perikanan (PKPP) Kabupaten Buleleng mengungkap bahwa sejak **Januari hingga 23 Juni 2026**, telah terjadi **1.890 kasus gigitan hewan penular rabies (HPR)** di wilayah tersebut — sementara program vaksinasi baru menjangkau sebagian kecil populasi anjing yang ada.
 
 ## Vaksinasi Baru Capai 23,91 Persen

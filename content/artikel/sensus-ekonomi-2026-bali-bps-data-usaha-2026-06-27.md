@@ -4,10 +4,9 @@ date: 2026-06-27
 description: "BPS Bali tegaskan data Sensus Ekonomi 2026 tidak untuk pengaruhi pajak. Keberagaman usaha di Bali jadi tantangan pendataan, progress capai 19,94 persen."
 categories: ["Ekonomi", "Kebijakan"]
 tags: ["sensus ekonomi 2026", "BPS Bali", "data usaha Bali", "statistik ekonomi", "UMKM Bali"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/sensus-ekonomi-2026-bali-bps-data-usaha-2026-06-27.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Badan Pusat Statistik (BPS) Provinsi Bali menghadapi tantangan unik dalam pelaksanaan **Sensus Ekonomi 2026**—sebuah pendataan besar-besaran yang dilakukan setiap sepuluh tahun sekali. Di tengah dinamika ekonomi Bali yang sangat beragam dan bergerak cepat, memastikan seluruh unit usaha terdata secara lengkap dan akurat menjadi pekerjaan yang jauh lebih kompleks dibanding daerah lain di Indonesia.
 
 ## Keberagaman Usaha Jadi Tantangan Utama

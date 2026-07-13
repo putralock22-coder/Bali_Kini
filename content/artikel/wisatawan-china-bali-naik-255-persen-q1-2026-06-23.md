@@ -4,10 +4,9 @@ date: 2026-06-23
 description: "Kunjungan wisatawan China ke Bali meningkat pesat: 537 ribu di 2025, naik 25,5% di Q1 2026. Imlek dan pemulihan penerbangan jadi pendorong utama."
 categories: ["Pariwisata"]
 tags: ["wisatawan china", "pariwisata bali", "wisman", "kunjungan bali", "tiongkok", "ekonomi pariwisata"]
-image: "https://images.pexels.com/photos/1802183/pexels-photo-1802183.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/wisatawan-china-bali-naik-255-persen-q1-2026-06-23.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 ## China Kembali Jadi Kekuatan Besar Pariwisata Bali
 
 Tren kunjungan wisatawan asal China (Tiongkok) ke Bali terus menunjukkan pertumbuhan yang menggembirakan. Data terbaru menunjukkan bahwa kunjungan turis China ke Indonesia pada **kuartal pertama 2026 (Q1 2026)** mencapai **357.740 kunjungan**, melonjak **25,5 persen** dibandingkan periode yang sama tahun sebelumnya. Bali tetap menjadi salah satu pintu utama masuknya wisatawan China ke Tanah Air.

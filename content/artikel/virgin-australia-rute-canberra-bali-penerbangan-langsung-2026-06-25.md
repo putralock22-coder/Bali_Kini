@@ -4,10 +4,9 @@ date: 2026-06-25
 description: "Virgin Australia resmi terbangkan rute perdana Canberra–Denpasar 3x seminggu. Australia kini punya 12 rute langsung ke Bali."
 categories: ["Pariwisata"]
 tags: ["penerbangan", "Virgin Australia", "Canberra", "Bandara Ngurah Rai", "wisatawan Australia"]
-image: "https://images.pexels.com/photos/1310516/pexels-photo-1310516.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/virgin-australia-rute-canberra-bali-penerbangan-langsung-2026-06-25.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Bali kembali memperkuat jaringan penerbangan internasionalnya. Maskapai Virgin Australia secara resmi membuka rute langsung dari Canberra, ibu kota Australia, menuju Denpasar, Bali, menandai babak baru konektivitas udara antara kedua destinasi tersebut.
 
 ## Penerbangan Perdana Berlangsung Sukses

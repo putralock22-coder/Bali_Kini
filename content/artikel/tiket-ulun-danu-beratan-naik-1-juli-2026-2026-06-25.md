@@ -4,10 +4,9 @@ date: 2026-06-25
 description: "Harga tiket masuk DTW Ulun Danu Beratan di Bedugul resmi naik per 1 Juli 2026. Wisman dewasa dari Rp75.000 jadi Rp100.000, domestik Rp50.000 seragam."
 categories: ["Pariwisata"]
 tags: ["Ulun Danu Beratan", "tiket masuk", "Bedugul", "wisata Tabanan", "pariwisata Bali"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/tiket-ulun-danu-beratan-naik-1-juli-2026-2026-06-25.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Bagi Anda yang berencana mengunjungi salah satu ikon wisata paling terkenal di Bali, ada informasi penting yang perlu diperhatikan. Destinasi Wisata (DTW) Ulun Danu Beratan di Bedugul, Kabupaten Tabanan, akan memberlakukan penyesuaian harga tiket masuk mulai **1 Juli 2026** mendatang — kurang dari sepekan dari sekarang.
 
 ## Rincian Harga Tiket Baru

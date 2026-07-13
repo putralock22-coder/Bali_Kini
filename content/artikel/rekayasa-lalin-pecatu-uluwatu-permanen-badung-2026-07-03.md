@@ -4,10 +4,9 @@ date: 2026-07-03
 description: "Dishub Badung dan Forum LLAJ tetapkan rekayasa lalu lintas kawasan Pecatu-Uluwatu secara permanen setelah uji coba satu bulan terbukti efektif kurangi macet."
 categories: ["Infrastruktur", "Kebijakan"]
 tags: ["lalu lintas", "Badung", "Uluwatu", "Pecatu", "kemacetan", "Dishub"]
-image: "https://images.pexels.com/photos/1802183/pexels-photo-1802183.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/rekayasa-lalin-pecatu-uluwatu-permanen-badung-2026-07-03.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Kemacetan di kawasan wisata Pecatu dan Uluwatu, Kabupaten Badung, selama ini menjadi keluhan tetap wisatawan maupun warga lokal — terutama saat sore hingga malam hari ketika ribuan kendaraan beradu padatnya menuju tebing-tebing ikonik di ujung selatan Bali. Kini, solusi sementara yang diterapkan sejak Juni 2026 resmi diangkat menjadi kebijakan permanen.
 
 ## Uji Coba Terbukti Ampuh

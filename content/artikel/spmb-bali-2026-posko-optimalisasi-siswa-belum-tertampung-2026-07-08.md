@@ -4,10 +4,9 @@ date: 2026-07-08
 description: "Disdikpora Bali buka posko optimalisasi SPMB 2026 bagi siswa yang belum diterima. Total 94.599 kursi tersedia, SMK kian diminati lulusan SMP."
 categories: ["Pendidikan", "Kebijakan"]
 tags: ["SPMB 2026", "Disdikpora Bali", "penerimaan siswa baru", "SMA", "SMK", "pendidikan Bali"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/spmb-bali-2026-posko-optimalisasi-siswa-belum-tertampung-2026-07-08.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Dinas Pendidikan, Kepemudaan, dan Olahraga (Disdikpora) Provinsi Bali membuka **posko optimalisasi daya tampung** Sistem Penerimaan Murid Baru (SPMB) 2026, khusus bagi calon peserta didik yang belum berhasil diterima di sekolah pilihan mereka. Langkah ini diambil untuk memastikan tidak ada lulusan SMP yang tidak mendapatkan tempat di jenjang SMA atau SMK negeri.
 
 ## Cara Memanfaatkan Posko Optimalisasi

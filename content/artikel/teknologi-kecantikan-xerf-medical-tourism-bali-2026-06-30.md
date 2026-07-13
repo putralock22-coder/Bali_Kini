@@ -4,10 +4,9 @@ date: 2026-06-30
 description: "Praktisi kulit dr. Jesslyn Amelia ungkap peluang teknologi XERF menarik wisatawan ke Bali sebagai destinasi medical aesthetic tourism Asia Tenggara."
 categories: ["Pariwisata"]
 tags: ["medical tourism", "teknologi kecantikan", "wisatawan", "wellness", "XERF", "aesthetic"]
-image: "https://images.pexels.com/photos/1802183/pexels-photo-1802183.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/teknologi-kecantikan-xerf-medical-tourism-bali-2026-06-30.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 ## Bali Bidik Pasar Medical Aesthetic Tourism Dunia
 
 Bali semakin serius mengembangkan segmen *medical aesthetic tourism* sebagai magnet baru untuk menarik wisatawan mancanegara. Praktisi kesehatan kulit dr. Jesslyn Amelia, Sp.DVE, mengungkapkan bahwa kehadiran teknologi kecantikan mutakhir seperti XERF membuka peluang besar bagi Pulau Dewata untuk bersaing dengan Korea Selatan dan Thailand sebagai destinasi perawatan estetika premium di Asia Tenggara.

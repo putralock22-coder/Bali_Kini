@@ -4,10 +4,9 @@ date: 2026-07-09
 description: "Gianyar raih juara umum Baleganjur Remaja sementara Denpasar unggul di Taman Penasar dalam pengumuman pemenang Wimbakara PKB XLVIII 2026."
 categories: ["Budaya"]
 tags: ["PKB 2026", "Wimbakara", "Baleganjur", "Pesta Kesenian Bali", "Gianyar", "Denpasar"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/wimbakara-pkb-xlviii-2026-gianyar-denpasar-juara-2026-07-09.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Pesta Kesenian Bali (PKB) XLVIII Tahun 2026 memasuki babak penentu dengan diumumkannya para pemenang Wimbakara atau lomba seni pada Rabu, 8 Juli 2026. Kabupaten Gianyar tampil sebagai yang terkuat, sementara Kota Denpasar juga mencatat prestasi membanggakan dalam festival budaya terbesar di Pulau Dewata ini.
 
 ## Gianyar Jawara Baleganjur Remaja

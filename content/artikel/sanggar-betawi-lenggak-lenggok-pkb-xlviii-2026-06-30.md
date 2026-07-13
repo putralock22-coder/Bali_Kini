@@ -4,10 +4,9 @@ date: 2026-06-30
 description: "Sanggar Seni Betawi Ratna Sari dari Jakarta Timur tampil memukau dengan 22 penari dan 8 musisi di PKB XLVIII 2026, memperkenalkan tari Betawi kepada wisatawan dunia."
 categories: ["Budaya"]
 tags: ["PKB 2026", "Betawi", "Pesta Kesenian Bali", "tari tradisional", "budaya nusantara", "Denpasar", "XLVIII"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/sanggar-betawi-lenggak-lenggok-pkb-xlviii-2026-06-30.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Penonton Pesta Kesenian Bali (PKB) XLVIII kembali disuguhkan penampilan istimewa yang melampaui batas-batas budaya lokal. Pada Senin, 29 Juni 2026, **Sanggar Seni Betawi Ratna Sari** dari Jakarta Timur hadir membawa nuansa ibu kota ke jantung festival seni terbesar Bali, Taman Werdhi Budaya Art Centre, Denpasar.
 
 Dalam Rekasadana atau pergelaran kesenian tradisional PKB 2026, sanggar ini mempersembahkan **Lenggak-Lenggok Betawi**—sebuah sajian tari yang memadukan kelincahan gerak khas Betawi dengan iringan musik tradisional yang rancak dan dinamis. Penampilan ini disambut antusias oleh ribuan penonton yang memadati venue.

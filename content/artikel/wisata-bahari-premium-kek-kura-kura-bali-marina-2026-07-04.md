@@ -4,10 +4,9 @@ date: 2026-07-04
 description: "Bali kembangkan wisata bahari premium melalui KEK Kura Kura di Serangan, marina internasional berkapasitas 146 superyacht, dan paket private charter eksklusif."
 categories: ["Pariwisata"]
 tags: ["wisata bahari", "KEK Kura Kura", "marina", "superyacht", "Bali premium"]
-image: "https://images.pexels.com/photos/1802183/pexels-photo-1802183.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/wisata-bahari-premium-kek-kura-kura-bali-marina-2026-07-04.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Bali tengah merancang transformasi besar dalam strategi pariwisatanya. Pulau Dewata tidak lagi hanya mengandalkan pantai ramai dan atraksi budaya konvensional — kini segmen wisata bahari premium mulai mengemuka sebagai pilar baru yang menjanjikan nilai ekonomi tinggi sekaligus mendorong konsep pariwisata berkualitas yang selama ini dicanangkan pemerintah.
 
 ## KEK Kura Kura Bali: Pusat Wisata Maritim Baru

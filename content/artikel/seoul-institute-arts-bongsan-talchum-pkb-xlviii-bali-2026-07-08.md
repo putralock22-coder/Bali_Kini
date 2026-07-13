@@ -4,10 +4,9 @@ date: 2026-07-08
 description: "Puluhan mahasiswa Seoul Institute of the Arts tampil di PKB XLVIII Bali, membawakan Bongsan Talchum, topeng tradisional Korea yang jadi warisan budaya nasional."
 categories: ["Budaya"]
 tags: ["PKB 2026", "Korea Selatan", "Bongsan Talchum", "seni budaya", "diplomasi budaya"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/seoul-institute-arts-bongsan-talchum-pkb-xlviii-bali-2026-07-08.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Panggung Pesta Kesenian Bali (PKB) XLVIII 2026 semakin semarak dengan hadirnya delegasi internasional dari Korea Selatan. Puluhan mahasiswa Seoul Institute of the Arts tampil di Gedung Ksirarnawa, Taman Budaya Bali, Denpasar, pada Rabu, 8 Juli 2026, membawakan pertunjukan topeng tradisional Korea yang memikat.
 
 ## Bongsan Talchum: Warisan Budaya Takbenda Korea

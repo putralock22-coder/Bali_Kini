@@ -4,10 +4,9 @@ date: 2026-06-24
 description: "Sekda Bali Dewa Made Indra buka rapat TKPK, tegaskan sinergi lintas sektor kunci turunkan kemiskinan Bali yang sudah 3,42 persen, terendah nasional."
 categories: ["Kebijakan"]
 tags: ["kemiskinan", "TKPK", "Dewa Made Indra", "Bali", "kebijakan"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/sekda-bali-sinergi-percepatan-pengentasan-kemiskinan-2026-06-24.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Pemerintah Provinsi Bali terus memperkuat upaya pengentasan kemiskinan meski capaian yang diraih saat ini sudah termasuk yang terbaik di Indonesia. Sekretaris Daerah (Sekda) Provinsi Bali, Dewa Made Indra, menegaskan dua kata kunci yang harus menjadi prioritas seluruh pemangku kepentingan: **sinergi** dan **percepatan**.
 
 ## Rapat Koordinasi TKPK Provinsi Bali

@@ -4,10 +4,9 @@ date: 2026-07-09
 description: "TransNusa jadi maskapai pertama yang buka rute langsung Bali-Wakatobi mulai 16 Juli 2026, tiket promo mulai Rp1,849 juta."
 categories: ["Transportasi", "Pariwisata"]
 tags: ["TransNusa", "Wakatobi", "penerbangan", "rute baru", "Bali", "Waingapu"]
-image: "https://images.pexels.com/photos/1310516/pexels-photo-1310516.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/transnusa-rute-bali-wakatobi-waingapu-penerbangan-langsung-2026-07-09.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Industri penerbangan Indonesia mencatatkan tonggak penting pada pekan ini. Maskapai TransNusa resmi mengumumkan pembukaan rute penerbangan langsung dari Bandara Internasional I Gusti Ngurah Rai, Denpasar, menuju Bandara Matahora di Wakatobi, Sulawesi Tenggara. Ini menjadikan TransNusa sebagai maskapai pertama yang melayani koneksi langsung antara Bali dan destinasi wisata bahari unggulan tersebut.
 
 ## Jadwal dan Frekuensi Penerbangan

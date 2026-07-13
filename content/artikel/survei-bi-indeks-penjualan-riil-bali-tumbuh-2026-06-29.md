@@ -4,10 +4,9 @@ date: 2026-06-29
 description: "Bank Indonesia mencatat Indeks Penjualan Riil Bali naik 0,8 persen, didorong penjualan suku cadang, BBM, dan barang rekreasi menjelang libur sekolah."
 categories: ["Ekonomi"]
 tags: ["Bank Indonesia", "ekonomi Bali", "penjualan ritel", "IPR Bali", "libur sekolah"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/survei-bi-indeks-penjualan-riil-bali-tumbuh-2026-06-29.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Aktivitas perdagangan ritel di Bali kembali menunjukkan tren positif. Bank Indonesia (BI) Kantor Perwakilan Provinsi Bali merilis hasil survei terbaru yang mencatat Indeks Penjualan Riil (IPR) Bali tumbuh 0,8 persen secara bulanan (month to month) pada periode yang disurvei, dengan capaian indeks berada di level 125,3 — masih berada dalam zona optimis karena di atas ambang 100.
 
 ## Suku Cadang dan BBM Jadi Pendorong Utama

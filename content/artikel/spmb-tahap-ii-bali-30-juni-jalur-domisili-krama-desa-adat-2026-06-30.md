@@ -4,10 +4,9 @@ date: 2026-06-30
 description: "SPMB SMA/SMK Bali Tahap II jalur domisili dibuka 30 Juni–2 Juli 2026 dengan kuota 5 persen jalur khusus krama desa adat untuk perkuat peran desa adat dalam pendidikan."
 categories: ["Kebijakan"]
 tags: ["SPMB", "pendidikan Bali", "desa adat", "SMA SMK", "Disdikpora", "jalur domisili"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/spmb-tahap-ii-bali-30-juni-jalur-domisili-krama-desa-adat-2026-06-30.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 ## SPMB SMA/SMK Bali Tahap II Resmi Dibuka
 
 Dinas Pendidikan, Kepemudaan, dan Olahraga (Disdikpora) Provinsi Bali secara resmi membuka **Sistem Penerimaan Murid Baru (SPMB) SMA/SMK Tahap II** mulai Senin, **30 Juni 2026**, dan berlangsung hingga **2 Juli 2026**. Pembukaan tahap kedua ini memberikan kesempatan kedua bagi calon siswa yang belum berhasil diterima di Tahap I untuk mendaftar melalui jalur domisili.

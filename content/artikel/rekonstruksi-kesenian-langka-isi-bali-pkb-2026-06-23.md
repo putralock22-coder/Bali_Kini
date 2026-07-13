@@ -4,10 +4,9 @@ date: 2026-06-23
 description: "Prof ISI Bali tegaskan rekonstruksi kesenian langka sudah mendesak di PKB 2026, hadapi 6 tantangan besar termasuk keterbatasan data dan dana."
 categories: ["Budaya", "Seni"]
 tags: ["kesenian langka", "ISI Bali", "PKB 2026", "rekonstruksi seni", "budaya bali", "pesta kesenian bali"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/rekonstruksi-kesenian-langka-isi-bali-pkb-2026-06-23.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 ## Warisan yang Terancam: Kesenian Langka Bali di Ujung Kepunahan
 
 Di balik gemerlapnya Pesta Kesenian Bali (PKB) XVIII 2026 yang memukau ribuan penonton setiap malamnya, tersembunyi sebuah keprihatinan mendalam: ratusan jenis kesenian tradisional Bali yang tergolong langka kini berada di ambang kepunahan. Guru Besar Institut Seni Indonesia (ISI) Bali, **Prof. Ida Ayu Trisnawati**, menegaskan bahwa upaya rekonstruksi kesenian langka tersebut sudah mendesak dan tidak bisa lagi ditunda.

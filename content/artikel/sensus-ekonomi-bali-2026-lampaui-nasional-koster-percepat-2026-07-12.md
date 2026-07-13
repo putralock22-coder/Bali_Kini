@@ -4,10 +4,9 @@ date: 2026-07-12
 description: "Capaian Sensus Ekonomi 2026 Bali lampaui rata-rata nasional, namun Denpasar, Gianyar, dan Badung masih tertinggal jauh."
 categories: ["Ekonomi"]
 tags: ["sensus ekonomi", "BPS", "Wayan Koster", "Denpasar", "Badung", "pariwisata data"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/sensus-ekonomi-bali-2026-lampaui-nasional-koster-percepat-2026-07-12.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Pemerintah Provinsi Bali bersama Badan Pusat Statistik (BPS) menggelar sosialisasi dan penguatan komitmen Sensus Ekonomi (SE) 2026 di Denpasar, Sabtu, 11 Juli 2026. Hasilnya: secara agregat Bali melampaui rata-rata nasional, namun justru tiga daerah wisata utama menjadi penghambat kemajuan.
 
 ## Capaian Bali Melampaui Nasional

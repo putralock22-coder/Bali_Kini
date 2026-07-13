@@ -4,10 +4,9 @@ date: 2026-06-23
 description: "Festival sastra Bali ke-4 di Singaraja digelar 3-5 Juli 2026, mengusung tema Stri Sasana dan warisan lontar Gedong Kirtya Buleleng."
 categories: ["Budaya"]
 tags: ["Singaraja Literary Festival", "manuskrip kuno", "Buleleng", "Gedong Kirtya", "lontar Bali"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/singaraja-literary-festival-2026-manuskrip-kuno-bali-2026-06-23.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 **Singaraja, Bali** – Kota Singaraja di Bali Utara kembali bersiap menjadi panggung literasi nusantara. Singaraja Literary Festival (SLF) 2026 akan digelar pada 3–5 Juli 2026 di kawasan Dinas Kebudayaan dan Pariwisata Kabupaten Buleleng, menjadikannya edisi keempat dari festival tahunan yang semakin mengukuhkan posisi Singaraja sebagai pusat warisan budaya tertulis Bali.
 
 ## Tema Besar: Stri Sasana dan Energi Perempuan dalam Lontar

@@ -4,10 +4,9 @@ date: 2026-07-07
 description: "Hasil SPMB Bali 2026 Tahap II jalur domisili diumumkan 9 Juli 2026. Siswa yang lolos wajib daftar ulang secara online pada 10-12 Juli melalui portal resmi."
 categories: ["Pendidikan"]
 tags: ["SPMB", "pendidikan", "penerimaan murid baru", "SMA", "SMK", "Bali 2026"]
-image: "https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/spmb-bali-2026-pengumuman-tahap-ii-9-juli-2026-07-07.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 ## Pengumuman SPMB Tahap II Sebentar Lagi
 
 Ribuan calon siswa SMA dan SMK Negeri di Bali menanti momen penting: pengumuman hasil Sistem Penerimaan Murid Baru (SPMB) 2026 Tahap II jalur domisili akan dilaksanakan serentak pada **Kamis, 9 Juli 2026**. Bagi siswa yang dinyatakan lolos, proses daftar ulang secara online dijadwalkan berlangsung pada **10–12 Juli 2026**.

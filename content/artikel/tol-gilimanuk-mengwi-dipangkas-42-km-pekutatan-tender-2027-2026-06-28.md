@@ -4,10 +4,9 @@ date: 2026-06-28
 description: "Proyek Tol Gilimanuk-Mengwi dipangkas dari 97 km menjadi 42 km, hanya Pekutatan-Mengwi yang berlanjut. Tender ditarget 2027 setelah AMDAL selesai."
 categories: ["Infrastruktur"]
 tags: ["Tol Gilimanuk Mengwi", "Infrastruktur Bali", "Kementerian PU", "Pekutatan Mengwi", "Jalan Tol Bali"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/tol-gilimanuk-mengwi-dipangkas-42-km-pekutatan-tender-2027-2026-06-28.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Proyek infrastruktur strategis yang sudah lama dinantikan masyarakat Bali mengalami perubahan signifikan. Kementerian Pekerjaan Umum (PU) resmi mengumumkan penyesuaian rencana proyek Jalan Tol Gilimanuk-Mengwi — rute yang semula membentang sepanjang hampir 97 kilometer kini dipangkas menjadi sekitar **42 kilometer**, dengan fokus hanya pada penggal Pekutatan hingga Mengwi. Sementara itu, Seksi I yang menghubungkan Gilimanuk dengan Pekutatan dinyatakan dibatalkan.
 
 ## Perubahan Rute: Dari 97 Km Menjadi 42 Km
