@@ -7,10 +7,17 @@ Usage:
   python scripts/notify_socmed.py --latest       # process most recent article
   python scripts/notify_socmed.py --since HEAD~1 # process all articles from last commit
 """
-import os, sys, re, json, argparse, subprocess
+import os, sys, re, json, argparse, subprocess, io
 from pathlib import Path
 import urllib.request
 import urllib.error
+
+# Force UTF-8 stdout on Windows so emoji-containing captions don't crash prints
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except (AttributeError, io.UnsupportedOperation):
+    pass
 
 ROOT = Path(__file__).resolve().parent.parent
 SITE_URL = "https://balikini.id"
@@ -41,7 +48,44 @@ def parse_article(md_path: Path):
     return fm
 
 
+_URL_CACHE = None
+
+
+def _load_hugo_urls():
+    """Run `hugo list all` once and cache path→permalink map."""
+    global _URL_CACHE
+    if _URL_CACHE is not None:
+        return _URL_CACHE
+    _URL_CACHE = {}
+    try:
+        import csv
+        out = subprocess.check_output(
+            ["hugo", "list", "all"], cwd=ROOT, text=True, encoding="utf-8"
+        )
+        reader = csv.reader(out.splitlines())
+        for row in reader:
+            if len(row) < 8:
+                continue
+            path, _slug, _title, _date, _exp, _pub, _draft, permalink = row[:8]
+            # normalize path separator to match Path.as_posix()
+            path_norm = path.replace("\\", "/")
+            _URL_CACHE[path_norm] = permalink
+    except Exception as e:
+        print(f"  [WARN] Could not run 'hugo list all': {e}", file=sys.stderr)
+    return _URL_CACHE
+
+
 def build_url(md_path: Path, is_en: bool = False) -> str:
+    urls = _load_hugo_urls()
+    # Resolve md_path to absolute, then relativize to ROOT
+    md_abs = md_path if md_path.is_absolute() else (ROOT / md_path).resolve()
+    try:
+        rel = md_abs.relative_to(ROOT).as_posix()
+    except ValueError:
+        rel = str(md_path).replace("\\", "/")
+    if rel in urls:
+        return urls[rel]
+    # Fallback: filename-based (only if hugo not available)
     slug = md_path.stem
     return f"{SITE_URL}/en/article/{slug}/" if is_en else f"{SITE_URL}/artikel/{slug}/"
 
