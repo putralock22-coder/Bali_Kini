@@ -4,10 +4,9 @@ date: 2026-06-27
 description: "BAF XLVIII June 27 schedule: Classic Palegongan Parade at 5 PM and Kecak Ramayana Titi Situbanda at 7:30 PM at Bali Art Center Denpasar."
 categories: ["Culture"]
 tags: ["Bali Arts Festival", "BAF", "Palegongan", "Kecak Ramayana", "Bali traditional arts"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-xlviii-palegongan-kecak-ramayana-june-27-2026-06-27.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 The Bali Arts Festival (BAF) XLVIII 2026, known locally as Pesta Kesenian Bali (PKB), delivers another night of cultural splendor this Saturday, June 27, 2026. Tonight's lineup at the Bali Cultural Park (Taman Budaya Bali) in Denpasar brings together two of the island's most celebrated classical art forms: the refined Palegongan dance and the thunderous Kecak Ramayana.
 
 ## Classic Palegongan Parade at Gedung Ksirarnawa

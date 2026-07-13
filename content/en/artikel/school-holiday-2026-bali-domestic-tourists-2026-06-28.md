@@ -4,10 +4,9 @@ date: 2026-06-28
 description: "As Indonesia's school break begins in late June 2026, Bali prepares for a surge of domestic tourists with hotel discounts, ferry promotions, and family vacation packages."
 categories: ["Tourism"]
 tags: ["school holidays 2026", "domestic tourism", "Bali tourism", "hotel promotions", "family destination"]
-image: "https://images.pexels.com/photos/1802183/pexels-photo-1802183.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/school-holiday-2026-bali-domestic-tourists-2026-06-28.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 Indonesia's school semester break officially began in late June 2026, and Bali has once again emerged as the number one destination for millions of Indonesian families. The tourism industry on the Island of the Gods has moved quickly to prepare attractive offers to welcome what is expected to be a substantial surge in domestic visitors throughout June and July 2026.
 
 ## Bali Remains the Top Family Choice

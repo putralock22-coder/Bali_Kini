@@ -4,10 +4,9 @@ date: 2026-06-26
 description: "Prof Ni Putu Wiwin Setyari from Udayana University recommends three priority sectors to drive inclusive, resilient economic growth in Bali amid slowing expansion."
 categories: ["Economy"]
 tags: ["Udayana University", "Bali economy", "economic policy", "infrastructure", "SMEs"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/udayana-university-three-economic-levers-bali-2026-06-26.jpg"
 image_credit: "Photo: Pexels / Charles Parker"
 ---
-
 As Bali navigates a slightly slower pace of economic growth amid persistent structural challenges, academics are stepping forward with concrete policy prescriptions. **Prof. Dr. Ni Putu Wiwin Setyari**, an economics professor at Universitas Udayana (Unud), has proposed that the Bali provincial government focus on strengthening three strategic sectors that she describes as the key "economic levers" for the island's sustainable development.
 
 ## Bali's Economy: Growing, but Slowing Slightly

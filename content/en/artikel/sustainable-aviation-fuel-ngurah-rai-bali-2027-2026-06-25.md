@@ -4,10 +4,9 @@ date: 2026-06-25
 description: "Indonesia will roll out Sustainable Aviation Fuel (SAF) from 2027, with Bali's I Gusti Ngurah Rai International Airport among the first in the country to implement it."
 categories: ["Tourism", "Environment"]
 tags: ["SAF", "Ngurah Rai", "aviation", "sustainable fuel", "AHY", "carbon emissions", "Bali", "green energy"]
-image: "https://images.pexels.com/photos/1310516/pexels-photo-1310516.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/sustainable-aviation-fuel-ngurah-rai-bali-2027-2026-06-25.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 ## Bali's Airport Among First to Go Green in 2027
 
 Indonesia has officially announced it will implement Sustainable Aviation Fuel (SAF) beginning in 2027, in a landmark step toward decarbonizing the country's aviation sector. The announcement was made by Coordinating Minister for Infrastructure and Regional Development, Agus Harimurti Yudhoyono (AHY), on June 25, 2026.

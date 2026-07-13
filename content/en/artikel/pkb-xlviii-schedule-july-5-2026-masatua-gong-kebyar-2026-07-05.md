@@ -4,10 +4,9 @@ date: 2026-07-05
 description: "Full schedule for Bali Arts Festival July 5, 2026: Masatua Bali contest, traditional Sundanese dance, Wayang Kulit parade, and the grand Gong Kebyar Dewasa clash."
 categories: ["Culture"]
 tags: ["PKB 2026", "gong kebyar", "masatua", "traditional dance", "art center denpasar"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-xlviii-schedule-july-5-2026-masatua-gong-kebyar-2026-07-05.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 Sunday, July 5, 2026, brings another vibrant day of performances to the **48th Bali Arts Festival (PKB XLVIII)** at Art Center Denpasar. From midday through late evening, the compound transforms into a living stage where local, national, and international art forms converge in celebration of Balinese culture.
 
 ## Masatua Bali Competition Opens the Day

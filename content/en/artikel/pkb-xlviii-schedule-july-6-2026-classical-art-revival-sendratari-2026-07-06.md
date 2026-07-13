@@ -4,10 +4,9 @@ date: 2026-07-06
 description: "Bali Arts Festival XLVIII 2026 presents two highlight performances on July 6: a Classical Art Revival from Badung in the afternoon and a grand Sendratari from Gianyar's Desa Bona at night."
 categories: ["Culture"]
 tags: ["PKB 2026", "Bali Arts Festival", "sendratari", "traditional arts", "Gianyar", "Badung"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-xlviii-schedule-july-6-2026-classical-art-revival-sendratari-2026-07-06.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 The 48th Pesta Kesenian Bali (PKB), or Bali Arts Festival 2026, continues its month-long celebration with two standout performances on Monday, July 6, 2026. The day's program features a Classical Art Revival in the afternoon and a large-scale Sendratari — Balinese dance drama — in the evening.
 
 ## Classical Art Revival from Badung Regency

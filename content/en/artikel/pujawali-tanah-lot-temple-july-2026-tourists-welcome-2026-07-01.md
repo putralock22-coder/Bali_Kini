@@ -4,10 +4,9 @@ date: 2026-07-01
 description: "The sacred Pujawali ceremony at Pura Luhur Tanah Lot runs July 1-4, 2026, while the tourist attraction remains open for visitors."
 categories: ["Culture"]
 tags: ["Tanah Lot", "Pujawali", "Hindu ceremony", "Bali tourism", "Tabanan"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pujawali-tanah-lot-temple-july-2026-tourists-welcome-2026-07-01.jpg"
 image_credit: "Photo: Pexels / Arvind shakya"
 ---
-
 The iconic Pura Luhur Tanah Lot in Tabanan, Bali, takes center stage this week as the sacred **Pujawali** ceremony unfolds from Wednesday, July 1, through Saturday, July 4, 2026. The ritual sequence culminates with the **Nyineb** procession — the sacred closing rite that completes the major Hindu ceremony. Despite the religious observance, the tourist area remains fully open to visitors.
 
 ## Harmony Between Worship and Tourism

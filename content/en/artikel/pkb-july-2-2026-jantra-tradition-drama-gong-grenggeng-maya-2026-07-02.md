@@ -4,10 +4,9 @@ date: 2026-07-02
 description: "Day 20 of the Bali Arts Festival features Kelik-kelikan folk games, rare Gong Luang workshop, and the evening spectacular Drama Gong 'Grenggeng Maya' at Ardha Candra."
 categories: ["Culture", "Event"]
 tags: ["PKB", "Bali Arts Festival", "drama gong", "traditional games", "Gong Luang", "cultural heritage"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-july-2-2026-jantra-tradition-drama-gong-grenggeng-maya-2026-07-02.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 Thursday, July 2, marked a distinctive day at the **48th Bali Arts Festival (PKB XLVIII) 2026** — one that balanced the joyful nostalgia of traditional folk games in the morning with a deep dive into ancient gamelan craftsmanship at midday, before culminating in one of Bali's most beloved performing art forms: **Drama Gong**.
 
 ## Morning: Traditional Games Come Alive

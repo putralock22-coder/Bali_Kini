@@ -4,10 +4,9 @@ date: 2026-07-04
 description: "Bali Arts Festival 2026 closes on July 11 at Ardha Candra Open Stage, wrapping up a month-long celebration featuring 260 international artists from 7 countries under the theme Atma Kerthi."
 categories: ["Culture"]
 tags: ["Bali Arts Festival", "PKB 2026", "Balinese arts", "international artists", "Atma Kerthi"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-2026-closing-ceremony-july-11-international-artists-ardha-candra-2026-07-04.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 The 48th Pesta Kesenian Bali (PKB), also known as the Bali Arts Festival, is approaching its grand finale on Saturday, July 11, 2026. Since opening on June 13, the festival has transformed Taman Budaya Art Center in Denpasar into a living stage for thousands of artists from across Indonesia and around the world.
 
 ## A Festival of Soul and Spiritual Elevation

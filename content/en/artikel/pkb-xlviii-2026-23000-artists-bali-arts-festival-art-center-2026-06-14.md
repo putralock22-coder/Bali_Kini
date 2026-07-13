@@ -4,10 +4,9 @@ date: 2026-06-14
 description: "Bali Arts Festival XLVIII officially opened at Art Center Denpasar with 23,936 artists, 307 arts groups, and 196 SMEs participating across a full month."
 categories: ["Culture", "Tourism"]
 tags: ["PKB 2026", "Bali Arts Festival", "Balinese culture", "Governor Koster", "Balinese artists"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-xlviii-2026-23000-artists-bali-arts-festival-art-center-2026-06-14.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 ## Bali's Greatest Cultural Stage Returns
 
 The Open Stage Ardha Candra at Denpasar's Art Center once again became the epicenter of Balinese civilization. Governor of Bali Wayan Koster officially opened the **48th Pesta Kesenian Bali (PKB XLVIII)** on Saturday, June 13, 2026 — launching a month-long celebration of arts and culture that will run through **July 11, 2026**.

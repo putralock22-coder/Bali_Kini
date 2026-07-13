@@ -4,10 +4,9 @@ date: 2026-07-04
 description: "Full schedule for PKB XLVIII on July 4, 2026: Karangasem mandolin, Balinese dance from New York, youth janger parade, and wayang cupak Gianyar."
 categories: ["Culture"]
 tags: ["PKB", "Bali Arts Festival", "XLVIII", "traditional arts", "Denpasar", "Art Center"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-xlviii-schedule-july-4-2026-mandolin-janger-wayang-cupak-2026-07-04.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 The 48th Bali Arts Festival (PKB XLVIII) 2026 enters its 22nd day on Saturday, July 4, delivering another evening of extraordinary performances at the Taman Budaya Art Center in Denpasar. From the rare sounds of a traditional mandolin to Balinese dancers flown in from New York, today's schedule is a testament to the enduring global reach of Balinese culture.
 
 ## Theme: Atma Kerthi

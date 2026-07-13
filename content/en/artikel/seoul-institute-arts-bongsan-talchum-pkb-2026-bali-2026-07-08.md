@@ -4,10 +4,9 @@ date: 2026-07-08
 description: "Dozens of students from Seoul Institute of the Arts performed Bongsan Talchum at PKB XLVIII in Bali on July 8, showcasing Korea's national intangible cultural heritage."
 categories: ["Culture"]
 tags: ["PKB 2026", "South Korea", "Bongsan Talchum", "cultural diplomacy", "arts festival"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/seoul-institute-arts-bongsan-talchum-pkb-2026-bali-2026-07-08.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 The stage of Bali's Pesta Kesenian Bali (PKB) XLVIII 2026 grew even more vibrant on Wednesday, July 8, with the arrival of an international delegation from South Korea. Dozens of students from Seoul Institute of the Arts took the stage at Gedung Ksirarnawa, Taman Budaya Bali, presenting a captivating performance of traditional Korean masked theater to a welcoming Balinese audience.
 
 ## Bongsan Talchum: Korea's Treasured Masked Theater

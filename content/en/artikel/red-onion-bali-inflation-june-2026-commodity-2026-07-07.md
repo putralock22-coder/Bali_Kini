@@ -4,10 +4,9 @@ date: 2026-07-07
 description: "Bali's inflation reached 3.27 percent year-on-year in June 2026, with red onions surging 14.38 percent becoming a key commodity driver alongside rising fuel prices."
 categories: ["Economy"]
 tags: ["inflation", "red onion", "food prices", "Bali economy", "Bank Indonesia"]
-image: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/red-onion-bali-inflation-june-2026-commodity-2026-07-07.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 ## Bali June 2026 Inflation: Food and Fuel Drive Price Rises
 
 Bali's Statistics Agency (BPS) has published inflation data for June 2026, showing the province recorded year-on-year inflation of 3.27 percent. The Consumer Price Index (CPI) rose from 109.71 in June 2025 to 113.30 in June 2026, reflecting sustained pressure from both food commodities and fuel prices.

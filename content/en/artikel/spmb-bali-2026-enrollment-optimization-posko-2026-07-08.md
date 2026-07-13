@@ -4,10 +4,9 @@ date: 2026-07-08
 description: "Bali's education office opens SPMB 2026 optimization posts for unplaced students. Over 94,000 seats available across state high schools and vocational schools."
 categories: ["Education", "Policy"]
 tags: ["SPMB 2026", "Disdikpora Bali", "school enrollment", "SMA", "SMK", "education Bali"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/spmb-bali-2026-enrollment-optimization-posko-2026-07-08.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 The Bali Provincial Office of Education, Youth, and Sports (Disdikpora) has opened **capacity optimization posts** for the 2026 New Student Enrollment System (SPMB), targeting junior high graduates who were not accepted at their chosen schools in the regular selection rounds. The move aims to ensure that no graduating student is left without a place in a state senior high school or vocational school.
 
 ## How the Optimization Posts Work

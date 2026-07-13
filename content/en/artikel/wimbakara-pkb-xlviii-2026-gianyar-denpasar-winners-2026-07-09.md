@@ -4,10 +4,9 @@ date: 2026-07-09
 description: "Gianyar wins the Baleganjur Remaja championship while Denpasar tops the Taman Penasar category as PKB XLVIII 2026 Wimbakara results are officially announced."
 categories: ["Culture"]
 tags: ["PKB 2026", "Wimbakara", "Baleganjur", "Bali Arts Festival", "Gianyar", "Denpasar"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/wimbakara-pkb-xlviii-2026-gianyar-denpasar-winners-2026-07-09.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 The 48th Bali Arts Festival (Pesta Kesenian Bali / PKB XLVIII) reached its competitive climax on Wednesday, July 8, 2026, with the official announcement of Wimbakara winners — the prestigious arts competition that forms the heart of this month-long cultural celebration. Gianyar Regency emerged as the dominant force, while Denpasar City also claimed a top prize in one of the festival's most celebrated categories.
 
 ## Gianyar Captures Baleganjur Remaja Crown

@@ -4,10 +4,9 @@ date: 2026-07-08
 description: "10 Bali citizens filed a citizen lawsuit at Denpasar District Court targeting 14 officials, from the President down to district heads, over the September 2025 floods."
 categories: ["Law", "Environment"]
 tags: ["citizen lawsuit", "Bali flood", "Pulihkan Bali", "Denpasar court", "land conversion", "environment"]
-image: "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pulihkan-bali-sues-14-officials-citizen-lawsuit-flood-2026-07-08.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 Ten Bali residents belonging to the Coalition for Environmental Movement and Sustainability — known as **Koalisi Pulihkan Bali** — have formally filed a *citizen lawsuit* at the Denpasar District Court. The case, registered under docket number **1024/Pdt.G/2026/PN Dps**, was submitted on July 2, 2026, and targets 14 government officials ranging from local district heads all the way up to the President of Indonesia.
 
 ## The September 2025 Floods That Triggered the Case

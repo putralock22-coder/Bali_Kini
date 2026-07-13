@@ -4,10 +4,9 @@ date: 2026-06-29
 description: "The strengthening US dollar is making Bali's holidays cheaper for foreign tourists. Daily visitor arrivals in Nusa Penida have surpassed 3,000 — up from a usual 2,000."
 categories: ["Tourism"]
 tags: ["Nusa Penida", "US dollar", "Klungkung", "foreign tourists", "Bali tourism"]
-image: "https://images.pexels.com/photos/1802183/pexels-photo-1802183.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/strong-dollar-boosts-nusa-penida-tourist-arrivals-2026-06-29.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 The recent appreciation of the US dollar against the Indonesian rupiah is generating a tangible upside for parts of Bali's tourism sector, with the scenic island of Nusa Penida in Klungkung Regency emerging as a clear beneficiary. For overseas visitors holding US dollars, the cost of accommodations, local transport, meals, and activities across Indonesia has become markedly more affordable — and the numbers appear to reflect that advantage.
 
 ## Daily Arrivals Cross 3,000

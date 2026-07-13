@@ -4,10 +4,9 @@ date: 2026-06-28
 description: "PLN Bali deploys 196 public EV charging stations across 94 locations by June 2026, supporting over 16,000 electric vehicles on the island."
 categories: ["Economy & Infrastructure"]
 tags: ["EV charging", "PLN Bali", "electric vehicles", "energy transition", "infrastructure", "clean energy"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pln-bali-196-ev-charging-stations-energy-transition-2026-06-28.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 Bali's push toward a cleaner, greener transportation ecosystem is gaining serious momentum. As of June 2026, PT PLN (Persero) — Indonesia's state electricity company — through its Bali Distribution Unit (UID Bali), together with private partners, has deployed a total of **196 public electric vehicle (EV) charging stations (SPKLU)** across the island.
 
 The milestone represents a significant leap in Bali's EV infrastructure and underscores the island's commitment to accelerating its energy transition while supporting a growing community of electric vehicle users.

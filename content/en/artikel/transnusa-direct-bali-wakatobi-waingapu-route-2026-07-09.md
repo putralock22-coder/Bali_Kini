@@ -4,10 +4,9 @@ date: 2026-07-09
 description: "TransNusa becomes the first airline to offer direct flights from Bali to Wakatobi starting July 16, 2026, with promo fares from IDR 1.849 million."
 categories: ["Transportation", "Tourism"]
 tags: ["TransNusa", "Wakatobi", "flight", "new route", "Bali", "Waingapu", "aviation"]
-image: "https://images.pexels.com/photos/1310516/pexels-photo-1310516.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/transnusa-direct-bali-wakatobi-waingapu-route-2026-07-09.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 Indonesian aviation has reached a significant milestone this week. TransNusa airline officially announced the launch of direct flights from Ngurah Rai International Airport in Denpasar, Bali, to Matahora Airport in Wakatobi, Southeast Sulawesi. This makes TransNusa the **first airline** to operate a direct connection between Bali and this world-class marine tourism destination.
 
 ## Flight Schedule and Frequency

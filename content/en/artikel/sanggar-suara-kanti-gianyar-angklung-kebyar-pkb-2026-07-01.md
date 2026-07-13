@@ -4,10 +4,9 @@ date: 2026-07-01
 description: "Gianyar's Sanggar Suara Kanti showcased the region's distinctive Angklung Kebyar at the 48th Bali Arts Festival, championing cultural preservation for younger generations."
 categories: ["Culture"]
 tags: ["PKB 2026", "Angklung Kebyar", "Gianyar", "Sanggar Suara Kanti", "Balinese Gamelan"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/sanggar-suara-kanti-gianyar-angklung-kebyar-pkb-2026-07-01.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 Among the hundreds of performing groups at the 48th Pesta Kesenian Bali (PKB) 2026, **Sanggar Suara Kanti** from Gianyar Regency delivered a performance that stood out not only for its artistry but for its cultural mission — to introduce and protect the unique Angklung Kebyar style native to their homeland.
 
 ## Preserving Gianyar's Musical Identity

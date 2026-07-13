@@ -4,10 +4,9 @@ date: 2026-06-23
 description: "Singaraja Literary Festival 2026, set for July 3-5 in Buleleng, Bali, explores ancient lontar manuscripts with the theme 'Stri Sasana: Cosmic Balance Energy.'"
 categories: ["Culture"]
 tags: ["Singaraja Literary Festival", "ancient manuscripts", "Buleleng", "Gedong Kirtya", "Bali culture"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/singaraja-literary-festival-2026-ancient-manuscripts-bali-2026-06-23.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 **Singaraja, Bali** – The northern Bali city of Singaraja is preparing once again to host one of the island's most intellectually vibrant events. The Singaraja Literary Festival (SLF) 2026 will take place July 3–5 at the Buleleng Regency Office of Culture and Tourism, marking the fourth edition of this annual celebration of Balinese literary heritage.
 
 ## Theme: The Energy of Women in Ancient Texts

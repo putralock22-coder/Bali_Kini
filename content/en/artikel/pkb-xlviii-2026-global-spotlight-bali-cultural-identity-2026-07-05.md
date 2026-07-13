@@ -4,10 +4,9 @@ date: 2026-07-05
 description: "The 48th Bali Arts Festival draws international praise with over 23,936 artists performing and delegations from Japan, India, Korea, the US, and more through July 11."
 categories: ["Culture"]
 tags: ["PKB 2026", "bali arts festival", "bali culture", "atma kerthi", "bali art", "cultural festival"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-xlviii-2026-global-spotlight-bali-cultural-identity-2026-07-05.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 The 48th Pesta Kesenian Bali (PKB)—Bali's grandest annual arts festival—continues to draw international attention as it enters its final stretch. Running from June 13 to July 11, 2026, at the Taman Budaya (Art Center) in Denpasar, this year's edition has earned widespread praise from the global arts community for Bali's steadfast commitment to preserving its cultural identity in the face of relentless modernization.
 
 ## A Theme Rooted in the Spirit

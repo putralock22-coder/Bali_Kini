@@ -4,10 +4,9 @@ date: 2026-06-25
 description: "Small culinary vendors at the Bali Arts Festival 2026 recorded Rp1.88 billion in transactions in the first 10 days, targeting Rp5 billion by closing on July 11."
 categories: ["Economy", "Culture"]
 tags: ["PKB 2026", "UMKM", "Bali Arts Festival", "culinary", "creative economy"]
-image: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-2026-umkm-culinary-revenue-rp188-billion-2026-06-25.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 The Bali Arts Festival (Pesta Kesenian Bali/PKB) XLVIII 2026 is proving to be far more than a cultural spectacle — it is rapidly emerging as a powerful economic engine for small and medium enterprise (UMKM) operators across the island.
 
 In just the first ten days of the festival, from its opening on June 13 through June 23, culinary vendors operating within the Taman Budaya Art Center complex in Denpasar recorded a combined transaction value of **Rp1.88 billion**. This figure covers only the culinary sector and excludes handicrafts, textiles, and other small industry products.

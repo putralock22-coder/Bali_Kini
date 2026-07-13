@@ -4,10 +4,9 @@ date: 2026-06-25
 description: "Virgin Australia's first-ever direct flight from Canberra to Bali launched June 22, 2026. Australia now holds 12 direct routes to Bali, the most of any country."
 categories: ["Tourism"]
 tags: ["flights", "Virgin Australia", "Canberra", "Ngurah Rai Airport", "Australian tourists"]
-image: "https://images.pexels.com/photos/1310516/pexels-photo-1310516.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/virgin-australia-opens-canberra-bali-direct-route-2026-06-25.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 Bali has further strengthened its international aviation network. Virgin Australia officially launched a direct route from Canberra — Australia's capital city — to Denpasar, marking a new chapter in air connectivity between the two destinations.
 
 ## Inaugural Flight Lands Successfully

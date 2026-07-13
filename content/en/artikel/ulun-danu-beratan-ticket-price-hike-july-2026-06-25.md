@@ -4,10 +4,9 @@ date: 2026-06-25
 description: "Ulun Danu Beratan in Bedugul raises ticket prices from July 1, 2026. Foreign adult tickets increase from Rp75,000 to Rp100,000 to fund better visitor services."
 categories: ["Tourism"]
 tags: ["Ulun Danu Beratan", "ticket price", "Bedugul", "Tabanan tourism", "Bali tourism"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/ulun-danu-beratan-ticket-price-hike-july-2026-06-25.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 Visitors planning a trip to one of Bali's most photographed landmarks have less than a week to take advantage of current entry prices. The Ulun Danu Beratan tourist destination (DTW) in Bedugul, Tabanan Regency, will officially implement new, higher admission rates from **July 1, 2026**.
 
 ## New Ticket Price Breakdown

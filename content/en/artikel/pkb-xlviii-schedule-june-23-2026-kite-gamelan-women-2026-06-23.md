@@ -4,10 +4,9 @@ date: 2026-06-23
 description: "PKB XLVIII Day 11 schedule for June 23, 2026: Pecukan kite-making finals, Taman Penasar competition, and Women's Gong Kebyar parade in Denpasar."
 categories: ["Culture"]
 tags: ["bali arts festival", "PKB 2026", "balinese culture", "gamelan", "traditional arts"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-xlviii-schedule-june-23-2026-kite-gamelan-women-2026-06-23.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 ## Day 11 of Bali's Grand Cultural Festival
 
 The 48th Pesta Kesenian Bali (PKB) — Bali Arts Festival — continues its month-long run on Tuesday, June 23, 2026, with another full day of cultural performances and competitions. Now in its 11th day, the festival brings together thousands of artists from across the island, celebrating Bali's rich artistic traditions under the theme **"Atma Kerthi: Jiwa Sidha Parisudha"** — a Balinese phrase meaning the glorification and purification of the human soul toward perfect, clear, and sacred completion.

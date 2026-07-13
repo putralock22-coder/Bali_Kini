@@ -4,10 +4,9 @@ date: 2026-06-23
 description: "ISI Bali professor calls reconstruction of rare Balinese arts urgently needed at PKB 2026, citing 6 major challenges including limited data and funding."
 categories: ["Culture", "Arts"]
 tags: ["rare balinese arts", "ISI Bali", "PKB 2026", "cultural preservation", "bali culture", "reconstruction"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/rare-balinese-arts-reconstruction-urgent-isi-pkb-2026-06-23.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 ## An Endangered Heritage: Bali's Rare Arts on the Brink
 
 Behind the spectacular performances of the 18th Bali Arts Festival (PKB XVIII 2026) that captivate thousands of spectators every evening lies a sobering reality: hundreds of rare and ancient Balinese art forms are on the verge of extinction. **Prof. Ida Ayu Trisnawati**, a senior academic and Professor at the Institut Seni Indonesia (ISI) Bali, has issued a stark warning that the reconstruction of these rare art forms is urgently needed and can no longer be delayed.

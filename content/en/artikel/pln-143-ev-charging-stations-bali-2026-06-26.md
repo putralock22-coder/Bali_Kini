@@ -4,10 +4,9 @@ date: 2026-06-26
 description: "PLN UID Bali has activated 143 public EV charging stations across 94 locations, supporting 14,318 electric vehicles now operating on the island."
 categories: ["Energy", "Transportation"]
 tags: ["SPKLU", "electric vehicle", "PLN Bali", "EV", "clean energy", "energy transition"]
-image: "https://images.pexels.com/photos/1310516/pexels-photo-1310516.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pln-143-ev-charging-stations-bali-2026-06-26.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 PT PLN (Persero) Unit Induk Distribusi (UID) Bali has activated 143 public electric vehicle charging stations (SPKLU) distributed across 94 strategic locations throughout the island. The expanding network is designed to support the rapidly growing community of electric vehicle users on Bali — and to eliminate range anxiety as a barrier to EV adoption.
 
 ## Bali's Most Comprehensive EV Charging Network

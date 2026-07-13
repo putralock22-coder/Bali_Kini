@@ -4,10 +4,9 @@ date: 2026-06-26
 description: "Bali Arts Festival day 14 features Topeng Bebadungan from Badung, Classical Arja from Denpasar, and a Children's Gong Kebyar Parade tonight at Art Center."
 categories: ["Culture"]
 tags: ["PKB 2026", "Bali Arts Festival", "Topeng Bebadungan", "Gong Kebyar", "Bali culture"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-topeng-bebadungan-gong-kebyar-children-2026-06-26.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 The 48th Pesta Kesenian Bali (PKB) — Bali Arts Festival — continues its magnificent run on Friday, June 26, 2026. Entering its 14th day, the Taman Budaya Art Center in Denpasar serves as the stage for an evening packed with traditional performances, from the iconic Topeng Bebadungan mask dance of Badung Regency to a dazzling Children's Gong Kebyar Parade under the open Balinese sky.
 
 ## Festival of the Soul

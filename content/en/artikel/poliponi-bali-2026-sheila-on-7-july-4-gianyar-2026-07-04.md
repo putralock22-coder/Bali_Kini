@@ -4,10 +4,9 @@ date: 2026-07-04
 description: "POLIPONI Bali 2026 music festival launches July 4 at Bali United Training Center in Gianyar, headlined by legendary Indonesian band Sheila On 7."
 categories: ["Entertainment", "Event"]
 tags: ["POLIPONI", "Sheila On 7", "music festival", "Gianyar", "Bali concert", "Bali event 2026"]
-image: "https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/poliponi-bali-2026-sheila-on-7-july-4-gianyar-2026-07-04.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 Bali tonight is about more than temples and sunsets. Thousands of fans have converged on Gianyar Regency for one of the most anticipated music events of the year: **POLIPONI Bali 2026**, headlined by none other than Sheila On 7 — one of Indonesia's most beloved rock bands.
 
 ## A Festival Built Around Quality

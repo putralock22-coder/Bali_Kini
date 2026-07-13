@@ -4,10 +4,9 @@ date: 2026-07-04
 description: "Bali Arts Festival XLVIII 2026 receives major coverage from AP News and USA Today, cementing Bali's role as a global center for cultural diplomacy with 20,000 artists performing."
 categories: ["Culture"]
 tags: ["PKB 2026", "Bali Arts Festival", "Balinese culture", "arts", "cultural diplomacy"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-2026-international-media-spotlight-cultural-identity-2026-07-04.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 Behind the grandeur of Bali's Taman Budaya Art Center performances stretching across June and July, the 48th Pesta Kesenian Bali (PKB) — Bali Arts Festival — has achieved something that reaches well beyond the island's shores. This annual cultural celebration has earned significant attention from the world's leading international media, reinforcing Bali's standing as an enduring center of global culture.
 
 ## International Media Takes Notice

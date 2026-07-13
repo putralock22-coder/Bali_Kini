@@ -4,10 +4,9 @@ date: 2026-06-25
 description: "Hundreds of families near Buleleng's PLTD Pemaron diesel power plant have suffered noise and black smoke pollution for over 18 months, demanding relocation or permanent closure."
 categories: ["Environment"]
 tags: ["PLTD Pemaron", "Buleleng", "pollution", "PLN Indonesia Power", "environment", "Bali"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pltd-pemaron-buleleng-196-households-impacted-pollution-2026-06-25.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 ## Hundreds of Buleleng Families Living in a Pollution Nightmare
 
 For more than 18 months, 196 households living within a 300-meter radius of the Pemaron Diesel Power Plant (PLTD Pemaron) in Buleleng, Bali, have been unable to enjoy peaceful sleep or clean air. The plant, operated by PT PLN Indonesia Power, sits alarmingly close to the nearest residential area — a distance of just 40 meters.

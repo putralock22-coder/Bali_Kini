@@ -4,10 +4,9 @@ date: 2026-07-03
 description: "Pesta Kesenian Bali XLVIII 2026 enters its final week, featuring 20,929 artists from 673 arts groups. Closing ceremony set for July 11 at the Ardha Candra stage."
 categories: ["Culture", "Arts"]
 tags: ["PKB", "Pesta Kesenian Bali", "Bali Arts Festival", "culture", "artists", "Denpasar"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-xlviii-bali-arts-festival-2026-final-week-20000-artists-2026-07-03.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 The **48th Pesta Kesenian Bali (PKB XLVIII) — Bali Arts Festival 2026** is now entering its final week. Bali's largest annual arts and culture festival has been running since **June 13, 2026**, and will officially close on **Saturday, July 11, 2026** — just eight days from now.
 
 This month-long celebration is centered at the **Taman Budaya (Art Center) in Denpasar**, involving no fewer than **20,929 artists** from **673 arts groups and cultural foundations** representing communities across Bali and beyond.

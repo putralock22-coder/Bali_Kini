@@ -4,10 +4,9 @@ date: 2026-07-02
 description: "72 culinary SMEs at PKB XLVIII 2026 operate under a rotating stall system. The first batch of 36 vendors cleared Rp2.5 billion in 15 days. Batch two is now active."
 categories: ["Economy", "Culture"]
 tags: ["PKB 2026", "UMKM", "Bali culinary", "Pesta Kesenian Bali", "Art Center"]
-image: "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-2026-culinary-umkm-second-batch-rp25-billion-transactions-2026-07-02.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 The 48th Pesta Kesenian Bali (PKB XLVIII) — Bali's premier annual cultural festival held at Taman Budaya Bali (Art Center) in Denpasar — is proving to be more than a showcase of traditional arts. This year, it has also become a powerful economic engine for the island's culinary small and medium enterprises (SMEs, or *UMKM* in Indonesian).
 
 ## Rotating Stall System: A New Model for Shared Prosperity

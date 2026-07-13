@@ -4,10 +4,9 @@ date: 2026-07-03
 description: "Badung Regency is fast-tracking a new Rp74 billion road linking Tibubeneng to Umalas as a permanent solution to the gridlock plaguing Canggu's tourism corridor."
 categories: ["Infrastructure", "Tourism"]
 tags: ["infrastructure", "Canggu", "Badung", "traffic", "new road", "Umalas", "Tibubeneng"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/subak-sari-umalas-road-canggu-traffic-rp74-billion-2026-07-03.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 Traffic congestion in Canggu has long been a persistent complaint among tourists and locals alike. The narrow lanes along the Jalan Raya Subak Sari corridor — connecting Batu Bolong with Umalas — are now set to receive a lasting fix. Badung Regency Government is pushing ahead with a multi-billion-rupiah road bypass project to permanently address gridlock that has plagued this popular area for years.
 
 ## Rp74 Billion Project Already Underway

@@ -4,10 +4,9 @@ date: 2026-06-29
 description: "PKB XLVIII schedule for June 29, 2026: Angklung Kebyar Buleleng vs Tabanan, Janger Tradisi Remaja, and a Gong Kebyar Wanita showdown at Ardha Candra stage."
 categories: ["Culture"]
 tags: ["PKB", "Gong Kebyar Wanita", "Bali Arts Festival", "Angklung Kebyar", "Janger", "Bali Art Center"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-xlviii-schedule-june-29-2026-gong-kebyar-wanita-janger-angklung-2026-06-29.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 The 48th Bali Arts Festival (Pesta Kesenian Bali — PKB XLVIII) 2026 brings another full day of captivating performances on Monday, June 29, 2026. Tonight is particularly anticipated by traditional music lovers: a much-anticipated Gong Kebyar Wanita showdown pitting the delegations of Klungkung Regency against Tabanan Regency at the iconic open-air Ardha Candra Stage inside the Taman Budaya (Art Center) complex in Denpasar.
 
 ## Full Schedule: PKB June 29, 2026

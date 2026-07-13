@@ -4,10 +4,9 @@ date: 2026-07-01
 description: "Bali Arts Festival schedule for July 1, 2026 features the Angklung Kebyar Parade and Adult Gong Kebyar competition at Art Center Denpasar."
 categories: ["Culture"]
 tags: ["PKB 2026", "Angklung Kebyar", "Gong Kebyar", "Bali Arts Festival", "Balinese Culture"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-xlviii-schedule-july-1-2026-angklung-kebyar-gong-dewasa-2026-07-01.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 The 48th Pesta Kesenian Bali (PKB) — Bali's grand annual arts festival — continues its vibrant run on Wednesday, July 1, 2026. Today's program at Taman Budaya Bali (Bali Cultural Park), also known as Art Center Denpasar, showcases two highly anticipated performances: the Angklung Kebyar Parade and the Adult Gong Kebyar Competition.
 
 ## Angklung Kebyar Parade Kicks Off the Afternoon

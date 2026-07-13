@@ -4,10 +4,9 @@ date: 2026-07-05
 description: "Semarak Pandawa 2026 runs July 3-5 at Pandawa Beach, Bali, featuring the inaugural beach volleyball tournament, cliff walking trail, and traditional Kecak dance performances."
 categories: ["Tourism"]
 tags: ["Semarak Pandawa", "Pandawa Beach", "beach volleyball", "kecak dance", "Bali festival", "Badung"]
-image: "https://images.pexels.com/photos/1802183/pexels-photo-1802183.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/semarak-pandawa-beach-festival-volleyball-kecak-2026-07-05.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 Pandawa Beach in Kutuh Village, South Kuta, Badung Regency, is alive with celebration this weekend. **Semarak Pandawa 2026** — a three-day festival running **July 3–5, 2026** — has transformed this iconic clifftop destination into a hub of sport, culture, and community, complete with the inaugural beach volleyball tournament and nightly Kecak fire dance performances.
 
 ## Festival Opens with a Cliff Walk

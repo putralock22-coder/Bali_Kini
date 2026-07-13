@@ -4,10 +4,9 @@ date: 2026-06-29
 description: "Short-distance domestic travel is booming during Indonesia's 2026 school holidays as families prioritise cost efficiency, with Bali still leading destination rankings."
 categories: ["Tourism"]
 tags: ["domestic tourism", "school holiday", "budget travel", "bali", "travel trends"]
-image: "https://images.pexels.com/photos/1802183/pexels-photo-1802183.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/short-haul-travel-rising-school-holiday-bali-2026-06-29.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 A clear trend is emerging across Indonesia's 2026 school holiday season: **short-haul travel is surging**, as families prioritise destinations close to home in response to rising living costs and a more deliberate approach to holiday budgeting. The shift signals a meaningful recalibration in how Indonesians choose to travel — and Bali remains firmly at the centre of that conversation.
 
 ## The Data Behind the Trend

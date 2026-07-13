@@ -4,10 +4,9 @@ date: 2026-06-30
 description: "PKB XLVIII schedule for June 30 features traditional Joged Bumbung parade, legendary Maestro Wayan Berata's compositions, and Women's Gong Kebyar performances."
 categories: ["Culture"]
 tags: ["PKB 2026", "Bali Arts Festival", "Balinese culture", "Wayan Berata", "Joged Bumbung", "Gong Kebyar"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-xlviii-schedule-june-30-joged-bumbung-wayan-berata-2026-06-30.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 ## PKB XLVIII 2026: Glorifying the Soul Through Art
 
 The 48th Pesta Kesenian Bali (PKB) — Bali Arts Festival — themed **"Atma Kerthi: Jiwa Sidha Parisudha"** (The Glorification of the Perfected, Pure, and Sacred Soul) continues with a rich lineup of performances on Monday, June 30, 2026.

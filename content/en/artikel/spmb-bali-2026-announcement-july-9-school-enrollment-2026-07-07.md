@@ -4,10 +4,9 @@ date: 2026-07-07
 description: "Bali's new school enrollment system (SPMB) will announce Stage II domicile-route results on July 9, 2026. Accepted students must complete online re-registration between July 10–12."
 categories: ["Education"]
 tags: ["SPMB", "education", "school enrollment", "SMA", "SMK", "Bali 2026"]
-image: "https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/spmb-bali-2026-announcement-july-9-school-enrollment-2026-07-07.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 ## Tens of Thousands of Students Await Key Announcement
 
 Thousands of prospective students across Bali are counting down to a major milestone in their academic journey: the announcement of Stage II results for the 2026 New Student Enrollment System (Sistem Penerimaan Murid Baru, or SPMB) is scheduled for **Thursday, July 9, 2026**. Students accepted through the domicile-based route must then complete their **online re-registration between July 10 and 12, 2026**.

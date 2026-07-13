@@ -4,10 +4,9 @@ date: 2026-06-28
 description: "Full schedule of PKB XLVIII on June 28, 2026 at Bali Arts Centre Denpasar, from Prembon Gianyar to tonight's Women's Gong Kebyar Parade."
 categories: ["Culture"]
 tags: ["PKB 2026", "Gong Kebyar Women", "Pesta Kesenian Bali", "Balinese arts", "Taman Budaya"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-2026-schedule-june-28-gong-kebyar-women-2026-06-28.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 Sunday, June 28, 2026 is shaping up to be one of the most vibrant days in the 48th Pesta Kesenian Bali (PKB), Bali's annual arts festival, held at the Taman Budaya Bali cultural complex — commonly known as the Bali Arts Centre — in Denpasar. From late afternoon through the night, a rich lineup of performances unfolds across multiple stages within this sprawling cultural complex.
 
 This year's PKB carries the theme **"Atma Kerthi: Jiwa Sidha Parisudha"** — a Sanskrit phrase meaning the glorification and purification of the human soul toward complete, clear, and sacred perfection. The theme runs through every performance on the program, from classical Balinese dance forms rooted in centuries of tradition to bold contemporary works that reimagine those traditions for a modern audience.

@@ -4,10 +4,9 @@ date: 2026-06-28
 description: "PKB XLVIII schedule for June 28, 2026 features Rekasadana Gamelan Busi from Tabanan and the Women's Gong Kebyar Parade from Badung and Gianyar at Denpasar Art Centre."
 categories: ["Culture"]
 tags: ["PKB 2026", "Gong Kebyar Wanita", "Bali Arts Festival", "traditional arts", "Denpasar Art Centre"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-xlviii-gong-kebyar-wanita-june-28-2026-06-28.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 The **48th Bali Arts Festival (PKB XLVIII 2026)** continues to captivate audiences with breathtaking cultural performances. On Sunday, June 28, 2026, the Taman Werdhi Budaya Art Centre in Denpasar once again served as the grand stage for Bali's finest artists, presenting a diverse lineup from contemporary gamelan compositions to the highly anticipated Women's Gong Kebyar Parade.
 
 ## Full Schedule for June 28, 2026

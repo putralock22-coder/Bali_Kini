@@ -4,10 +4,9 @@ date: 2026-06-30
 description: "Governor Koster delivered Megawati's message at the 3rd World Civilizations Harmony Forum in Bali's Uluwatu, calling for a just global civilization grounded in Indonesia's Tri Hita Karana values."
 categories: ["Diplomacy"]
 tags: ["World Civilizations Forum", "Koster", "Megawati", "Uluwatu", "diplomacy", "Tri Hita Karana", "civilization"]
-image: "https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/world-civilizations-harmony-forum-bali-koster-megawati-2026-06-30.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 Bali once again took center stage as a venue for international civilizational dialogue. The **3rd World Civilizations Harmony Forum** was held at Hotel Renaissance Bali Uluwatu, Badung, on Monday, June 29, 2026. Under the theme *"Harmony in Diversity, Human Fraternity,"* the prestigious forum gathered world leaders, academics, religious figures, and cultural luminaries to explore solutions to pressing global challenges.
 
 Bali Governor Wayan Koster delivered an address on behalf of Indonesia's fifth President, Megawati Soekarnoputri. Her message—channeled through Koster—drew immediate attention: a forceful call for humanity to reject the dominance of the *"law of the jungle"* in global affairs, where might overrides justice.

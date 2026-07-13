@@ -4,10 +4,9 @@ date: 2026-06-30
 description: "Dermatologist dr. Jesslyn Amelia reveals XERF skin-tightening technology positions Bali as a premier medical aesthetic tourism hub rivaling Korea and Thailand."
 categories: ["Tourism"]
 tags: ["medical tourism", "beauty technology", "wellness", "XERF", "Bali tourism", "aesthetic"]
-image: "https://images.pexels.com/photos/1802183/pexels-photo-1802183.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/xerf-beauty-technology-medical-tourism-bali-2026-06-30.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 ## Bali Sets Sights on Global Medical Aesthetic Tourism
 
 Bali is seriously developing medical aesthetic tourism as a powerful new draw for international visitors. Dermatologist dr. Jesslyn Amelia, Sp.DVE, revealed that the arrival of cutting-edge technologies such as XERF presents a major opportunity for the Island of Gods to compete with South Korea and Thailand as a premium aesthetic treatment destination in Southeast Asia.
