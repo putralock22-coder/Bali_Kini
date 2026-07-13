@@ -359,3 +359,7 @@ body{background:var(--bg);color:var(--text);font-family:'Plus Jakarta Sans',sans
 .redaksi-editorial h2{font-size:1.3rem;color:#fff;margin:0 0 16px;}
 .redaksi-editorial ul{padding-left:22px;color:rgba(255,255,255,.75);line-height:1.7;}
 .redaksi-editorial li{margin-bottom:8px;}
+
+/* Logo image in header */
+.site-header .logo{gap:10px;}
+.site-header .logo-img{width:32px;height:32px;border-radius:8px;object-fit:cover;flex-shrink:0;}

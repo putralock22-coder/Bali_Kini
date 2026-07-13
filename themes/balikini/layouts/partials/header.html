@@ -1,6 +1,9 @@
 <header class="site-header">
   <div class="header-inner">
-    <a href="{{ "/" | relLangURL }}" class="logo">🌊 Bali Kini</a>
+    <a href="{{ "/" | relLangURL }}" class="logo">
+      <img src="{{ "images/logo.png" | relURL }}" alt="Bali Kini" class="logo-img" width="32" height="32"/>
+      <span>Bali Kini</span>
+    </a>
     <nav class="main-nav" id="mainNav">
       {{ $home := "/" | relLangURL }}
       {{ $artikel := "/artikel/" | relLangURL }}
