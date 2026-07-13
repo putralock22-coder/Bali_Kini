@@ -1,0 +1,93 @@
+{{ define "main" }}
+{{ $isEN := eq .Site.Language.Lang "en" }}
+{{ $isZH := eq .Site.Language.Lang "zh" }}
+<div class="redaksi-page">
+  <div class="redaksi-hero">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Params.description }}</p>
+  </div>
+
+  <div class="redaksi-grid">
+    <div class="redaksi-card" id="redaksi-bali-kini">
+      <div class="redaksi-avatar">🌊</div>
+      <div class="redaksi-name">Redaksi Bali Kini</div>
+      <div class="redaksi-role">{{ if $isEN }}Newsroom{{ else if $isZH }}编辑部{{ else }}Ruang Redaksi{{ end }}</div>
+      <p class="redaksi-bio">
+        {{ if $isEN }}
+        The core editorial team of Bali Kini — verifying, editing, and publishing every article that appears on this portal. Sources are cross-checked against BPS Bali, BMKG, Bank Indonesia, Dispar Bali, Antara, and Balipost before publication.
+        {{ else if $isZH }}
+        Bali Kini 的核心编辑团队 — 负责验证、编辑和发布本门户网站上的每一篇文章。所有信息在发布前都会与巴厘岛统计局、气象局、印尼央行、旅游部、Antara 和 Balipost 进行交叉核对。
+        {{ else }}
+        Tim inti redaksi Bali Kini — memverifikasi, menyunting, dan menerbitkan setiap artikel yang tayang di portal ini. Setiap fakta di-cross check dengan BPS Bali, BMKG, Bank Indonesia, Dispar Bali, Antara, dan Balipost sebelum dipublikasikan.
+        {{ end }}
+      </p>
+    </div>
+
+    <div class="redaksi-card" id="redaksi-data">
+      <div class="redaksi-avatar">📊</div>
+      <div class="redaksi-name">Redaksi Data</div>
+      <div class="redaksi-role">{{ if $isEN }}Data Desk{{ else if $isZH }}数据编辑{{ else }}Meja Data{{ end }}</div>
+      <p class="redaksi-bio">
+        {{ if $isEN }}
+        Handles all statistics, economic indicators, and BPS Bali/BMKG data on the dashboard. Numbers are updated within 24 hours of an official release.
+        {{ else if $isZH }}
+        负责仪表板上的所有统计数据、经济指标以及巴厘岛统计局和气象局数据。数据在官方发布后 24 小时内更新。
+        {{ else }}
+        Menangani semua statistik, indikator ekonomi, dan data BPS Bali/BMKG di dashboard. Angka diperbarui dalam 24 jam setelah rilis resmi.
+        {{ end }}
+      </p>
+    </div>
+
+    <div class="redaksi-card" id="redaksi-budaya">
+      <div class="redaksi-avatar">🎭</div>
+      <div class="redaksi-name">Redaksi Budaya</div>
+      <div class="redaksi-role">{{ if $isEN }}Culture Desk{{ else if $isZH }}文化编辑{{ else }}Meja Budaya{{ end }}</div>
+      <p class="redaksi-bio">
+        {{ if $isEN }}
+        Covers Balinese Hindu ceremonies, traditional arts (PKB, Bali Jani), Subak, and cultural heritage. Consults Balinese cultural figures for context.
+        {{ else if $isZH }}
+        涵盖巴厘岛印度教仪式、传统艺术（巴厘艺术节、巴厘 Jani）、Subak 和文化遗产。会咨询巴厘文化人物以获取背景信息。
+        {{ else }}
+        Meliput upacara Hindu Bali, seni tradisional (PKB, Bali Jani), Subak, dan warisan budaya. Berkonsultasi dengan tokoh budaya Bali untuk konteks mendalam.
+        {{ end }}
+      </p>
+    </div>
+  </div>
+
+  <div class="redaksi-editorial">
+    <h2>{{ if $isEN }}📋 Editorial Standards{{ else if $isZH }}📋 编辑标准{{ else }}📋 Standar Editorial{{ end }}</h2>
+    <ul>
+      {{ if $isEN }}
+      <li><strong>Verified sources</strong> — every claim links to at least one official or credible source.</li>
+      <li><strong>Cross-check</strong> — statistics are checked against BPS Bali/BI/BMKG publications.</li>
+      <li><strong>Corrections</strong> — inaccuracies are corrected within 24 hours with a note.</li>
+      <li><strong>Editorial independence</strong> — no sponsored content disguised as news. Advertising is clearly labeled.</li>
+      <li><strong>AI assistance</strong> — some drafts use AI research aids. Every article is reviewed by the editorial team before publication.</li>
+      {{ else if $isZH }}
+      <li><strong>可靠来源</strong> — 每个说法都链接至少一个官方或可信来源。</li>
+      <li><strong>交叉核对</strong> — 统计数据均与巴厘岛统计局/央行/气象局的出版物核对。</li>
+      <li><strong>更正</strong> — 不准确之处将在 24 小时内更正并附说明。</li>
+      <li><strong>编辑独立</strong> — 无伪装成新闻的赞助内容。广告有明确标记。</li>
+      <li><strong>AI 辅助</strong> — 部分草稿使用 AI 研究工具。每篇文章都由编辑团队在发布前审核。</li>
+      {{ else }}
+      <li><strong>Sumber terverifikasi</strong> — setiap klaim tautan ke minimal satu sumber resmi atau kredibel.</li>
+      <li><strong>Cross-check</strong> — statistik dicek dengan publikasi BPS Bali/BI/BMKG.</li>
+      <li><strong>Koreksi</strong> — ketidakakuratan dikoreksi dalam 24 jam disertai catatan.</li>
+      <li><strong>Independen editorial</strong> — tidak ada konten sponsor yang menyamar jadi berita. Iklan diberi label jelas.</li>
+      <li><strong>Bantuan AI</strong> — sebagian draf menggunakan alat riset AI. Setiap artikel ditinjau tim redaksi sebelum tayang.</li>
+      {{ end }}
+    </ul>
+
+    <h2 style="margin-top:28px;">{{ if $isEN }}✉️ Contact{{ else if $isZH }}✉️ 联系我们{{ else }}✉️ Kontak{{ end }}</h2>
+    <p style="color:rgba(255,255,255,.75);line-height:1.7;">
+      {{ if $isEN }}
+      Tips, corrections, or partnership requests: <a href="mailto:redaksi@balikini.id" style="color:var(--gold);">redaksi@balikini.id</a>
+      {{ else if $isZH }}
+      新闻线索、更正或合作请求：<a href="mailto:redaksi@balikini.id" style="color:var(--gold);">redaksi@balikini.id</a>
+      {{ else }}
+      Kirim tips, koreksi, atau kerjasama: <a href="mailto:redaksi@balikini.id" style="color:var(--gold);">redaksi@balikini.id</a>
+      {{ end }}
+    </p>
+  </div>
+</div>
+{{ end }}

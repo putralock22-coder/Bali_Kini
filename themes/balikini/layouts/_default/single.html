@@ -19,10 +19,72 @@
     </div>
     <h1 class="artikel-title">{{ .Title }}</h1>
     {{ with .Params.description }}<p class="artikel-desc">{{ . }}</p>{{ end }}
+
+    {{ $author := .Params.author | default "Redaksi Bali Kini" }}
+    {{ $authorSlug := $author | urlize }}
+    {{ $authorURL := printf "/tentang-redaksi/#%s" $authorSlug | relLangURL }}
+    <div class="artikel-byline">
+      <div class="byline-avatar">🌊</div>
+      <div class="byline-info">
+        {{ if eq .Site.Language.Lang "en" }}
+          <div class="byline-by">Written by</div>
+          <a href="{{ "/tentang-redaksi/" | relLangURL }}" class="byline-name">{{ $author }}</a>
+          <div class="byline-meta">
+            Published <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+            {{ if ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02") }}
+              · Updated <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2 January 2006" }}</time>
+            {{ end }}
+            {{ with .ReadingTime }} · {{ . }} min read{{ end }}
+          </div>
+        {{ else if eq .Site.Language.Lang "zh" }}
+          <div class="byline-by">作者</div>
+          <a href="{{ "/tentang-redaksi/" | relLangURL }}" class="byline-name">{{ $author }}</a>
+          <div class="byline-meta">
+            发布于 <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006年1月2日" }}</time>
+            {{ if ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02") }} · 更新 <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2006年1月2日" }}</time>{{ end }}
+            {{ with .ReadingTime }} · {{ . }} 分钟阅读{{ end }}
+          </div>
+        {{ else }}
+          <div class="byline-by">Oleh</div>
+          <a href="{{ "/tentang-redaksi/" | relLangURL }}" class="byline-name">{{ $author }}</a>
+          <div class="byline-meta">
+            Diterbitkan <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+            {{ if ne (.Lastmod.Format "2006-01-02") (.Date.Format "2006-01-02") }}
+              · Diperbarui <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2 January 2006" }}</time>
+            {{ end }}
+            {{ with .ReadingTime }} · {{ . }} menit baca{{ end }}
+          </div>
+        {{ end }}
+      </div>
+    </div>
   </div>
   <div class="artikel-body">
     {{ .Content }}
   </div>
+
+  {{ with .Params.sources }}
+  <div class="artikel-sources">
+    <h3 class="sources-title">
+      {{ if eq $.Site.Language.Lang "en" }}📚 Sources & References
+      {{ else if eq $.Site.Language.Lang "zh" }}📚 来源与参考
+      {{ else }}📚 Sumber & Referensi{{ end }}
+    </h3>
+    <ul class="sources-list">
+      {{ range . }}
+        {{ if reflect.IsMap . }}
+          <li><a href="{{ .url }}" target="_blank" rel="noopener nofollow">{{ .title }}</a>{{ with .publisher }} — <span class="source-pub">{{ . }}</span>{{ end }}</li>
+        {{ else }}
+          <li>{{ . | safeHTML }}</li>
+        {{ end }}
+      {{ end }}
+    </ul>
+    <p class="sources-note">
+      {{ if eq $.Site.Language.Lang "en" }}All facts are cross-checked against original sources. Contact us if you spot inaccuracies.
+      {{ else if eq $.Site.Language.Lang "zh" }}所有事实均已与原始来源核对。如发现错误请联系我们。
+      {{ else }}Semua fakta diverifikasi dengan sumber asli. Hubungi kami jika menemukan ketidakakuratan.{{ end }}
+    </p>
+  </div>
+  {{ end }}
   <div class="artikel-back">
     <a href="{{ "/artikel/" | relLangURL }}" class="gbtn">← {{ if eq .Site.Language.Lang "en" }}All Articles{{ else if eq .Site.Language.Lang "zh" }}所有文章{{ else }}Semua Artikel{{ end }}</a>
     <a href="{{ "/" | relLangURL }}" class="gbtn primary">🏠 Dashboard</a>
