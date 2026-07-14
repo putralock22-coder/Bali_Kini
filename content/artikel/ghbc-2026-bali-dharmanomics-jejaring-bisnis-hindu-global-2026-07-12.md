@@ -4,10 +4,9 @@ date: 2026-07-12
 description: "300 delegasi dari 8 negara berkumpul di UNHI Denpasar untuk membangun jejaring ekonomi Hindu global berlandaskan nilai Dharmanomics."
 categories: ["Ekonomi & Bisnis"]
 tags: ["GHBC 2026", "Dharmanomics", "investasi Bali", "Hindu business", "Wayan Koster", "MICE"]
-image: "https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/ghbc-2026-bali-dharmanomics-jejaring-bisnis-hindu-global-2026-07-12.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Bali kembali menjadi panggung pertemuan pemikir dan pelaku bisnis lintas bangsa. Selama tiga hari, 10–12 Juli 2026, Universitas Hindu Indonesia (UNHI) Denpasar menjadi tuan rumah **Global Hindu Business Conference (GHBC) 2026** — sebuah forum strategis yang mempertemukan ratusan delegasi dari delapan negara untuk merajut jejaring ekonomi berbasis nilai-nilai spiritual dan etis.
 
 ## Dharmanomics: Ekonomi yang Berlandaskan Dharma

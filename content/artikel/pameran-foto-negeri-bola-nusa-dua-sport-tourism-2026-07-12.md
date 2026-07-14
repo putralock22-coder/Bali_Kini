@@ -4,10 +4,9 @@ date: 2026-07-12
 description: "Pameran foto jurnalistik 'Negeri Bola' ANTARA di Peninsula Island Nusa Dua tampilkan 62 foto sepak bola Indonesia dan dukung sport tourism Bali 2026."
 categories: ["Pariwisata"]
 tags: ["sport tourism", "foto jurnalistik", "Piala Dunia 2026", "Nusa Dua", "ANTARA", "sepak bola", "wisata Bali"]
-image: "https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pameran-foto-negeri-bola-nusa-dua-sport-tourism-2026-07-12.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Di tepi pantai Nusa Dua yang memukau, sebuah pameran fotografi hadir membawa cerita perjuangan dan kebangkitan sepak bola Indonesia ke panggung internasional. Kantor Berita ANTARA menggelar pameran foto jurnalistik bertajuk **"Negeri Bola: Dari Lapangan Kampung Menuju Panggung Dunia"** di kawasan Peninsula Island, The Nusa Dua, Badung, Bali — sebuah inisiatif yang memadukan kekuatan seni dokumenter dengan semangat sport tourism.
 
 ## 62 Karya Foto, Empat Kisah Mendalam

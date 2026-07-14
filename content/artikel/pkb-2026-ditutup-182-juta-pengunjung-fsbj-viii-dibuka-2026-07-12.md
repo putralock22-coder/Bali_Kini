@@ -4,10 +4,9 @@ date: 2026-07-12
 description: "Gubernur Koster resmi tutup PKB XLVIII dengan rekor 1,82 juta pengunjung dan langsung buka Festival Seni Bali Jani VIII 2026."
 categories: ["Budaya & Seni"]
 tags: ["PKB 2026", "FSBJ", "Pesta Kesenian Bali", "seni budaya", "Wayan Koster"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-2026-ditutup-182-juta-pengunjung-fsbj-viii-dibuka-2026-07-12.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Rangkaian perayaan seni terbesar di Pulau Dewata memasuki babak baru. Gubernur Bali Wayan Koster secara resmi menutup Pesta Kesenian Bali (PKB) XLVIII Tahun 2026 pada Jumat malam, 11 Juli 2026, di Panggung Terbuka Ardha Candra, Taman Budaya Bali, Art Center Denpasar — sekaligus membuka Festival Seni Bali Jani (FSBJ) VIII yang langsung mengambil alih estafet kebudayaan.
 
 ## Rekor Kunjungan Tembus 1,82 Juta
