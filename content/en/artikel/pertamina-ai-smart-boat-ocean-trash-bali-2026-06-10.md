@@ -4,10 +4,9 @@ date: 2026-06-10
 description: "Pertamina debuts Autonomous Trash Skimmer at Pantai Sekeh, Bali, using AI and solar power to collect ocean waste and target 1 ton per year reduction."
 categories: ["Environment", "Innovation"]
 tags: ["Pertamina", "smart boat", "ocean trash", "AI", "Bali environment", "Pantai Sekeh"]
-image: "https://images.pexels.com/photos/1802183/pexels-photo-1802183.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pertamina-ai-smart-boat-ocean-trash-bali-2026-06-10.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 Indonesian state energy company **PT Pertamina (Persero)** officially launched an AI-powered autonomous ocean trash-cleaning vessel at **Pantai Sekeh, Badung, Bali** on Wednesday, June 10, 2026, in conjunction with World Environment Day celebrations. The innovative boat — named the **Autonomous Trash Skimmer** — was unveiled by Pertamina's Board Chairman **Mochamad Iriawan (Iwan Bule)** as part of the company's Corporate Social and Environmental Responsibility (TJSL) program.
 
 ## Cutting-Edge Technology Meets Ocean Conservation

@@ -4,10 +4,9 @@ date: 2026-07-05
 description: "124 local craft small businesses at the 2026 Bali Arts Festival earned Rp5.95 billion in just the first two weeks, proving PKB is as much an economic engine as a cultural event."
 categories: ["Economy", "Culture"]
 tags: ["PKB 2026", "Bali Arts Festival", "craft", "IKM", "creative economy", "UMKM", "Bali culture"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-2026-local-craft-ikm-rp595-billion-revenue-2026-07-05.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 The Bali Arts Festival (Pesta Kesenian Bali / PKB) has always been the island's greatest annual celebration of culture and artistry. But the 48th edition, PKB XLVIII 2026, is proving it is just as powerful as an economic engine — with data showing that local craft businesses raked in nearly **Rp6 billion in just the first two weeks** of the event.
 
 ## The Numbers Tell the Story

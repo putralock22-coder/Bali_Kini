@@ -4,10 +4,9 @@ date: 2026-07-02
 description: "Pertamina slashes aviation fuel (avtur) prices 14% starting July 1, 2026 — from Rp22,190 to Rp19,190 per liter — bringing hopes of cheaper airfare to Bali."
 categories: ["Economy", "Tourism"]
 tags: ["avtur", "Pertamina", "Bali flights", "airfare", "tourism"]
-image: "https://images.pexels.com/photos/1310516/pexels-photo-1310516.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pertamina-cuts-avtur-14-percent-good-news-bali-tourism-2026-07-02.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 Positive news for Bali's aviation and tourism sectors arrived on July 1, 2026, as PT Pertamina Patra Niaga officially slashed aviation fuel (avtur) prices by 14 percent. The adjustment, effective at Soekarno-Hatta International Airport, has been welcomed by industry stakeholders and tourism players on the Island of the Gods alike.
 
 ## A Significant Drop in Fuel Costs

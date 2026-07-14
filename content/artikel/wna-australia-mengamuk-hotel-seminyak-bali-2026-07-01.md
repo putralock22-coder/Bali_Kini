@@ -4,10 +4,9 @@ date: 2026-07-01
 description: "Seorang wanita Australia berusia 55 tahun diamankan polisi setelah berteriak dan membuat kegaduhan di lobi hotel Legian, Seminyak, Kuta, Badung, dini hari."
 categories: ["Keamanan", "WNA"]
 tags: ["WNA", "Australia", "Seminyak", "Kuta", "Badung", "keamanan wisata", "hotel Bali"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/wna-australia-mengamuk-hotel-seminyak-bali-2026-07-01.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Insiden yang melibatkan warga negara asing (WNA) kembali terjadi di Bali. Kali ini, seorang perempuan berkebangsaan Australia berinisial **ALB** (55 tahun) diamankan aparat kepolisian setelah membuat keributan di salah satu hotel kawasan wisata Seminyak pada dini hari Rabu, 1 Juli 2026.
 
 ## Kronologi Kejadian

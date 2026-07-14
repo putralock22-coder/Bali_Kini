@@ -4,10 +4,9 @@ date: 2026-06-29
 description: "Wisata jarak dekat semakin diminati saat libur sekolah 2026 karena alasan efisiensi biaya, Bali tetap jadi destinasi utama wisatawan domestik."
 categories: ["Pariwisata"]
 tags: ["wisata domestik", "libur sekolah", "wisata hemat", "bali", "tren wisata"]
-image: "https://images.pexels.com/photos/1802183/pexels-photo-1802183.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/wisata-jarak-dekat-kian-diminati-libur-sekolah-2026-06-29.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Musim libur sekolah 2026 membawa fenomena menarik dalam pola perjalanan masyarakat Indonesia: **wisata jarak dekat** semakin menjadi pilihan utama. Data terbaru menunjukkan pergeseran signifikan di mana wisatawan lebih memilih destinasi yang tidak memerlukan perjalanan panjang, dipicu oleh pertimbangan efisiensi biaya yang kian kuat.
 
 ## Dominasi Perjalanan Antarkabupaten dan Antarkota

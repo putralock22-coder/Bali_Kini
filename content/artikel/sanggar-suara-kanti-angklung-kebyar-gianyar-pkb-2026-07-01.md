@@ -4,10 +4,9 @@ date: 2026-07-01
 description: "Sanggar Suara Kanti dari Gianyar tampil memukau di PKB XLVIII 2026, mempersembahkan Angklung Kebyar khas daerah untuk menjaga warisan leluhur."
 categories: ["Budaya"]
 tags: ["PKB 2026", "Angklung Kebyar", "Gianyar", "Sanggar Suara Kanti", "Gamelan Bali"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/sanggar-suara-kanti-angklung-kebyar-gianyar-pkb-2026-07-01.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Di tengah ratusan kelompok seni yang tampil dalam Pesta Kesenian Bali (PKB) XLVIII 2026, satu penampilan mencuri perhatian: **Sanggar Suara Kanti** dari Kabupaten Gianyar, yang dengan penuh kebanggaan memperkenalkan karakter khas Angklung Kebyar dari wilayah mereka kepada khalayak luas di Taman Budaya Bali, Denpasar.
 
 ## Identitas Daerah Lewat Melodi Angklung
