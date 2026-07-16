@@ -4,10 +4,9 @@ date: 2026-06-23
 description: "The 13th Penglipuran Village Festival runs July 9-11, 2026 in Bangli. Targeting 4,000 tourists per day with an inclusive-sustainable theme and IDR 3 billion in transactions."
 categories: ["Tourism"]
 tags: ["penglipuran", "penglipuran village festival", "bali village tourism", "bangli", "cultural tourism", "school holidays"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/penglipuran-village-festival-2026-july-4000-tourists-inclusive-2026-06-23.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 ## The World's Cleanest Village Hosts Its Annual Festival
 
 Penglipuran Village in Bangli Regency — celebrated internationally as one of the cleanest and most beautifully preserved traditional villages on earth — is gearing up for the 13th edition of its signature annual event: **Penglipuran Village Festival 2026**. Scheduled for **July 9 to 11, 2026**, the three-day festival is timed to coincide with Indonesia's mid-year school holidays, when families across the country hit the road in search of meaningful cultural experiences.

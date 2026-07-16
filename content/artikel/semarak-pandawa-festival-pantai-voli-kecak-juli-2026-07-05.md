@@ -4,10 +4,9 @@ date: 2026-07-05
 description: "Festival Semarak Pandawa 2026 di Pantai Pandawa Bali, 3-5 Juli: lomba voli pantai perdana, jalan santai tebing Tanah Barak, dan pertunjukan Tari Kecak gratis."
 categories: ["Pariwisata"]
 tags: ["Semarak Pandawa", "Pantai Pandawa", "voli pantai", "tari kecak", "festival Bali", "Badung"]
-image: "https://images.pexels.com/photos/1802183/pexels-photo-1802183.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/semarak-pandawa-festival-pantai-voli-kecak-juli-2026-07-05.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Kawasan Pantai Pandawa di Desa Kutuh, Kuta Selatan, Kabupaten Badung, kembali menjadi episentrum perayaan budaya dan wisata pantai lewat gelaran **Semarak Pandawa 2026**. Festival tiga hari yang berlangsung pada **3–5 Juli 2026** ini menghadirkan beragam atraksi: mulai dari jalan santai menyusuri tebing eksotis, lomba voli pantai perdana, hingga pertunjukan Tari Kecak ikonik yang memukau.
 
 ## Jalan Santai Membuka Perayaan

@@ -4,10 +4,9 @@ date: 2026-07-12
 description: "Governor Koster officially closed Bali's 48th Arts Festival with a record 1.82 million visitors, immediately opening the Bali Jani Arts Festival VIII."
 categories: ["Culture & Arts"]
 tags: ["PKB 2026", "FSBJ", "Pesta Kesenian Bali", "Bali arts", "Wayan Koster"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-2026-closed-182-million-visitors-fsbj-viii-opens-2026-07-12.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 Bali's most celebrated cultural marathon entered a new chapter on Friday night, July 11, 2026. Governor Wayan Koster officially closed the 48th Pesta Kesenian Bali (PKB XLVIII) at the Ardha Candra Open Stage, Taman Budaya Bali Art Center in Denpasar — and in the same breath, inaugurated the 8th Festival Seni Bali Jani (FSBJ VIII), ensuring Bali's cultural heartbeat continues without pause.
 
 ## Record-Breaking: 1.82 Million Visitors

@@ -4,10 +4,9 @@ date: 2026-07-08
 description: "Penglipuran Village Festival XIII runs July 9–11, 2026 in Bangli. Themed around inclusive and regenerative tourism, it targets 4,000 visitors over three days."
 categories: ["Culture", "Tourism"]
 tags: ["Penglipuran", "festival", "village tourism", "Bangli", "Balinese culture", "sustainable tourism"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/penglipuran-village-festival-xiii-bali-2026-07-08.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 One of the world's best tourism villages is about to host its most anticipated annual event. **Penglipuran Village Festival XIII** kicks off tomorrow, Thursday July 9, 2026, and runs through Saturday July 11 in the traditional village of Penglipuran, Bangli Regency. Now in its 13th edition, the festival is set to become one of Bali's most vibrant cultural events of the 2026 school holiday season.
 
 ## Theme: Harmony of the Earth

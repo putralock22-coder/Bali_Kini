@@ -4,10 +4,9 @@ date: 2026-06-29
 description: "Penglipuran traditional village in Bangli is targeting 3,000–4,000 domestic visitors daily during Indonesia's school holiday season, with special family tourism packages on offer."
 categories: ["Tourism"]
 tags: ["Penglipuran", "Domestic Tourism", "School Holiday", "Bangli", "Village Tourism", "Bali"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/penglipuran-village-targets-4000-domestic-tourists-school-holiday-2026-06-29.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 Penglipuran Village Tourism in Bangli Regency is entering the school holiday season with an ambitious goal: welcoming between 3,000 and 4,000 visitors per day. The managers of this globally recognized traditional village — renowned as one of the cleanest villages in the world — are focusing specifically on domestic tourists, who become the dominant market segment during Indonesia's school break period.
 
 ## Domestic Visitors Take Center Stage

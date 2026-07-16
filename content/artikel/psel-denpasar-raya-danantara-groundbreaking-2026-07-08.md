@@ -4,10 +4,9 @@ date: 2026-07-08
 description: "Danantara resmi groundbreaking PSEL Denpasar Raya senilai Rp 3 triliun di Desa Pedungan. Mampu olah 1.500 ton sampah per hari jadi energi listrik."
 categories: ["Lingkungan", "Infrastruktur"]
 tags: ["PSEL", "Danantara", "sampah", "energi listrik", "Denpasar", "lingkungan", "Bali"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/psel-denpasar-raya-danantara-groundbreaking-2026-07-08.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Bali kini memasuki babak baru dalam penanganan masalah sampah yang telah lama menjadi sorotan dunia internasional. Pada Rabu, 8 Juli 2026, Badan Pengelola Investasi Danantara secara resmi melaksanakan *groundbreaking* atau peletakan batu pertama pembangunan fasilitas Pengolahan Sampah menjadi Energi Listrik (PSEL) Denpasar Raya di Desa Pedungan, Kecamatan Denpasar Selatan.
 
 ## Investasi Triliunan untuk Masa Depan Bali yang Lebih Bersih

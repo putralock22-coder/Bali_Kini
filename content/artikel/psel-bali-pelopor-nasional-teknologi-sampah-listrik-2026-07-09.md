@@ -4,10 +4,9 @@ date: 2026-07-09
 description: "Menteri LH pastikan PSEL tak berhenti di Bali. Teknologi ubah sampah jadi listrik akan dibangun di 34 aglomerasi mencakup 60-70 kabupaten/kota Indonesia."
 categories: ["Lingkungan"]
 tags: ["PSEL", "sampah", "energi listrik", "Danantara", "lingkungan"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/psel-bali-pelopor-nasional-teknologi-sampah-listrik-2026-07-09.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Bali telah menorehkan sejarah sebagai daerah pertama di Indonesia yang memulai pembangunan fasilitas Pengolahan Sampah menjadi Energi Listrik (PSEL). Namun, ambisi pemerintah tidak berhenti di Pulau Dewata. Menteri Lingkungan Hidup Moh. Jumhur Hidayat menegaskan bahwa teknologi pengolah sampah modern ini akan segera direplikasi di seluruh penjuru Indonesia.
 
 ## PSEL Bali: Kapasitas 1.500 Ton Per Hari
