@@ -4,10 +4,9 @@ date: 2026-07-09
 description: "Penglipuran Village Festival XIII kicks off on July 9, 2026 with a colossal dance performance, gebogan parade, and UMKM fair targeting 3,000–4,000 visitors per day."
 categories: ["Culture"]
 tags: ["Penglipuran", "festival", "Bangli", "culture", "village tourism"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/penglipuran-village-festival-xiii-opens-gebogan-parade-2026-07-09.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 One of Bali's most celebrated traditional villages is officially in festival mode. **Penglipuran Village Festival XIII** opened its doors on Thursday (9/7/2026) and runs through Saturday (11/7/2026), transforming the ancient pathways of Desa Wisata Penglipuran in Bangli Regency into a vibrant celebration of Balinese culture, environmental stewardship, and community pride.
 
 ## Opening Day: Dance, Parade, and Tradition

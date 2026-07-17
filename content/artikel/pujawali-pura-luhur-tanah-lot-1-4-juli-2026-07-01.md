@@ -4,10 +4,9 @@ date: 2026-07-01
 description: "Upacara Pujawali di Pura Luhur Tanah Lot Tabanan berlangsung 1-4 Juli 2026, namun DTW tetap beroperasi normal bagi wisatawan."
 categories: ["Budaya"]
 tags: ["Tanah Lot", "Pujawali", "upacara adat", "wisata Bali", "Tabanan"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pujawali-pura-luhur-tanah-lot-1-4-juli-2026-07-01.jpg"
 image_credit: "Foto: Pexels / Arvind shakya"
 ---
-
 Kawasan wisata Pura Luhur Tanah Lot di Tabanan, Bali, menjadi pusat perhatian umat Hindu selama empat hari ke depan, seiring digelarnya upacara **Pujawali** yang berlangsung mulai Rabu, 1 Juli 2026 hingga Sabtu, 4 Juli 2026. Puncak rangkaian ritual ini diakhiri dengan prosesi **Nyineb** — tahap penyelesaian upacara besar yang disakralkan oleh masyarakat Hindu Bali.
 
 ## Wisata dan Ibadah Berjalan Harmonis

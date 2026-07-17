@@ -4,10 +4,9 @@ date: 2026-07-07
 description: "Penglipuran Tourism Village records 3,500 visitors per day during school holidays, as Festival Penglipuran XIII opens July 9–11, 2026 with a gebogan parade and colossal dance performance."
 categories: ["Tourism", "Culture"]
 tags: ["Penglipuran", "cultural festival", "school holiday", "Bali tourism", "tourism village"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/penglipuran-village-festival-xiii-school-holiday-2026-07-07.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 Penglipuran Tourism Village in Bangli Regency, Bali, is experiencing a remarkable surge in visitors during the 2026 school holiday season. An average of **3,500 tourists** are arriving each day — nearly double the usual daily figure of around 2,000 visitors. The trend is expected to accelerate further as Penglipuran Village Festival XIII approaches, running **July 9–11, 2026**.
 
 ## School Holiday Boom

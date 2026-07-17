@@ -4,10 +4,9 @@ date: 2026-06-25
 description: "Ratusan kepala keluarga di Buleleng mengeluhkan kebisingan dan asap hitam PLTD Pemaron yang beroperasi 24 jam, sebagian warga minta relokasi."
 categories: ["Lingkungan"]
 tags: ["PLTD Pemaron", "Buleleng", "polusi", "PLN Indonesia Power", "lingkungan"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pltd-pemaron-buleleng-196-kk-terdampak-polusi-kebisingan-2026-06-25.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 ## Warga Pemaron Sudah 1,5 Tahun Menanggung Dampak
 
 Sebanyak 196 kepala keluarga (KK) yang tinggal dalam radius 0 hingga 300 meter dari Pembangkit Listrik Tenaga Diesel (PLTD) Pemaron di Buleleng, Bali, terus mengeluhkan dampak buruk operasional fasilitas tersebut. Selama lebih dari satu setengah tahun, warga sekitar tidak bisa beristirahat dengan tenang akibat kebisingan mesin yang beroperasi hampir 24 jam penuh.

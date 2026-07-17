@@ -4,10 +4,9 @@ date: 2026-06-30
 description: "Hundreds of parents confronted Denpasar's Education Office on June 29 after the SPMB 2026 system placed their children in elementary schools far from home, sparking debate over the fairness of automated zoning."
 categories: ["Education"]
 tags: ["SPMB 2026", "Denpasar elementary school", "Bali education", "Disdikpora", "school zoning", "public protest"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/parents-protest-spmb-sd-school-placement-denpasar-2026-06-30.jpg"
 image_credit: "Photo: Pexels"
 ---
-
 The Denpasar City Office of Education, Youth, and Sports (Disdikpora) became the flashpoint of public frustration on Monday, June 29, 2026, when hundreds of parents descended on the building to protest the results of the **Sistem Penerimaan Murid Baru (SPMB 2026)** — the new national school enrollment system — for elementary school (SD) placements.
 
 Their grievance was straightforward but deeply felt: their children had been assigned to schools far from where they live, appearing to contradict the very purpose of the zoning-based enrollment system, which is supposed to prioritize proximity to home.

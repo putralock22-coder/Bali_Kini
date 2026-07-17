@@ -4,10 +4,9 @@ date: 2026-07-08
 description: "Koalisi Pulihkan Bali ajukan citizen lawsuit ke PN Denpasar, gugat 14 pejabat mulai Presiden hingga bupati atas banjir bandang September 2025."
 categories: ["Hukum", "Lingkungan"]
 tags: ["citizen lawsuit", "banjir Bali", "Pulihkan Bali", "PN Denpasar", "alih fungsi lahan", "lingkungan hidup"]
-image: "https://images.pexels.com/photos/2474690/pexels-photo-2474690.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pulihkan-bali-gugat-14-pejabat-citizen-lawsuit-banjir-2026-07-08.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Sepuluh warga Bali yang tergabung dalam Koalisi Pergerakan untuk Lingkungan Hidup dan Keberlanjutan (Pulihkan) Bali secara resmi mengajukan gugatan warga negara atau *citizen lawsuit* ke Pengadilan Negeri Denpasar. Gugatan terdaftar dengan nomor perkara **1024/Pdt.G/2026/PN Dps** dan diajukan pada 2 Juli 2026, menyasar 14 pejabat negara dari tingkat kabupaten hingga presiden.
 
 ## Banjir Bandang September 2025 Jadi Pemicu
