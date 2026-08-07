@@ -4,10 +4,9 @@ date: 2026-07-04
 description: "Festival musik POLIPONI Bali 2026 digelar 4 Juli di Bali United Training Center, Gianyar. Sheila On 7 jadi headliner utama malam ini."
 categories: ["Hiburan", "Event"]
 tags: ["POLIPONI", "Sheila On 7", "festival musik", "Gianyar", "konser Bali", "event Bali 2026"]
-image: "https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/poliponi-bali-2026-sheila-on-7-4-juli-gianyar-2026-07-04.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Bali malam ini bukan hanya tentang pura dan sunset. Di Kabupaten Gianyar, ribuan penonton berkumpul untuk menyaksikan salah satu festival musik paling ditunggu-tunggu di pulau ini: **POLIPONI Bali 2026**, dengan Sheila On 7 sebagai bintang utamanya.
 
 ## Konser Spektakuler di Tepi Laut Gianyar

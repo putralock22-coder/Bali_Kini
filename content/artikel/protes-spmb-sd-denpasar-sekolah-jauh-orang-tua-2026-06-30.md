@@ -4,10 +4,9 @@ date: 2026-06-30
 description: "Ratusan orang tua siswa mendatangi Disdikpora Kota Denpasar memprotes hasil SPMB SD 2026 yang menempatkan anak-anak di sekolah jauh dari tempat tinggal mereka."
 categories: ["Pendidikan"]
 tags: ["SPMB 2026", "SD Denpasar", "pendidikan Bali", "Disdikpora", "zonasi", "protes warga"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/protes-spmb-sd-denpasar-sekolah-jauh-orang-tua-2026-06-30.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Kantor Dinas Pendidikan, Kepemudaan, dan Olahraga (Disdikpora) Kota Denpasar menjadi titik kumpul ratusan orang tua siswa pada Senin, 29 Juni 2026. Mereka datang bukan untuk mengurus administrasi biasa, melainkan menyampaikan protes atas hasil **Sistem Penerimaan Murid Baru (SPMB)** jenjang Sekolah Dasar (SD) yang dinilai tidak adil dan membebani keluarga.
 
 Keluhan yang menyulut gelombang protes ini sederhana namun terasa menyakitkan: anak-anak mereka ditempatkan di sekolah yang jauh dari tempat tinggal. Padahal dalam sistem zonasi, kedekatan domisili dengan sekolah semestinya menjadi faktor utama dalam penentuan penempatan.

@@ -4,10 +4,9 @@ date: 2026-06-23
 description: "Polda Bali rekrut lebih dari 25 ribu pecalang untuk perkuat kamtibmas. Wagub Giri Prasta: Bali harus tetap aman dan inklusif demi pariwisata berkualitas."
 categories: ["Pariwisata", "Keamanan"]
 tags: ["pecalang", "Polda Bali", "kamtibmas", "pariwisata", "Giri Prasta"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/polda-bali-25-ribu-pecalang-kamtibmas-pariwisata-2026-06-23.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Lebih dari **25.000 pecalang** — satuan pengamanan tradisional berbasis desa adat Bali — resmi diintegrasikan oleh Kepolisian Daerah (Polda) Bali ke dalam sistem keamanan terpadu pulau ini. Langkah besar ini menandai babak baru sinergi antara aparat kepolisian modern dan kearifan lokal Bali dalam menjaga ketentraman warga sekaligus kenyamanan jutaan wisatawan.
 
 ## Apel Besar di Lapangan Niti Mandala Renon
