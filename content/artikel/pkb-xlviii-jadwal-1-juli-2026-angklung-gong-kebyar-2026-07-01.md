@@ -4,10 +4,9 @@ date: 2026-07-01
 description: "Jadwal PKB XLVIII hari ini 1 Juli 2026 hadirkan parade angklung dan gong kebyar dewasa di Taman Budaya Bali, Denpasar."
 categories: ["Budaya", "Event"]
 tags: ["PKB 2026", "Pesta Kesenian Bali", "angklung", "gong kebyar", "Denpasar", "seni tradisional"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-xlviii-jadwal-1-juli-2026-angklung-gong-kebyar-2026-07-01.jpg"
 image_credit: "Foto: Pexels / Arvind shakya"
 ---
-
 Pesta Kesenian Bali (PKB) XLVIII Tahun 2026 memasuki pekan terakhirnya dengan sajian yang tidak kalah memukau. Pada Rabu, 1 Juli 2026, giliran **parade gamelan angklung** dan **pagelaran gong kebyar dewasa** yang akan memeriahkan panggung utama Taman Budaya Bali (Art Center) di kawasan Nusa Indah, Denpasar. Dua penampilan bergengsi ini menjadi daya tarik tersendiri bagi penonton, baik warga lokal maupun wisatawan yang kebetulan berada di Bali.
 
 ## Tema Agung: Memuliakan Jiwa Paripurna

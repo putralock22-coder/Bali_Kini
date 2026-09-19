@@ -1,5 +1,6 @@
 ---
 title: "Sira Village Dibuka, Pansus TRAP DPRD Bali Sebut Langkahi Proses Hukum"
+image: "/images/articles/sira-village-langkahi-proses-hukum-pansus-trap-2026-08-07.jpg"
 date: 2026-08-07
 lastmod: 2026-08-07
 description: "PT BTID buka soft opening Sira Village Grand Outlet di KEK Kura-Kura Bali sebelum rekomendasi Pansus TRAP DPRD Bali rampung. Legislator sebut langkahi proses hukum."
@@ -17,7 +18,6 @@ sources:
     url: "https://www.balipost.com/news/2026/07/28/569763/Rencana-Opening-Sira-Village-Disoroti,...html"
     publisher: "Bali Post"
 ---
-
 PT Bali Turtle Island Development (BTID) tetap menggelar soft opening Sira Village Grand Outlet Bali di Kawasan Ekonomi Khusus (KEK) Kura-Kura Bali, Serangan, Denpasar, pada Jumat, 31 Juli 2026 — meski Pansus Tata Ruang, Aset Daerah, dan Perizinan (Pansus TRAP) DPRD Bali belum merampungkan proses tindak lanjut atas temuan dugaan pelanggaran di kawasan tersebut. Langkah ini memicu kecaman legislator yang menilai manajemen mengabaikan lembaga dewan dan proses hukum yang tengah berjalan.
 
 ## Kronologi dan Reaksi Dewan

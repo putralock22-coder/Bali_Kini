@@ -4,10 +4,9 @@ date: 2026-06-26
 description: "PLN UID Bali operasikan 143 SPKLU di 94 lokasi se-Bali, dukung mobilitas 14.318 kendaraan listrik dengan jangkauan pengisian rata-rata tiap 30 km."
 categories: ["Energi", "Transportasi"]
 tags: ["SPKLU", "kendaraan listrik", "PLN Bali", "EV", "energi bersih", "transisi energi"]
-image: "https://images.pexels.com/photos/1310516/pexels-photo-1310516.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pln-143-spklu-bali-kendaraan-listrik-2026-06-26.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 PT PLN (Persero) Unit Induk Distribusi (UID) Bali telah mengoperasikan sebanyak 143 unit Stasiun Pengisian Kendaraan Listrik Umum (SPKLU) yang tersebar di 94 titik lokasi di seluruh Pulau Dewata. Infrastruktur pengisian daya ini hadir untuk menopang mobilitas pengguna kendaraan listrik yang terus tumbuh pesat di Bali.
 
 ## Jaringan Pengisian Terluas di Kawasan Timur Indonesia

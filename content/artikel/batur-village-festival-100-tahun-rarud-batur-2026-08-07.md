@@ -1,5 +1,6 @@
 ---
 title: "Batur Village Festival: Satu Abad Rarud Batur Dikenang di Kintamani"
+image: "/images/articles/batur-village-festival-100-tahun-rarud-batur-2026-08-07.jpg"
 date: 2026-08-07
 lastmod: 2026-08-07
 description: "Desa Adat Batur gelar Batur Village Festival 2-8 Agustus 2026, peringati 100 tahun Rarud Batur pascaerupsi Gunung Batur 1926 lewat jalur tapak jejak dan parade budaya."
@@ -17,7 +18,6 @@ sources:
     url: "https://www.nusabali.com/berita/226341/batur-village-festival-peringati-100-tahun-rarud-batur-jejak-desa-yang-hilang-ditelan-letusan"
     publisher: "NusaBali"
 ---
-
 Desa Adat Batur di Kintamani, Kabupaten Bangli, menggelar Batur Village Festival selama sepekan penuh, 2-8 Agustus 2026, untuk memperingati satu abad peristiwa Rarud Batur — eksodus massal warga akibat erupsi dahsyat Gunung Batur pada Agustus 1926 yang menenggelamkan permukiman lama mereka di bawah lahar. Festival ini mengusung tema "Batur Matangi, Sebuah Kesadaran akan Kebangkitan", menegaskan semangat kebangkitan kolektif seratus tahun setelah bencana.
 
 ## Jejak Sejarah yang Ditelan Lahar

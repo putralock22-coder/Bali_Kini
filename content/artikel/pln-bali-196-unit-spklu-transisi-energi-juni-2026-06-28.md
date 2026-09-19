@@ -4,10 +4,9 @@ date: 2026-06-28
 description: "PLN UID Bali hadirkan 196 unit SPKLU hingga Juni 2026 di 94 lokasi seluruh kabupaten, dukung 16.000 lebih kendaraan listrik di Pulau Dewata."
 categories: ["Ekonomi & Infrastruktur"]
 tags: ["SPKLU", "PLN Bali", "kendaraan listrik", "transisi energi", "infrastruktur", "energi bersih"]
-image: "https://images.pexels.com/photos/2506923/pexels-photo-2506923.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pln-bali-196-unit-spklu-transisi-energi-juni-2026-06-28.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Langkah Bali menuju ekosistem transportasi yang lebih ramah lingkungan semakin nyata. Hingga Juni 2026, PT PLN (Persero) Unit Induk Distribusi (UID) Bali bersama para mitra telah menghadirkan total **196 unit Stasiun Pengisian Kendaraan Listrik Umum (SPKLU)** yang tersebar di berbagai penjuru Pulau Dewata.
 
 Capaian ini merupakan bagian dari komitmen PLN dalam mendukung percepatan transisi energi bersih di Bali, sekaligus menjawab kebutuhan masyarakat yang semakin banyak beralih ke kendaraan listrik.

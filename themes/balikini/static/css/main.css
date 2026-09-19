@@ -363,3 +363,45 @@ body{background:var(--bg);color:var(--text);font-family:'Plus Jakarta Sans',sans
 /* Logo image in header */
 .site-header .logo{gap:10px;}
 .site-header .logo-img{width:32px;height:32px;border-radius:8px;object-fit:cover;flex-shrink:0;}
+
+/* PASANG IKLAN page */
+.ads-page{max-width:1100px;margin:0 auto;padding:40px 24px 60px;}
+.ads-hero{text-align:center;padding:48px 24px 40px;background:linear-gradient(135deg,rgba(234,179,8,.08),rgba(34,197,94,.05));border-radius:20px;border:1px solid rgba(234,179,8,.2);margin-bottom:56px;}
+.ads-badge{display:inline-block;background:var(--gold);color:#000;font-size:.75rem;font-weight:700;padding:6px 14px;border-radius:20px;letter-spacing:.5px;margin-bottom:16px;}
+.ads-hero h1{font-size:2.4rem;margin:0 0 16px;color:#fff;line-height:1.2;}
+.ads-hero h1 em{color:var(--gold);font-style:normal;}
+.ads-hero > p{color:rgba(255,255,255,.75);max-width:640px;margin:0 auto 28px;line-height:1.7;font-size:1.02rem;}
+.ads-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:16px;max-width:720px;margin:0 auto;}
+.ads-stat{background:rgba(255,255,255,.04);padding:18px 12px;border-radius:12px;border:1px solid rgba(255,255,255,.08);}
+.as-val{font-size:1.7rem;font-weight:800;color:var(--gold);margin-bottom:4px;}
+.as-lbl{font-size:.78rem;color:rgba(255,255,255,.6);}
+.ads-section{margin-bottom:56px;}
+.ads-section h2{font-size:1.6rem;color:#fff;margin:0 0 8px;}
+.ads-desc{color:rgba(255,255,255,.65);margin-bottom:28px;font-size:.95rem;}
+.ads-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;}
+.ads-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.09);border-radius:16px;padding:26px 24px;position:relative;transition:transform .2s,border-color .2s;}
+.ads-card:hover{transform:translateY(-4px);border-color:var(--gold);}
+.ac-badge{position:absolute;top:-10px;right:20px;font-size:.68rem;font-weight:700;padding:5px 10px;border-radius:12px;color:#000;letter-spacing:.4px;}
+.ac-title{font-size:1.15rem;font-weight:700;color:#fff;margin-bottom:10px;}
+.ac-price{font-size:1.7rem;font-weight:800;color:var(--gold);margin-bottom:6px;}
+.ac-price span{font-size:.85rem;color:rgba(255,255,255,.5);font-weight:400;}
+.ac-size{font-size:.8rem;color:rgba(255,255,255,.55);margin-bottom:18px;padding-bottom:14px;border-bottom:1px dashed rgba(255,255,255,.1);}
+.ac-feat{list-style:none;padding:0;margin:0;}
+.ac-feat li{font-size:.85rem;color:rgba(255,255,255,.75);padding:5px 0;line-height:1.5;}
+.ads-target-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;}
+.ads-target{background:rgba(255,255,255,.03);padding:14px 18px;border-radius:10px;border:1px solid rgba(255,255,255,.08);color:rgba(255,255,255,.85);font-size:.92rem;}
+.ads-why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;}
+.ads-why{background:rgba(255,255,255,.03);padding:24px;border-radius:14px;border:1px solid rgba(255,255,255,.08);}
+.aw-icon{font-size:2rem;margin-bottom:10px;}
+.ads-why h3{font-size:1.05rem;color:#fff;margin:0 0 8px;}
+.ads-why p{font-size:.88rem;color:rgba(255,255,255,.7);line-height:1.6;margin:0;}
+.ads-cta{background:linear-gradient(135deg,rgba(234,179,8,.1),rgba(34,197,94,.08));border:1px solid rgba(234,179,8,.25);border-radius:20px;padding:44px 32px;text-align:center;}
+.ads-cta h2{font-size:1.8rem;color:#fff;margin:0 0 12px;}
+.ads-cta > p{color:rgba(255,255,255,.75);margin-bottom:28px;font-size:1rem;}
+.ads-contact-grid{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-bottom:20px;}
+.ads-contact{display:inline-block;padding:14px 28px;border-radius:50px;font-weight:700;text-decoration:none;transition:transform .2s;font-size:.95rem;}
+.ads-contact.primary{background:linear-gradient(135deg,var(--gold),#f59e0b);color:#000;}
+.ads-contact.wa{background:#25D366;color:#fff;}
+.ads-contact:hover{transform:translateY(-2px);}
+.ads-note{font-size:.82rem;color:rgba(255,255,255,.5);}
+@media(max-width:640px){.ads-hero h1{font-size:1.7rem;}.ads-cta h2{font-size:1.4rem;}}

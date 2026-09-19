@@ -4,10 +4,9 @@ date: 2026-06-27
 description: "Jadwal PKB XLVIII Sabtu 27 Juni 2026: Parade Palegongan Klasik pukul 17.00 WITA dan Rekasadana Kecak Ramayana Titi Situbanda pukul 19.30 WITA."
 categories: ["Budaya"]
 tags: ["PKB", "Pesta Kesenian Bali", "Palegongan", "Kecak Ramayana", "Seni Tradisi Bali"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-xlviii-palegongan-kecak-titi-situbanda-27-juni-2026-06-27.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Pesta Kesenian Bali (PKB) XLVIII 2026 kembali menghadirkan malam seni yang sarat dengan nuansa tradisi pada Sabtu, 27 Juni 2026. Hari ini, pengunjung Taman Budaya Bali atau Art Center Denpasar dapat menyaksikan dua sajian utama yang mempertemukan keanggunan Palegongan Klasik dengan dramatisasi epik Kecak Ramayana.
 
 ## Parade Palegongan Klasik di Gedung Ksirarnawa

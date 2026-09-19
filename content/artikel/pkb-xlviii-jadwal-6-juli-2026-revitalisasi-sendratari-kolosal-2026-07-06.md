@@ -4,10 +4,9 @@ date: 2026-07-06
 description: "PKB XLVIII 2026 sajikan dua penampilan unggulan: Revitalisasi Kesenian Klasik dari Badung sore hari dan Sendratari Kolosal Sanggar Paripurna Desa Bona, Gianyar, malam hari."
 categories: ["Budaya"]
 tags: ["PKB 2026", "pesta kesenian bali", "sendratari", "seni tradisional", "Gianyar", "Badung"]
-image: "https://images.pexels.com/photos/2614818/pexels-photo-2614818.jpeg?auto=compress&cs=tinysrgb&w=1200"
+image: "/images/articles/pkb-xlviii-jadwal-6-juli-2026-revitalisasi-sendratari-kolosal-2026-07-06.jpg"
 image_credit: "Foto: Pexels"
 ---
-
 Pesta Kesenian Bali (PKB) XLVIII 2026 kembali menghadirkan rangkaian pertunjukan seni yang memukau pada Senin, 6 Juli 2026. Dua penampilan utama menjadi sorotan hari ini: pergelaran Revitalisasi Kesenian Klasik pada sore hari dan Sendratari Kolosal yang memukau di malam harinya.
 
 ## Revitalisasi Kesenian Klasik dari Badung

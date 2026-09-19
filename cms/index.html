@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>🌊 Bali Kini CMS</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --bg:#070c09;--card:rgba(255,255,255,0.04);--border:rgba(255,255,255,0.08);
+  --text:#f0faf2;--text2:#a3b8a8;--text3:#5e7563;
+  --green:#22c55e;--gold:#eab308;--red:#ef4444;--blue:#3b82f6;
+}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;font-size:14px;min-height:100vh;}
+
+/* LAYOUT */
+.app{display:grid;grid-template-columns:260px 1fr;min-height:100vh;}
+.sidebar{background:rgba(255,255,255,0.02);border-right:1px solid var(--border);padding:0;display:flex;flex-direction:column;}
+.main{padding:24px;overflow-y:auto;}
+
+/* SIDEBAR */
+.logo{padding:20px;font-size:18px;font-weight:800;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px;}
+.logo span{color:var(--green);font-style:italic;}
+.nav-section{padding:12px 16px 4px;font-size:10px;color:var(--text3);font-weight:700;letter-spacing:1.5px;text-transform:uppercase;}
+.nav-btn{display:flex;align-items:center;gap:10px;padding:10px 20px;color:var(--text2);cursor:pointer;transition:all 0.15s;border:none;background:none;width:100%;text-align:left;font-size:13px;}
+.nav-btn:hover{background:var(--card);color:var(--text);}
+.nav-btn.active{background:rgba(34,197,94,0.1);color:var(--green);border-right:2px solid var(--green);}
+.nav-count{margin-left:auto;background:rgba(255,255,255,0.08);border-radius:20px;padding:1px 7px;font-size:10px;color:var(--text3);}
+
+/* HEADER */
+.page-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px;flex-wrap:wrap;gap:12px;}
+.page-title{font-size:22px;font-weight:700;}
+.page-title span{color:var(--green);}
+
+/* BUTTONS */
+.btn{display:inline-flex;align-items:center;gap:6px;padding:8px 18px;border-radius:8px;border:1px solid var(--border);background:var(--card);color:var(--text);cursor:pointer;font-size:12px;font-weight:600;transition:all 0.2s;text-decoration:none;}
+.btn:hover{background:rgba(255,255,255,0.08);}
+.btn-green{background:rgba(34,197,94,0.15);border-color:rgba(34,197,94,0.3);color:var(--green);}
+.btn-green:hover{background:rgba(34,197,94,0.25);}
+.btn-red{background:rgba(239,68,68,0.12);border-color:rgba(239,68,68,0.3);color:var(--red);}
+.btn-red:hover{background:rgba(239,68,68,0.2);}
+.btn-blue{background:rgba(59,130,246,0.12);border-color:rgba(59,130,246,0.3);color:var(--blue);}
+
+/* SEARCH & FILTER */
+.toolbar{display:flex;gap:10px;margin-bottom:20px;flex-wrap:wrap;}
+.search-box{flex:1;min-width:200px;padding:9px 14px;border:1px solid var(--border);background:var(--card);color:var(--text);border-radius:8px;font-size:13px;}
+.search-box:focus{outline:none;border-color:rgba(34,197,94,0.4);}
+.search-box::placeholder{color:var(--text3);}
+select.filter{padding:9px 12px;border:1px solid var(--border);background:var(--card);color:var(--text);border-radius:8px;font-size:12px;cursor:pointer;}
+
+/* ARTIKEL LIST */
+.artikel-list{display:flex;flex-direction:column;gap:8px;}
+.artikel-item{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:14px 18px;display:flex;align-items:center;gap:14px;cursor:pointer;transition:all 0.15s;}
+.artikel-item:hover{background:rgba(255,255,255,0.06);border-color:rgba(255,255,255,0.15);}
+.artikel-img{width:48px;height:48px;border-radius:6px;object-fit:cover;flex-shrink:0;background:rgba(255,255,255,0.05);}
+.artikel-info{flex:1;min-width:0;}
+.artikel-title{font-weight:600;color:var(--text);margin-bottom:4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.artikel-meta{display:flex;gap:10px;align-items:center;flex-wrap:wrap;}
+.tag{display:inline-block;font-size:9px;padding:2px 8px;border-radius:20px;font-weight:700;background:rgba(34,197,94,0.1);color:var(--green);}
+.tag.en{background:rgba(59,130,246,0.1);color:var(--blue);}
+.tag.zh{background:rgba(234,179,8,0.1);color:var(--gold);}
+.tag.cat{background:rgba(255,255,255,0.06);color:var(--text2);}
+.artikel-date{font-size:11px;color:var(--text3);}
+.artikel-actions{display:flex;gap:6px;flex-shrink:0;}
+.icon-btn{padding:6px 8px;border-radius:6px;border:1px solid var(--border);background:none;color:var(--text2);cursor:pointer;font-size:14px;transition:all 0.15s;}
+.icon-btn:hover{background:var(--card);color:var(--text);}
+.icon-btn.del:hover{background:rgba(239,68,68,0.12);color:var(--red);border-color:rgba(239,68,68,0.3);}
+
+/* EDITOR */
+.editor-form{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;}
+.form-group{margin-bottom:18px;}
+.form-label{display:block;font-size:11px;font-weight:700;color:var(--text2);margin-bottom:6px;text-transform:uppercase;letter-spacing:0.5px;}
+.form-input{width:100%;padding:10px 14px;border:1px solid var(--border);background:rgba(255,255,255,0.03);color:var(--text);border-radius:8px;font-size:13px;font-family:inherit;}
+.form-input:focus{outline:none;border-color:rgba(34,197,94,0.4);}
+.form-input::placeholder{color:var(--text3);}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+.form-row.three{grid-template-columns:1fr 1fr 1fr;}
+textarea.form-input{resize:vertical;font-family:'Cascadia Code','Consolas',monospace;font-size:12px;line-height:1.6;}
+
+/* STATS */
+.stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-bottom:24px;}
+.stat-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px;}
+.stat-num{font-size:28px;font-weight:800;color:var(--green);}
+.stat-lbl{font-size:11px;color:var(--text3);margin-top:2px;}
+
+/* TOAST */
+.toast{position:fixed;bottom:24px;right:24px;padding:12px 18px;border-radius:10px;font-size:13px;font-weight:600;z-index:9999;animation:slideUp 0.3s ease;}
+.toast.success{background:rgba(34,197,94,0.15);border:1px solid rgba(34,197,94,0.3);color:var(--green);}
+.toast.error{background:rgba(239,68,68,0.15);border:1px solid rgba(239,68,68,0.3);color:var(--red);}
+@keyframes slideUp{from{opacity:0;transform:translateY(10px);}to{opacity:1;transform:translateY(0);}}
+
+/* LOADING */
+.loading{text-align:center;padding:60px;color:var(--text3);}
+.spinner{font-size:32px;animation:spin 1s linear infinite;display:inline-block;}
+@keyframes spin{from{transform:rotate(0deg);}to{transform:rotate(360deg)};}
+
+/* MODAL */
+.modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:1000;display:flex;align-items:center;justify-content:center;}
+.modal{background:#0d1a10;border:1px solid var(--border);border-radius:14px;padding:28px;max-width:420px;width:90%;}
+.modal h3{font-size:16px;margin-bottom:10px;}
+.modal p{color:var(--text2);font-size:13px;margin-bottom:20px;line-height:1.6;}
+.modal-btns{display:flex;gap:10px;justify-content:flex-end;}
+
+/* LOGIN */
+.login-page{display:flex;align-items:center;justify-content:center;min-height:100vh;padding:24px;}
+.login-card{background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:16px;padding:36px;max-width:400px;width:100%;}
+.login-logo{font-size:28px;font-weight:800;margin-bottom:8px;}
+.login-logo span{color:var(--green);font-style:italic;}
+.login-sub{color:var(--text3);margin-bottom:28px;font-size:13px;}
+
+/* EMPTY */
+.empty{text-align:center;padding:48px;color:var(--text3);}
+.empty-icon{font-size:40px;margin-bottom:12px;}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .app{grid-template-columns:1fr;}
+  .sidebar{display:none;}
+  .form-row,.form-row.three{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<div id="root"></div>
+
+<script>
+// ── CONFIG ──
+const REPO_OWNER = 'putralock22-coder';
+const REPO_NAME  = 'Bali_Kini';
+const BRANCH     = 'main';
+
+let TOKEN = localStorage.getItem('bk_cms_token') || '';
+let currentView = 'dashboard';
+let allArticles = [];
+let editingArticle = null;
+
+// ── GITHUB API ──
+async function ghFetch(path, opts = {}) {
+  const r = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}${path}`, {
+    ...opts,
+    headers: {
+      Authorization: `Bearer ${TOKEN}`,
+      Accept: 'application/vnd.github+json',
+      'Content-Type': 'application/json',
+      ...opts.headers
+    }
+  });
+  if (!r.ok) throw new Error(`GitHub API ${r.status}: ${await r.text()}`);
+  return r.json();
+}
+
+async function getFile(path) {
+  const data = await ghFetch(`/contents/${path}`);
+  return {
+    content: atob(data.content.replace(/\n/g, '')),
+    sha: data.sha
+  };
+}
+
+async function putFile(path, content, sha, message) {
+  return ghFetch(`/contents/${path}`, {
+    method: 'PUT',
+    body: JSON.stringify({
+      message,
+      content: btoa(unescape(encodeURIComponent(content))),
+      sha: sha || undefined,
+      branch: BRANCH
+    })
+  });
+}
+
+async function deleteFile(path, sha, message) {
+  return ghFetch(`/contents/${path}`, {
+    method: 'DELETE',
+    body: JSON.stringify({ message, sha, branch: BRANCH })
+  });
+}
+
+async function listDir(path) {
+  try {
+    const items = await ghFetch(`/contents/${path}`);
+    return items.filter(i => i.type === 'file' && i.name.endsWith('.md'));
+  } catch { return []; }
+}
+
+// ── MARKDOWN PARSER ──
+function parseFrontmatter(content) {
+  const match = content.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
+  if (!match) return { meta: {}, body: content };
+  const meta = {};
+  match[1].split('\n').forEach(line => {
+    const m = line.match(/^(\w+(?:_\w+)*):\s*(.+)$/);
+    if (m) {
+      let val = m[2].trim().replace(/^["']|["']$/g, '');
+      if (val.startsWith('[')) {
+        try { val = JSON.parse(val.replace(/"/g, '"')); } catch {}
+      }
+      meta[m[1]] = val;
+    }
+  });
+  return { meta, body: match[2].trim() };
+}
+
+function buildFrontmatter(meta, body) {
+  const lines = ['---'];
+  const order = ['title','date','description','categories','tags','image','image_credit'];
+  order.forEach(k => {
+    if (meta[k] !== undefined && meta[k] !== '') {
+      if (Array.isArray(meta[k])) {
+        lines.push(`${k}: [${meta[k].map(v=>`"${v}"`).join(', ')}]`);
+      } else {
+        lines.push(`${k}: "${meta[k]}"`);
+      }
+    }
+  });
+  Object.keys(meta).forEach(k => {
+    if (!order.includes(k) && meta[k] !== undefined && meta[k] !== '') {
+      lines.push(`${k}: "${meta[k]}"`);
+    }
+  });
+  lines.push('---', '', body);
+  return lines.join('\n');
+}
+
+// ── LOAD ARTICLES ──
+async function loadArticles() {
+  const [id, en, zh] = await Promise.all([
+    listDir('content/artikel'),
+    listDir('content/en/artikel'),
+    listDir('content/zh/artikel')
+  ]);
+
+  const parse = async (files, lang, prefix) => {
+    return files.slice(0, 150).map(f => ({
+      name: f.name,
+      path: f.path,
+      sha: f.sha,
+      lang,
+      prefix,
+      url: f.download_url
+    }));
+  };
+
+  const [idA, enA, zhA] = await Promise.all([
+    parse(id, 'id', 'content/artikel'),
+    parse(en, 'en', 'content/en/artikel'),
+    parse(zh, 'zh', 'content/zh/artikel')
+  ]);
+
+  allArticles = [...idA, ...enA, ...zhA].sort((a, b) => b.name.localeCompare(a.name));
+
+  // Load meta in batches
+  const batch = allArticles.slice(0, 60);
+  await Promise.all(batch.map(async a => {
+    try {
+      const r = await fetch(a.url);
+      const text = await r.text();
+      const { meta } = parseFrontmatter(text);
+      a.title = meta.title || a.name;
+      a.date  = meta.date ? meta.date.substring(0,10) : '';
+      a.category = Array.isArray(meta.categories) ? meta.categories[0] : (meta.categories || '');
+      a.image = meta.image || '';
+    } catch { a.title = a.name; }
+  }));
+}
+
+// ── TOAST ──
+function toast(msg, type='success') {
+  const el = document.createElement('div');
+  el.className = `toast ${type}`;
+  el.textContent = msg;
+  document.body.appendChild(el);
+  setTimeout(() => el.remove(), 3000);
+}
+
+// ── CONFIRM MODAL ──
+function confirm(title, msg) {
+  return new Promise(resolve => {
+    const overlay = document.createElement('div');
+    overlay.className = 'modal-overlay';
+    overlay.innerHTML = `
+      <div class="modal">
+        <h3>${title}</h3>
+        <p>${msg}</p>
+        <div class="modal-btns">
+          <button class="btn" id="mc">Batal</button>
+          <button class="btn btn-red" id="mk">Ya, Hapus</button>
+        </div>
+      </div>`;
+    document.body.appendChild(overlay);
+    overlay.querySelector('#mc').onclick = () => { overlay.remove(); resolve(false); };
+    overlay.querySelector('#mk').onclick = () => { overlay.remove(); resolve(true); };
+  });
+}
+
+// ── RENDER ──
+function render() {
+  const root = document.getElementById('root');
+  if (!TOKEN) { root.innerHTML = renderLogin(); return; }
+  root.innerHTML = `
+    <div class="app">
+      <aside class="sidebar">
+        <div class="logo">🌊 Bali <span>Kini</span> CMS</div>
+        <div class="nav-section">Menu</div>
+        <button class="nav-btn ${currentView==='dashboard'?'active':''}" onclick="setView('dashboard')">📊 Dashboard</button>
+        <button class="nav-btn ${currentView==='list-id'?'active':''}" onclick="setView('list-id')">🇮🇩 Artikel ID <span class="nav-count">${allArticles.filter(a=>a.lang==='id').length}</span></button>
+        <button class="nav-btn ${currentView==='list-en'?'active':''}" onclick="setView('list-en')">🇬🇧 Artikel EN <span class="nav-count">${allArticles.filter(a=>a.lang==='en').length}</span></button>
+        <button class="nav-btn ${currentView==='list-zh'?'active':''}" onclick="setView('list-zh')">🇨🇳 Artikel ZH <span class="nav-count">${allArticles.filter(a=>a.lang==='zh').length}</span></button>
+        <div class="nav-section">Aksi</div>
+        <button class="nav-btn" onclick="setView('new-id')">✏️ Artikel Baru (ID)</button>
+        <button class="nav-btn" onclick="setView('new-en')">✏️ Artikel Baru (EN)</button>
+        <div class="nav-section">Lainnya</div>
+        <button class="nav-btn" onclick="window.open('https://balikini.id')">🌐 Lihat Website</button>
+        <button class="nav-btn" onclick="logout()">🚪 Keluar</button>
+      </aside>
+      <main class="main" id="mainContent">
+        ${renderView()}
+      </main>
+    </div>`;
+}
+
+function renderView() {
+  if (currentView === 'dashboard') return renderDashboard();
+  if (currentView.startsWith('list-')) return renderList(currentView.split('-')[1]);
+  if (currentView.startsWith('new-')) return renderEditor(null, currentView.split('-')[1]);
+  if (currentView === 'edit') return renderEditor(editingArticle);
+  return '<div class="loading"><div class="spinner">⏳</div></div>';
+}
+
+function renderLogin() {
+  return `
+    <div class="login-page">
+      <div class="login-card">
+        <div class="login-logo">🌊 Bali <span>Kini</span></div>
+        <div class="login-sub">Content Management System</div>
+        <div class="form-group">
+          <label class="form-label">GitHub Personal Access Token</label>
+          <input class="form-input" id="tokenInput" type="password"
+            placeholder="ghp_xxxxxxxxxxxxxxxxxxxx"
+            value="${localStorage.getItem('bk_cms_token')||''}"/>
+          <div style="font-size:11px;color:var(--text3);margin-top:6px;">
+            Token harus punya scope: repo, workflow
+          </div>
+        </div>
+        <button class="btn btn-green" style="width:100%;justify-content:center;padding:12px;" onclick="doLogin()">
+          🔐 Masuk ke CMS
+        </button>
+      </div>
+    </div>`;
+}
+
+function renderDashboard() {
+  const total = allArticles.length;
+  const idCount = allArticles.filter(a=>a.lang==='id').length;
+  const enCount = allArticles.filter(a=>a.lang==='en').length;
+  const zhCount = allArticles.filter(a=>a.lang==='zh').length;
+  const today = new Date().toISOString().substring(0,10);
+  const todayCount = allArticles.filter(a=>a.date===today).length;
+
+  return `
+    <div class="page-header">
+      <div class="page-title">📊 <span>Dashboard</span></div>
+      <button class="btn btn-green" onclick="refresh()">🔄 Refresh</button>
+    </div>
+    <div class="stats-grid">
+      <div class="stat-card"><div class="stat-num">${total}</div><div class="stat-lbl">Total Artikel</div></div>
+      <div class="stat-card"><div class="stat-num" style="color:#22c55e">${idCount}</div><div class="stat-lbl">🇮🇩 Artikel ID</div></div>
+      <div class="stat-card"><div class="stat-num" style="color:#3b82f6">${enCount}</div><div class="stat-lbl">🇬🇧 Artikel EN</div></div>
+      <div class="stat-card"><div class="stat-num" style="color:#eab308">${zhCount}</div><div class="stat-lbl">🇨🇳 Artikel ZH</div></div>
+      <div class="stat-card"><div class="stat-num" style="color:#06b6d4">${todayCount}</div><div class="stat-lbl">📅 Artikel Hari Ini</div></div>
+    </div>
+    <div class="page-header" style="margin-top:8px;">
+      <div style="font-weight:700">📰 Artikel Terbaru</div>
+      <button class="btn btn-green" onclick="setView('new-id')">+ Artikel Baru</button>
+    </div>
+    ${renderArticleItems(allArticles.slice(0,10))}`;
+}
+
+function renderList(lang) {
+  const flag = {id:'🇮🇩',en:'🇬🇧',zh:'🇨🇳'}[lang];
+  const articles = allArticles.filter(a=>a.lang===lang);
+  return `
+    <div class="page-header">
+      <div class="page-title">${flag} Artikel <span>${lang.toUpperCase()}</span></div>
+      <button class="btn btn-green" onclick="setView('new-${lang}')">+ Artikel Baru</button>
+    </div>
+    <div class="toolbar">
+      <input class="search-box" placeholder="🔍 Cari artikel..." oninput="filterList(this.value,'${lang}')"/>
+    </div>
+    <div id="articleListContainer">
+      ${renderArticleItems(articles)}
+    </div>`;
+}
+
+function renderArticleItems(articles) {
+  if (!articles.length) return `<div class="empty"><div class="empty-icon">📭</div>Belum ada artikel</div>`;
+  return `<div class="artikel-list">${articles.map(a => `
+    <div class="artikel-item" onclick="editArticle('${a.path}','${a.sha}')">
+      ${a.image ? `<img class="artikel-img" src="${a.image}" onerror="this.style.display='none'"/>` : '<div class="artikel-img"></div>'}
+      <div class="artikel-info">
+        <div class="artikel-title">${a.title || a.name}</div>
+        <div class="artikel-meta">
+          <span class="tag ${a.lang}">${a.lang.toUpperCase()}</span>
+          ${a.category ? `<span class="tag cat">${a.category}</span>` : ''}
+          <span class="artikel-date">📅 ${a.date || '—'}</span>
+        </div>
+      </div>
+      <div class="artikel-actions">
+        <button class="icon-btn" onclick="event.stopPropagation();previewArticle('${a.name}','${a.lang}')" title="Preview">👁</button>
+        <button class="icon-btn del" onclick="event.stopPropagation();delArticle('${a.path}','${a.sha}','${(a.title||a.name).replace(/'/g,"\\'")}')">🗑</button>
+      </div>
+    </div>`).join('')}</div>`;
+}
+
+function renderEditor(article, lang='id') {
+  const isNew = !article;
+  const flag  = {id:'🇮🇩',en:'🇬🇧',zh:'🇨🇳'}[lang] || '🇮🇩';
+  const today = new Date().toISOString().substring(0,16);
+  const m = article?.parsedMeta || {};
+  const body = article?.body || '';
+
+  return `
+    <div class="page-header">
+      <div class="page-title">${isNew?'✏️ Artikel Baru':'✏️ Edit Artikel'} <span>${flag}</span></div>
+      <div style="display:flex;gap:8px;">
+        <button class="btn" onclick="setView('dashboard')">← Kembali</button>
+        <button class="btn btn-green" onclick="saveArticle('${lang}','${isNew}')">💾 Simpan & Publish</button>
+      </div>
+    </div>
+    <div class="editor-form">
+      <div class="form-group">
+        <label class="form-label">Judul Artikel *</label>
+        <input class="form-input" id="ef-title" placeholder="Judul menarik artikel..." value="${escHtml(m.title||'')}"/>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Tanggal & Waktu</label>
+          <input class="form-input" id="ef-date" type="datetime-local" value="${(m.date||today).substring(0,16)}"/>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Kategori</label>
+          <input class="form-input" id="ef-cat" placeholder="Pariwisata, Ekonomi, Budaya..." value="${escHtml(Array.isArray(m.categories)?m.categories.join(', '):(m.categories||''))}"/>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Deskripsi (meta SEO)</label>
+        <input class="form-input" id="ef-desc" placeholder="Deskripsi singkat 150-160 karakter..." value="${escHtml(m.description||'')}"/>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">URL Gambar</label>
+          <input class="form-input" id="ef-img" placeholder="https://images.pexels.com/..." value="${escHtml(m.image||'')}"/>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Credit Foto</label>
+          <input class="form-input" id="ef-imgcredit" placeholder="Foto: Pexels" value="${escHtml(m.image_credit||'Foto: Pexels')}"/>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Tags (pisah koma)</label>
+        <input class="form-input" id="ef-tags" placeholder="bali, pariwisata, 2026..." value="${escHtml(Array.isArray(m.tags)?m.tags.join(', '):(m.tags||''))}"/>
+      </div>
+      ${isNew ? '' : `<div class="form-group">
+        <label class="form-label">Slug / Nama File</label>
+        <input class="form-input" id="ef-slug" value="${escHtml(article.path)}" readonly style="opacity:0.5"/>
+      </div>`}
+      <div class="form-group">
+        <label class="form-label">Isi Artikel (Markdown) *</label>
+        <textarea class="form-input" id="ef-body" rows="20" placeholder="Tulis konten artikel di sini dalam format Markdown...
+
+# Judul H1
+## Subjudul H2
+
+Paragraf biasa dengan **bold** dan *italic*.
+
+- Poin 1
+- Poin 2
+
+> Kutipan penting">${escHtml(body)}</textarea>
+      </div>
+      <div style="display:flex;gap:10px;justify-content:flex-end;">
+        <button class="btn" onclick="setView('dashboard')">Batal</button>
+        <button class="btn btn-blue" onclick="previewMd()">👁 Preview</button>
+        <button class="btn btn-green" onclick="saveArticle('${lang}','${isNew}')">💾 Simpan & Publish</button>
+      </div>
+    </div>`;
+}
+
+// ── ACTIONS ──
+async function doLogin() {
+  const t = document.getElementById('tokenInput').value.trim();
+  if (!t) { toast('Masukkan token!', 'error'); return; }
+  TOKEN = t;
+  localStorage.setItem('bk_cms_token', t);
+  toast('⏳ Memuat artikel...');
+  try {
+    await loadArticles();
+    render();
+    toast('✅ Berhasil masuk!');
+  } catch(e) {
+    toast('❌ Token salah atau tidak punya akses: ' + e.message, 'error');
+    TOKEN = '';
+    localStorage.removeItem('bk_cms_token');
+  }
+}
+
+function logout() {
+  TOKEN = '';
+  localStorage.removeItem('bk_cms_token');
+  allArticles = [];
+  render();
+}
+
+async function setView(view) {
+  currentView = view;
+  editingArticle = null;
+  render();
+}
+
+async function refresh() {
+  toast('⏳ Memuat ulang...');
+  await loadArticles();
+  render();
+  toast('✅ Data diperbarui!');
+}
+
+async function editArticle(path, sha) {
+  toast('⏳ Memuat artikel...');
+  try {
+    const { content, sha: freshSha } = await getFile(path);
+    const { meta, body } = parseFrontmatter(content);
+    editingArticle = { path, sha: freshSha, parsedMeta: meta, body, rawContent: content };
+    currentView = 'edit';
+    const lang = path.startsWith('content/en') ? 'en' : path.startsWith('content/zh') ? 'zh' : 'id';
+    editingArticle.lang = lang;
+    render();
+  } catch(e) {
+    toast('❌ Gagal load: ' + e.message, 'error');
+  }
+}
+
+async function saveArticle(lang, isNew) {
+  const title   = document.getElementById('ef-title').value.trim();
+  const body    = document.getElementById('ef-body').value.trim();
+  const date    = document.getElementById('ef-date').value;
+  const desc    = document.getElementById('ef-desc').value.trim();
+  const img     = document.getElementById('ef-img').value.trim();
+  const imgC    = document.getElementById('ef-imgcredit').value.trim();
+  const catRaw  = document.getElementById('ef-cat').value.trim();
+  const tagsRaw = document.getElementById('ef-tags').value.trim();
+
+  if (!title) { toast('❌ Judul wajib diisi!', 'error'); return; }
+  if (!body)  { toast('❌ Isi artikel wajib diisi!', 'error'); return; }
+
+  const cats = catRaw ? catRaw.split(',').map(s=>s.trim()).filter(Boolean) : [];
+  const tags = tagsRaw ? tagsRaw.split(',').map(s=>s.trim()).filter(Boolean) : [];
+
+  const meta = {
+    title, date: date + ':00+08:00', description: desc,
+    categories: cats, tags, image: img, image_credit: imgC
+  };
+
+  const content = buildFrontmatter(meta, body);
+
+  let path, sha;
+  if (isNew === 'true' || isNew === true) {
+    const slug = title.toLowerCase()
+      .replace(/[^a-z0-9\s-]/g,'').replace(/\s+/g,'-').substring(0,60);
+    const dateStr = date.substring(0,10);
+    const prefix  = lang === 'en' ? 'content/en/artikel' : lang === 'zh' ? 'content/zh/artikel' : 'content/artikel';
+    path = `${prefix}/${slug}-${dateStr}.md`;
+    sha  = null;
+  } else {
+    path = editingArticle.path;
+    sha  = editingArticle.sha;
+  }
+
+  toast('⏳ Menyimpan dan publish...');
+  try {
+    await putFile(path, content, sha, `[cms] ${isNew==='true'?'Artikel baru':'Update artikel'}: ${title}`);
+    toast('✅ Artikel berhasil disimpan! Deploy otomatis dalam ~3 menit.');
+    await refresh();
+  } catch(e) {
+    toast('❌ Gagal simpan: ' + e.message, 'error');
+  }
+}
+
+async function delArticle(path, sha, title) {
+  const ok = await confirm('🗑️ Hapus Artikel', `Apakah kamu yakin ingin menghapus artikel ini?\n\n"${title}"\n\nArtikel yang dihapus tidak bisa dikembalikan.`);
+  if (!ok) return;
+  toast('⏳ Menghapus...');
+  try {
+    await deleteFile(path, sha, `[cms] Hapus artikel: ${title}`);
+    allArticles = allArticles.filter(a => a.path !== path);
+    toast('✅ Artikel berhasil dihapus!');
+    render();
+  } catch(e) {
+    toast('❌ Gagal hapus: ' + e.message, 'error');
+  }
+}
+
+function previewArticle(name, lang) {
+  const base = lang === 'en' ? 'https://balikini.id/en/article/' : 'https://balikini.id/artikel/';
+  const slug = name.replace('.md','');
+  window.open(base + slug + '/', '_blank');
+}
+
+function filterList(query, lang) {
+  const filtered = allArticles.filter(a =>
+    a.lang === lang &&
+    (a.title||a.name).toLowerCase().includes(query.toLowerCase())
+  );
+  const el = document.getElementById('articleListContainer');
+  if (el) el.innerHTML = renderArticleItems(filtered);
+}
+
+function previewMd() {
+  const body = document.getElementById('ef-body').value;
+  const win = window.open('', '_blank');
+  win.document.write(`<pre style="font-family:sans-serif;padding:24px;max-width:740px;white-space:pre-wrap">${escHtml(body)}</pre>`);
+}
+
+function escHtml(str) {
+  return (str||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+
+// ── INIT ──
+async function init() {
+  render();
+  if (TOKEN) {
+    try {
+      await loadArticles();
+      render();
+    } catch(e) {
+      TOKEN = '';
+      localStorage.removeItem('bk_cms_token');
+      render();
+    }
+  }
+}
+
+init();
+</script>
+</body>
+</html>
