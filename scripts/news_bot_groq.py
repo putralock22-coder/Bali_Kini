@@ -35,8 +35,8 @@ FEEDS = [
 ]
 UA = "Mozilla/5.0 (compatible; BalikiniBot/1.0; +https://balikini.id)"
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
-MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
-FALLBACK_MODEL = "llama-3.1-8b-instant"
+MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-120b")
+FALLBACK_MODEL = "openai/gpt-oss-20b"
 CATEGORIES = ["Pariwisata", "Ekonomi", "Budaya", "Berita", "Sosial", "Lingkungan", "Olahraga", "Hukum"]
 CAT_EN = {"Pariwisata": "Tourism", "Ekonomi": "Economy", "Budaya": "Culture", "Berita": "News",
           "Sosial": "Society", "Lingkungan": "Environment", "Olahraga": "Sports", "Hukum": "Law"}
@@ -127,18 +127,20 @@ def fetch_candidates(seen):
 
 
 # ---------- Groq ----------
-def groq_json(system, user, max_tokens=3500):
+def groq_json(system, user, max_tokens=6000):
     key = os.environ["GROQ_API_KEY"]
     model = MODEL
     for attempt in range(5):
+        body = {"model": model, "temperature": 0.3, "max_tokens": max_tokens,
+                "response_format": {"type": "json_object"},
+                "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]}
+        if "gpt-oss" in model:
+            body["reasoning_effort"] = "low"
         try:
             r = requests.post(
                 GROQ_URL,
                 headers={"Authorization": f"Bearer {key}", "Content-Type": "application/json"},
-                json={"model": model, "temperature": 0.3, "max_tokens": max_tokens,
-                      "response_format": {"type": "json_object"},
-                      "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]},
-                timeout=120,
+                json=body, timeout=120,
             )
         except requests.RequestException as e:
             log(f"groq network error: {e}")
@@ -151,6 +153,9 @@ def groq_json(system, user, max_tokens=3500):
                 model = FALLBACK_MODEL
             time.sleep(wait)
             continue
+        if r.status_code in (400, 401, 403, 404):
+            log(f"groq {r.status_code} (not retryable): {r.text[:200]}")
+            return None
         if r.status_code >= 400:
             log(f"groq {r.status_code}: {r.text[:200]}")
             time.sleep(5)
@@ -169,11 +174,12 @@ def pick_topics(cands, n):
         "informatif bagi warga, wisatawan, dan pelaku usaha di Bali (kebijakan, ekonomi, pariwisata, budaya, "
         "lingkungan, layanan publik, event). Hindari kriminal receh, gosip, olahraga di luar Bali, berita yang bukan "
         "tentang Bali, dan topik kembar. Variasikan topik. Jawab JSON: {\"picks\": [nomor, ...]} urut dari terbaik.",
-        f"Pilih {n * 3} nomor terbaik dari daftar ini:\n{listing}", max_tokens=300)
+        f"Pilih maksimal {n * 3} nomor terbaik dari daftar ini. Hanya berita yang jelas berkaitan dengan "
+        f"Bali; abaikan berita nasional/internasional:\n{listing}", max_tokens=1500)
     picks = []
     if data and isinstance(data.get("picks"), list):
         picks = [i for i in data["picks"] if isinstance(i, int) and 0 <= i < len(cands)]
-    return [cands[i] for i in dict.fromkeys(picks)] or cands
+    return [cands[i] for i in dict.fromkeys(picks)]
 
 
 # ---------- source page ----------
@@ -379,6 +385,9 @@ def main():
         return
 
     picks = pick_topics(cands[:40], args.limit)
+    if not picks:
+        log("topic picker returned nothing; aborting instead of guessing")
+        return
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     written, titles, done = [], [], 0
 
@@ -431,7 +440,8 @@ def main():
         log(f"written: {id_path.name} ({'source photo' if image else 'AI photo'})")
         time.sleep(20)  # stay under Groq TPM
 
-    save_seen(seen)
+    if not args.dry_run:
+        save_seen(seen)
     if args.dry_run or not written:
         return
     if not hugo_ok():
