@@ -222,7 +222,7 @@ SYS_ID = (
     "- Jangan menyalin kalimat sumber; tulis ulang dengan susunan sendiri.\n"
     "- Struktur: paragraf pembuka 5W1H (60-80 kata), 3-4 subjudul H2, lalu H2 terakhir 'Apa Artinya bagi Bali' "
     "berisi analisis singkat yang jelas ditandai sebagai analisis redaksi (bukan fakta baru).\n"
-    "- Panjang 450-800 kata sesuai kedalaman materi sumber; jangan menambah isi demi panjang.\n"
+    "- Panjang 400-800 kata sesuai kedalaman materi sumber; jangan menambah isi demi panjang.\n"
     "- Gaya netral, tanpa clickbait. Tanpa judul H1 di body.\n"
     "Keluaran JSON valid dengan kunci: title (maks 70 karakter), description (140-160 karakter), "
     f"category (salah satu: {', '.join(CATEGORIES)}), tags (array 4-6 string huruf kecil), body (markdown)."
@@ -243,7 +243,7 @@ def write_article_id(src, text):
             return None
         body = (data.get("body") or "").strip()
         body = re.sub(r"^#\s+.*\n", "", body)
-        if not data.get("title") or not data.get("description") or len(body.split()) < 250:
+        if not data.get("title") or not data.get("description") or len(body.split()) < 350:
             log("ID draft too short/incomplete")
             continue
         ok, unknown = numbers_grounded(body, text + src["title"])
@@ -400,7 +400,7 @@ def main():
             continue
         log(f"processing: {src['title']}")
         page = fetch_source(src["link"])
-        if not page or len(page["text"]) < 400:
+        if not page or len(page["text"]) < 1200:
             log("source text too thin, skip")
             continue
         art = write_article_id(src, page["text"])
