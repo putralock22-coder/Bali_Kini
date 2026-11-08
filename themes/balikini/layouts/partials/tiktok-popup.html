@@ -1,0 +1,8 @@
+{{/* Kartu pop-up kiri-bawah TikTok (opsional).
+     Dikendalikan lewat data/iklan.yaml → tiktok.aktif
+     Saat ini dimatikan (aktif: false) agar tidak tabrakan dengan slot
+     video kanan-bawah (iklan-video.html). */}}
+{{ $cfg := .Site.Data.iklan }}
+{{ if and $cfg $cfg.tiktok $cfg.tiktok.aktif }}
+{{/* Konten popup kiri-bawah diisi di sini bila aktif kembali */}}
+{{ end }}

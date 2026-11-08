@@ -1,0 +1,131 @@
+{{/* Slot video kanan-bawah: Bengkel Las Swandana Putra
+     Video dari /iklan/swandana-tiktok.json (diisi otomatis via cron Zernio)
+     Rotasi harian: index = dayOfYear % jumlah_video (dari 7 terbaru)
+     Autoplay muted via TikTok Player v1; pause/resume lewat toggle iframe src */}}
+{{ $cfg := .Site.Data.iklan }}
+{{ $aktif := true }}
+{{ with $cfg }}{{ with .bengkel_video }}{{ $aktif = .aktif }}{{ end }}{{ end }}
+{{ if $aktif }}
+<div id="bk-vid-wrap" style="display:none;position:fixed;bottom:82px;right:16px;z-index:9998;width:188px;border-radius:14px;overflow:hidden;box-shadow:0 8px 36px rgba(0,0,0,.55);background:#000;font-family:inherit;">
+  <div style="position:relative;">
+    <iframe id="bk-vid-iframe"
+      src=""
+      style="display:block;width:188px;height:334px;border:0;"
+      allow="autoplay; fullscreen"
+      allowfullscreen
+      loading="lazy"
+      title="Video Bengkel Las Swandana Putra">
+    </iframe>
+
+    <!-- Tombol Lewati -->
+    <button id="bk-vid-skip" onclick="bkVidClose()" aria-label="Lewati iklan"
+      style="position:absolute;top:7px;right:7px;background:rgba(0,0,0,.60);color:#fff;border:0;border-radius:50px;padding:3px 9px 3px 7px;font-size:11px;line-height:1.6;cursor:pointer;z-index:2;white-space:nowrap;">
+      Lewati ✕
+    </button>
+
+    <!-- Tombol Jeda / Lanjut -->
+    <button id="bk-vid-pause" onclick="bkVidTogglePause()" aria-label="Jeda/Lanjutkan video"
+      style="position:absolute;top:7px;left:7px;background:rgba(0,0,0,.60);color:#fff;border:0;border-radius:50px;width:28px;height:28px;font-size:14px;line-height:1;cursor:pointer;z-index:2;display:flex;align-items:center;justify-content:center;">
+      ⏸
+    </button>
+
+    <!-- Label sponsor -->
+    <div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(0deg,rgba(0,0,0,.72) 0%,transparent 100%);padding:8px 10px 10px;">
+      <div style="font-size:9px;color:rgba(255,255,255,.65);letter-spacing:.5px;text-transform:uppercase;margin-bottom:2px;">🔨 Sponsor</div>
+      <div id="bk-vid-judul" style="font-size:11px;font-weight:700;color:#fff;line-height:1.35;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;">Bengkel Las Swandana Putra</div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var WRAP = document.getElementById("bk-vid-wrap");
+  var IFRAME = document.getElementById("bk-vid-iframe");
+  var JUDUL = document.getElementById("bk-vid-judul");
+  var PBTN = document.getElementById("bk-vid-pause");
+  var lang = (document.documentElement.lang || "id").toLowerCase();
+  var currentSrc = "";
+  var paused = false;
+
+  function bkVidClose() {
+    WRAP.style.display = "none";
+    IFRAME.src = "";
+    currentSrc = "";
+    try { sessionStorage.setItem("bk_vid_closed", "1"); } catch (e) {}
+  }
+  window.bkVidClose = bkVidClose;
+
+  function bkVidTogglePause() {
+    if (paused) {
+      IFRAME.src = currentSrc;
+      PBTN.textContent = "⏸";
+      paused = false;
+    } else {
+      IFRAME.src = "";
+      PBTN.textContent = "▶";
+      paused = true;
+    }
+  }
+  window.bkVidTogglePause = bkVidTogglePause;
+
+  // Jangan tampil kalau sudah ditutup di sesi ini
+  try { if (sessionStorage.getItem("bk_vid_closed")) return; } catch (e) {}
+
+  function dayOfYear() {
+    var now = new Date();
+    var start = new Date(now.getFullYear(), 0, 0);
+    return Math.floor((now - start) / 86400000);
+  }
+
+  function pickTitle(v) {
+    if (lang.startsWith("en") && v.judul_en) return v.judul_en;
+    if (lang.startsWith("zh") && v.judul_zh) return v.judul_zh;
+    return v.judul || "Bengkel Las Swandana Putra";
+  }
+
+  function loadAndShow() {
+    fetch("/iklan/swandana-tiktok.json")
+      .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+      .then(function (videos) {
+        if (!Array.isArray(videos) || !videos.length) return;
+        // Urutkan dari terbaru, ambil maks 7
+        videos.sort(function (a, b) { return a.tanggal < b.tanggal ? 1 : -1; });
+        var pool = videos.slice(0, 7);
+        var idx = dayOfYear() % pool.length;
+        var v = pool[idx];
+        currentSrc = "https://www.tiktok.com/player/v1/" + v.id + "?autoplay=1&muted=1&loop=1&rel=0";
+        IFRAME.src = currentSrc;
+        JUDUL.textContent = pickTitle(v);
+        WRAP.style.display = "block";
+      })
+      .catch(function () { /* JSON tidak ada / error jaringan — diam saja */ });
+  }
+
+  // Tunggu interaksi pertama agar tidak merusak LCP
+  var triggered = false;
+  function onFirstInteract() {
+    if (triggered) return;
+    triggered = true;
+    ["mousemove", "click", "touchstart", "scroll", "keydown"].forEach(function (e) {
+      document.removeEventListener(e, onFirstInteract, true);
+    });
+    setTimeout(loadAndShow, 1800);
+  }
+
+  ["mousemove", "click", "touchstart", "scroll", "keydown"].forEach(function (e) {
+    document.addEventListener(e, onFirstInteract, { once: true, passive: true, capture: true });
+  });
+
+  // Fallback: muncul setelah 10 detik tanpa interaksi
+  setTimeout(function () { if (!triggered) onFirstInteract(); }, 10000);
+})();
+</script>
+
+<style>
+  @media (max-width: 480px) {
+    #bk-vid-wrap { right: 8px; bottom: 76px; width: 160px !important; }
+    #bk-vid-wrap iframe { width: 160px !important; height: 284px !important; }
+  }
+</style>
+{{ end }}

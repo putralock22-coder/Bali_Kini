@@ -1,0 +1,15 @@
+# Konfigurasi iklan / slot promosi Bali Kini
+#
+# tiktok: kartu kiri-bawah (tiktok-popup.html) — dimatikan agar tidak tabrakan
+#         dengan slot video kanan-bawah
+tiktok:
+  aktif: false
+  handle: "@swandanaputra.id"
+  nama: Bengkel Las Swandana Putra
+
+# bengkel_video: slot video kanan-bawah (iklan-video.html)
+bengkel_video:
+  aktif: true
+  handle: "@swandanaputra.id"
+  nama: Bengkel Las Swandana Putra
+  url_tiktok: "https://www.tiktok.com/@swandanaputra.id"
